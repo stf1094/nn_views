@@ -1,0 +1,10 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+},
+"#ImageView_1": {
+	"left": "0.00%",
+	"top": "0.00%",
+	"image": "/iphone/reporting-cover.png",
+}

@@ -1,0 +1,107 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+	"backgroundColor": "#193341",
+	"left": "0.00%",
+	"top": "6.67%"
+},
+"#View_1": {
+	"height": "65%",
+	"left": "4.93%",
+	"top": "8.5%",
+	"width": "90%",
+	"right": "5%"
+},
+"#endDate": {
+	"top": "66.87%",
+	"left": "21.42%",
+	"font": {fontSize:'3.5%',fontFamily:'',fontStyle:'',fontWeight:''},
+	"color": "#444444",
+	"height": "7.79%",
+	"width": "17.73%"
+},
+"#startDate": {
+	"top": "54.76%",
+	"color": "#444444",
+	"height": "4.69%",
+	"left": "20%",
+	"font": {fontSize:'3.5%',fontFamily:'',fontStyle:'',fontWeight:''}
+},
+"#TextField_1": {
+	"width": "81.54%",
+	"height": "10.51%",
+	"borderRadius": "10",
+	"borderColor": "#ECECEC",
+	"borderWidth": "1",
+	"left": "9.16%",
+	"top": "35.97%",
+	"color": "#444444",
+	"backgroundColor": "#ececec"
+},
+"#ImageView_3": {
+	"left": "40.25%",
+	"top": "2.25%",
+	"layout": "vertical",
+	"image": "/iphone/project-shuriken.png",
+	"canScale": "yes",
+	"height": "12%",
+	"width": "21%"
+},
+"#ImageView_2": {
+	"left": "46.15%",
+	"top": "51.71%",
+	"image": "/iphone/choose-date-entry.png",
+	"height": "11%",
+	"width": "45%"
+},
+"#ImageView_4": {
+	"left": "46.15%",
+	"top": "65.15%",
+	"image": "/iphone/choose-date-entry.png",
+	"height": "11%",
+	"width": "45%"
+},
+"#Button": {
+	"left": "51.70%",
+	"top": "83.81%",
+	"class": "button1",
+	"height": "11%",
+	"width": "81.54%",
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:''},
+	"backgroundColor": "#f7941d",
+	"borderWidth": "0",
+	"color": "#ffffff",
+},
+"#Label_1": {
+	"height": "6.18%",
+	"left": "9.90%",
+	"top": "27.32%",
+	"width": "80.80%",
+	"font": {fontSize:'3.5%',fontFamily:'',fontStyle:'',fontWeight:''},
+	"color": "#444444"
+},
+"#TextField_2": {
+	"width": "27.92%",
+	"height": "10.88%",
+	"borderRadius": "10",
+	"borderColor": "#EcEcEc",
+	"borderWidth": "0",
+	"left": "60.86%",
+	"top": "51.67%"
+},
+"#TextField_3": {
+	"width": "27.92%",
+	"height": "10.63%",
+	"borderRadius": "10",
+	"borderColor": "#ececec",
+	"borderWidth": "0",
+	"left": "60.86%",
+	"top": "65.39%"
+},
+"#ImageView_1": {
+	"left": "10%",
+	"top": "17.43%",
+	"height": "10%",
+	"width": "50%"
+}

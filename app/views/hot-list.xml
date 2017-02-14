@@ -1,0 +1,57 @@
+<Alloy>
+    <Window backgroundColor="white" exitOnClose="true" fullscreen="false" id="win" title="ScrollView Demo">
+        <ImageView class="cover" image="/images/iphone/ui-hotlist-cover.png"/>
+        <ScrollView height="20%" horizontalBounce="true" id="scrollView" showHorizontalScrollIndicator="true" showVerticalScrollIndicator="true" width="100%">
+            <View backgroundColor="#ffffff" height="100%" id="view" width="1200">
+                <ImageView id="ImageView_1" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_2" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_3" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_4" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_5" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_6" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_7" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_8" image="/images/iphone/project-shuriken.png"/>
+            </View>
+        </ScrollView>
+        <ScrollableView id="scrollableView" showPagingControl="true">
+            <View backgroundColor="#f79d41" id="view1">
+                <ListView id="ListView_1" title="Project 1">
+                    <ListSection title="Project 1" text="TEXT">
+                        <ListItem id="ListItem_1" title="Name 1"/>
+                        <ListItem id="ListItem_2" title="Name 2"/>
+                        <ListItem id="ListItem_3" title="Name 3"/>
+                        <ListItem id="ListItem_4" title="Name 4"/>
+                        <ListItem id="ListItem_5" title="Name 5"/>
+                        <ListItem id="ListItem_6" title="Name 6"/>
+                    </ListSection>
+                </ListView>
+            </View>
+            <View backgroundColor="#246" id="view2">
+                <Label>View 2</Label>
+                <ListView id="ListView_2" title="Project 2">
+                    <ListSection title="Project 2">
+                        <ListItem id="ListItem_1" title="Name 1"/>
+                        <ListItem id="ListItem_2" title="Name 2"/>
+                        <ListItem id="ListItem_3" title="Name 3"/>
+                        <ListItem id="ListItem_4" title="Name 4"/>
+                        <ListItem id="ListItem_5" title="Name 5"/>
+                        <ListItem id="ListItem_6" title="Name 6"/>
+                    </ListSection>
+                </ListView>
+            </View>
+            <View backgroundColor="#48b" id="view3">
+                <Label>View 3</Label>
+                <ListView id="ListView_3" title="Project 3">
+                    <ListSection title="Project 3">
+                        <ListItem id="ListItem_1" title="Name 1"/>
+                        <ListItem id="ListItem_2" title="Name 2"/>
+                        <ListItem id="ListItem_3" title="Name 3"/>
+                        <ListItem id="ListItem_4" title="Name 4"/>
+                        <ListItem id="ListItem_5" title="Name 5"/>
+                        <ListItem id="ListItem_6" title="Name 6"/>
+                    </ListSection>
+                </ListView>
+            </View>
+        </ScrollableView>
+    </Window>
+</Alloy>

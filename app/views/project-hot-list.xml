@@ -1,0 +1,33 @@
+<Alloy>
+    <Window backgroundColor="white" exitOnClose="true" fullscreen="false" title="Project Hot List">
+        <ImageView class="cover" image="/images/iphone/ui-hotlist-cover.png"/>
+        <ScrollableView id="scrollableView" showPagingControl="true">
+            <View backgroundColor="white">
+                <Label>View 1</Label>
+                <ListView title="Project Title">
+                    <ListSection title="Project 1">
+                        <ListItem id="ListItem_1" title="Name 1"/>
+                        <ListItem id="ListItem_2" title="Name 2"/>
+                        <ListItem id="ListItem_3" title="Name 3"/>
+                        <ListItem id="ListItem_4" title="Name 4"/>
+                        <ListItem id="ListItem_5" title="Name 5"/>
+                        <ListItem id="ListItem_6" title="Name 6"/>
+                    </ListSection>
+                </ListView>
+            </View>
+            <View>
+                <Label>View 2</Label>
+                <ListView title="Project 2">
+                    <ListSection title="Project 2">
+                        <ListItem id="ListItem_1" title="Name 1"/>
+                        <ListItem id="ListItem_2" title="Name 2"/>
+                        <ListItem id="ListItem_3" title="Name 3"/>
+                        <ListItem id="ListItem_4" title="Name 4"/>
+                        <ListItem id="ListItem_5" title="Name 5"/>
+                        <ListItem id="ListItem_6" title="Name 6"/>
+                    </ListSection>
+                </ListView>
+            </View>
+        </ScrollableView>
+    </Window>
+</Alloy>

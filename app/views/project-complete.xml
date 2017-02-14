@@ -1,0 +1,16 @@
+<Alloy>
+    <Window id="Window_1">
+        <View class="form1" id="View_1">
+            /&amp;gt;
+        /&amp;gt;
+        /&amp;gt;
+        /&amp;gt;
+        /&amp;gt;
+            <Label id="Label_2">You've just created a project and are one step closer to becoming a Network Ninja!</Label>/&amp;gt;
+            <Button class="button1" id="Button_1">Go to my Project</Button>/&amp;gt;
+            <Button class="button2" id="Button_2">Back to Dashboard</Button>/&amp;gt;
+        <ImageView id="ImageView_2" image="/images/iphone/congratulations.png"/>
+        </View>
+        <ImageView class="topCircle" id="ImageView_1" image="/images/iphone/project-shuriken.png"/>/&amp;gt;
+    </Window>
+</Alloy>

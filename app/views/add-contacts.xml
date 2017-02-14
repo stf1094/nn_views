@@ -1,0 +1,14 @@
+<Alloy>
+    <Window id="Window_1" title="Add Contacts">
+        <View class="form1" id="View_1">
+            /&amp;gt;
+        <Label class="textfield-large" text="Add Contacts"/>
+            <Label id="Label_2">Who would you like to add to this project?</Label>/&amp;gt;
+        <Label class="textfield" text="who would you like to add to this project?" top="20%"/>
+            <Button class="button-half1" id="Button_1">BACK</Button>/&amp;gt;
+        <Button class="button-half1" id="Button_2">NEXT</Button>/&amp;gt;
+        <ImageView id="ImageView_2" image="/images/iphone/addcontacts.png"/>
+        </View>
+        <ImageView class="topCircle" id="ImageView_1" image="/images/iphone/project-shuriken.png"/>
+    </Window>
+</Alloy>

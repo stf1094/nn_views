@@ -1,0 +1,16 @@
+<Alloy>
+    <Window id="Window_1" title="Create Project">
+        <View class="form1" id="View_1">
+            /&gt;
+        <Label id="Label_2">What would you like to name your project?</Label>/&gt;
+        <TextField id="TextField_1"/>
+            <Label id="Label_3">Is it a personal or professional project?</Label>/&gt;
+        <Button class="button2" left="10%" top="57%">Personal</Button>/&gt;
+        <Button class="button2" left="10%" top="68%">Professional</Button>/&gt;
+        <Button class="button-half1" left="52%" top="83%">NEXT</Button>/&gt;
+        <Button class="button-half1" left="10%" top="83%">BACK</Button>/&gt;
+        <ImageView id="ImageView_2" image="images/iphone/create-project.png"/>
+        </View>
+        <ImageView class="topCircle" id="ImageView_1"/>
+    </Window>
+</Alloy>

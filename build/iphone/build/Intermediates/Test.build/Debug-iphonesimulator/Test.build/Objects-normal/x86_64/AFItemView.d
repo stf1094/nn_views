@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/Classes/AFOpenFlow/AFItemView.m \
+  /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/Classes/AFOpenFlow/AFItemView.h \
+  /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/Classes/AFOpenFlow/AFOpenFlowConstants.h

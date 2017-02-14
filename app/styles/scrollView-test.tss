@@ -1,0 +1,72 @@
+".container": {
+},
+"#view": {
+},
+"#win": {
+},
+"#scrollView": {
+	"height": "40.00%",
+	"left": "0.00%",
+	"top": "0.00%",
+	"width": "100.00%"
+},
+"#ImageView_1": {
+	"height": "125px",
+	"left": "1.5%",
+	"top": "25%",
+	"width": "125px"
+},
+"#ImageView_2": {
+	"height": "125px",
+	"left": "7.5%",
+	"top": "25%",
+	"width": "125px"
+},
+"#ImageView_8": {
+	"height": "125px",
+	"left": "43.5%",
+	"top": "25%",
+	"width": "125px"
+},
+"#ImageView_7": {
+	"height": "125px",
+	"width": "125px",
+	"left": "37.5%",
+	"top": "25%"
+},
+"#ImageView_6": {
+	"height": "125px",
+	"width": "125px",
+	"left": "31.5%",
+	"top": "25%"
+},
+"#ImageView_5": {
+	"height": "125px",
+	"width": "125px",
+	"left": "25.5%",
+	"top": "25%"
+},
+"#ImageView_4": {
+	"height": "125px",
+	"width": "125px",
+	"left": "19.5%",
+	"top": "25%"
+},
+"#ImageView_3": {
+	"height": "125px",
+	"width": "125px",
+	"left": "13.5%",
+	"top": "25%"
+},
+"#scrollableView": {
+	"height": "50%",
+	"left": "0.00%",
+	"top": "20.00%",
+	"width": "100.00%"
+},
+"#view3": {
+	"height": "160.13%",
+	"left": "0.00%",
+	"top": "0.00%",
+	"width": "100.00%"
+}

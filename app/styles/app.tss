@@ -1,0 +1,482 @@
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is your global styles file. Selectors and rules you define
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+here will be applied throughout your app. However, these rules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+have the lowest priority of any style settings.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For more information, see the "Style Priorities" section of
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://docs.appcelerator.com/platform/latest/#!/guide/Alloy_Styles_and_Themes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For example, the following would apply to all labels, windows,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+and text fields (depending on platform) in your app unless you
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+overrode the settings with other TSS, XML, or JS settings:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'Label[platform=android,windows]': {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	color: '#000' // all platforms except Android and Windows default to black
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'Window': {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	backgroundColor: '#fff' // white background instead of default transparent or black
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'TextField[platform=android]': {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	height: Ti.UI.SIZE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+"#Tab_1": {
+},
+"#Window_2": {
+	"title": "Window"
+},
+"#View_1": {
+	"backgroundColor": "#ffffff",
+	"center": "100%",
+	"height": "45.70%",
+	"left": "4.93%",
+	"top": "17.03%",
+	"width": "90.00%",
+	"borderRadius": "10"
+},
+".header[platform=ios]": {
+	"left": "10%",
+	"top": "16.5%",
+	"color": "black"
+},
+".header[platform=android]": {
+	"left": "10%",
+	"top": "16.5%",
+	"color": "black"
+},
+".topCircle": {
+	"left": "40%",
+	"top": "2.25%",
+	"height": "12%",
+	"width": "21%"
+},
+".form1": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "65%",
+	"width": "90%"
+},
+".dojo-cover": {
+	"image": "/images/iphone/dojo-cover.png",
+	"width": "100%"
+},
+
+/*Buttons*/
+
+".button1": {
+	"left": "9.78%",
+	"width": "80%",
+	"height": "12%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white"
+},
+".button2": {
+	"height": "8%",
+	"left": "10%",
+	"selectedColor": "#193341",
+	"width": "80%",
+	"font": {fontSize:'20',fontFamily:'sans-serif',fontStyle:'normal',fontWeight:'bold'},
+	"backgroundColor": "#ffffff",
+	"borderColor": "#193341",
+	"borderRadius": "10",
+	"borderWidth": "2",
+	"color": "#193341"
+},
+".button3": {
+	"height": "10%",
+	"width": "80%",
+	"backgroundColor": "#193341",
+	"borderRadius": "10",
+	"color": "white"
+},
+".button-half1": {
+	"height": "10%",
+	"width": "39%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".button-half2": {
+	"height": "10%",
+	"width": "39%",
+	"backgroundColor": "#ffffff",
+	"borderRadius": "10",
+	"color": "#193341",
+	"borderColor": "#193341"
+},
+".button-half2-full": {
+	"height": "8%",
+	"width": "44%",
+	"backgroundColor": "#ffffff",
+	"borderRadius": "10",
+	"color": "#193341",
+	"borderColor": "#193341"
+},
+/*Text for Large Titles*/
+".textfield-large": {
+	"font": {fontSize:'40',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+},
+".textfield-large[platform=ios formFactor=tablet]": {
+	"font": {fontSize:'60',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+},
+/*Text for Forms*/
+".textfield": {
+	"font": {fontSize:'Ti.UI.SIZE',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"width": "80%"
+},
+".textfield[platform=ios formFactor=tablet]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"width": "80%"
+},
+/*Text (set width in xml)*/
+".textfield-full": {
+	"font": {fontSize:'Ti.UI.SIZE',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".textfield-full[platform=ios formFactor=tablet]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".textfield-med-full": {
+	"font": {fontSize:'30',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+},
+".textfield-med-full[platform=ios formFactor=tablet]": {
+	"font": {fontSize:'45',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+},
+
+
+/*Dashbaord*/
+
+".db-contacts": {
+	"image": "/images/iphone/db-contacts.png",
+	"selectedImage": "/images/iphone/db-contacts-grey.png"
+},
+".db-contacts[platform=android]": {
+	"image": "android/db-android-contacts.png",
+	"selectedImage": "android/db-android-contacts-grey.png"
+},
+".db-contacts[platform=ios formFactor=tablet]": {
+},
+".db-projects": {
+	"image": "/images/iphone/db-projects.png",
+	"selectedImage": "/images/iphone/db-projects-grey.png"
+},
+".db-projects[platform=android]": {
+	"image": "android/db-android-projects.png",
+	"selectedImage": "android/db-android-projects-grey.png"
+},
+".db-projects[platform=ios formFactor=tablet]": {
+},
+".db-hotlist": {
+	"image": "/images/iphone/db-hotlist.png",
+	"selectedImage": "/images/iphone/db-hotlist-grey.png"
+},
+".db-hotlist[platform=android]": {
+	"image": "android/db-android-hotlist.png",
+	"selectedImage": "android/db-android-hotlist-grey.png"
+},
+".db-hotlist[platform=ios formFactor=tablet]": {
+},
+".db-reporting": {
+	"image": "/images/iphone/db-reporting.png",
+	"selectedImage": "/images/iphone/db-reporting-grey.png"
+},
+".db-reporting[platform=android]": {
+	"image": "android/db-android-reporting.png",
+	"selectedImage": "android/db-android-reporting-grey.png"
+},
+".db-reporting[platform=ios formFactor=tablet]": {
+},
+".db-recent": {
+	"image": "/images/iphone/db-recent.png",
+	"selectedImage": "/images/iphone/db-recent-grey.png"
+},
+".db-recent[platform=android]": {
+	"image": "android/db-android-recent.png",
+	"selectedImage": "android/db-android-recent-grey.png"
+},
+".db-recent[platform=ios formFactor=tablet]": {
+},
+".db-settings": {
+	"image": "/images/iphone/db-settings.png",
+	"selectedImage": "/images/iphone/db-settings-grey.png"
+},
+".db-settings[platform=android]": {
+	"image": "android/db-android-settings.png",
+	"selectedImage": "android/db-android-settings-grey.png"
+},
+".db-settings[platform=ios formFactor=tablet]": {
+}

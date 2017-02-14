@@ -1,0 +1,37 @@
+<!--
+<Alloy>     
+    <Window backgroundColor="#fff" class="vgroup" id="win" onOpen="onInitLoad">
+        <SearchBar id="searchBar" platform="ios" class="search" onRefresh="onRefreshClick"  />
+        <Toolbar barColor="#FFA500" center="true" height="50" id="toolbar" onBookmark="onBookmarkClick" top="0">
+            <Items id="items">
+                <Label color="#fff" height="Ti.UI.SIZE" id="label1" right="50" shadowColor="#aaa" text="DASHBOARD" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" width="Ti.UI.SIZE"/>
+            </Items>
+        </Toolbar>
+        <DashboardView center="true" columnCount="2" id="dashboard" onClick="resetBadge" onCommit="handleCommit" onEdit="handleEdit" top="0" wobble="true">
+            <DashboardItem badge="10" image="/images/iphone/db-contacts.png" label="contacts" onClick="openMasterDirectory" selectedImage="/images/iphone/db-contacts-grey.png"/>
+            <DashboardItem badge="10" image="/images/iphone/db-projects.png" label="projects" onClick="openProjectMain" selectedImage="/images/iphone/db-projects-grey.png"/>
+            <DashboardItem image="/images/iphone/db-hotlist.png" label="hot list" onClick="openHotLists" selectedImage="/images/iphone/db-hotlist-grey.png"/>
+            <DashboardItem badge="23" image="/images/iphone/db-reporting.png" label="reporting" onClick="openReports" selectedImage="/images/iphone/db-reporting-grey.png"/>
+            <DashboardItem badge="23" image="/images/iphone/db-recent.png" label="recent" selectedImage="/images/iphone/db-recent-grey.png"/>
+            <DashboardItem badge="23" image="/images/iphone/db-settings.png" label="settings" selectedImage="/images/iphone/db-settings-grey.png"/>
+        </DashboardView>
+    </Window>
+    
+</Alloy>
+--><Alloy>
+    <Window>
+        <View left="0%" top="0%">
+            <ImageView class="dojo-cover" top="0%"/>
+            <Label color="white" right="8%" text="welcome," top="2%"/>
+            <Label class="textfield-med-full" color="white" right="8%" text="STEFAN" textAlign="Ti.UI.TEXT_ALIGNMENT_RIGHT" top="5%"/>
+        </View>
+        <DashboardView center="true" columnCount="2" height="75%" left="0.00%" top="16.5%" width="100%">
+            <DashboardItem class="db-contacts"/>
+            <DashboardItem class="db-projects"/>
+            <DashboardItem class="db-hotlist"/>
+            <DashboardItem class="db-reporting"/>
+            <DashboardItem class="db-recent"/>
+            <DashboardItem class="db-settings"/>
+        </DashboardView>
+    </Window>
+</Alloy>

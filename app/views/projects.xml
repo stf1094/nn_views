@@ -1,0 +1,12 @@
+<Alloy>
+    <Window id="Window_1" title="Projects">
+        <ImageView id="ImageView_1" image="/images/iphone/ui-projects-cover.png"/>
+        <View id="View_1">
+            <Button id="Button_1">Create a Project</Button>/&amp;amp;amp;amp;amp;gt;
+        <ImageView id="ImageView_2" image="images/iphone/project-holder-image.png"/>
+            <ImageView id="ImageView_3" image="images/iphone/project-holder-image.png"/>
+            <Label id="Label_1" textAlign="center">Project Name</Label>/&amp;amp;amp;gt;
+            <Label id="Label_2" textAlign="center">Project Name</Label>/&amp;amp;amp;gt;
+        </View>
+    </Window>
+</Alloy>

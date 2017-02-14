@@ -1,0 +1,31 @@
+<Alloy>
+    <Window backgroundColor="white" title="Project Dashboard">
+        <Label class="textfield-full" text="Contacts" top="2.5%" width="90%"/>
+        <ScrollView height="20%" horizontalBounce="true" id="scrollView" showHorizontalScrollIndicator="true" showVerticalScrollIndicator="true" top="5%" width="100%">
+            <View backgroundColor="#ffffff" height="100%" id="view" width="1200">
+                <ImageView id="ImageView_1" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_2" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_3" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_4" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_5" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_6" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_7" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_8" image="/images/iphone/project-shuriken.png"/>
+            </View>
+        </ScrollView>
+        <Label class="textfield-full" text="Hot List" top="30%" width="90%"/>
+        <ScrollView height="20%" horizontalBounce="true" id="scrollView1" showHorizontalScrollIndicator="true" showVerticalScrollIndicator="true" top="32%" width="100%">
+            <View backgroundColor="#ffffff" height="100%" id="view1" width="1200">
+                <ImageView id="ImageView_1" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_2" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_3" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_4" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_5" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_6" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_7" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_8" image="/images/iphone/project-shuriken.png"/>
+            </View>
+        </ScrollView>
+        <Label class="textfield-full" text="Tasks" top="53%" width="90%"/>
+    </Window>
+</Alloy>

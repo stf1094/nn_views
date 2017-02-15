@@ -58,15 +58,15 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		Bmda8vgCfv1B4VSrSQpDsia/Zsc=
+		bthkm33x5lG09bQp1+HHt+lWyN0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3Fjbxa4GOfew5xXws38uKw49DPk=
+		M27MlsmRmH4WF0zkNKNBmBGpNdg=
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		q+GnBxBagcOF4fQ6vPg8VEDfyLo=
+		UKGiRGyAOpFQ2iP7kluLqdGoY1M=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		/5hVa4ymwPLzCjCeDpDEQDOEAYg=
+		vCPao7zasYc5uxSAcCtqGUYb5PM=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -106,51 +106,47 @@
 		</data>
 		<key>alloy/controllers/add-contacts.js</key>
 		<data>
-		Ek0j+ivklQjLj310iqL28kV0HuU=
+		AkYLrre1awOx6NnQ8+3WDVkL3e4=
 		</data>
 		<key>alloy/controllers/create-goal.js</key>
 		<data>
-		Xf1BgmMsJ7Sc7GUO7nJ0jim7qYc=
+		YmpQNtEKLpCyJQ3SHhk/k2ZfOM0=
 		</data>
 		<key>alloy/controllers/create-tasks.js</key>
 		<data>
-		gVE0CMdURKlMCazrV3IMKVJ+2LI=
+		X6KvAPnJtFa8STqaNhtpNsQyhds=
 		</data>
 		<key>alloy/controllers/dashboard.js</key>
 		<data>
-		IDOKO2LCXC/bq40etWSw1ESzPac=
+		3jgAOZ9LJUOvAUUkSDd3qPZb+fA=
 		</data>
 		<key>alloy/controllers/hot-list.js</key>
 		<data>
-		hAVLl7+6ZZ6fluxY2+YR4A4JK80=
+		AxSN010trMg/mRiBoPznEIXuaaI=
 		</data>
 		<key>alloy/controllers/index.js</key>
 		<data>
-		8RcWRPeq1p3KcZVSVbQwfObk550=
+		t1D8+PiTeVEbhTJNUJrw3rsNMZQ=
+		</data>
+		<key>alloy/controllers/pd.js</key>
+		<data>
+		TgkS3659oiAj0eowqXS4ferbejY=
 		</data>
 		<key>alloy/controllers/project-complete.js</key>
 		<data>
-		+u3lm5yRWgNMyYs8YIsCpxnTAvY=
-		</data>
-		<key>alloy/controllers/project-dashboard.js</key>
-		<data>
-		q7175fMBVg/OXDoPHnAGRhItuXE=
-		</data>
-		<key>alloy/controllers/project-dashboard1.js</key>
-		<data>
-		wMkALQbQHf2R3zAqeuRxjTDdnmU=
+		qlOF+a5Locfj/UILqaKaH8SeiGg=
 		</data>
 		<key>alloy/controllers/project-hot-list.js</key>
 		<data>
-		JI/1jl56Wkar2umdJBNcUGt3hMU=
+		RHCoYFi086ghwIy8mNrEPWaPW70=
 		</data>
 		<key>alloy/controllers/project-name-type.js</key>
 		<data>
-		QC1fzMac/abRlC0+Xe8kZJiqnRo=
+		cJgaoxpsW+vof6J2hbLyl3ym/Bo=
 		</data>
 		<key>alloy/controllers/projects.js</key>
 		<data>
-		GZtfV3sWlh72gcOIs/EsWkGoeQ8=
+		YJnyak6U+9rudotNzTmLvaoj+1k=
 		</data>
 		<key>alloy/controllers/reporting.js</key>
 		<data>
@@ -158,7 +154,7 @@
 		</data>
 		<key>alloy/controllers/scrollView-test.js</key>
 		<data>
-		jgVjnW3/n5dBDnuLnaj8I4aNRLA=
+		FEY4mtPf5OOsfy4JY51P0e8wquo=
 		</data>
 		<key>alloy/controllers/task-list.js</key>
 		<data>
@@ -166,63 +162,59 @@
 		</data>
 		<key>alloy/styles/add-contacts.js</key>
 		<data>
-		xcCitvcHmk3ZdeVpwe6Kjsp4zbk=
+		zPenQtGU5gjOK31W8aXhtIN5+Yg=
 		</data>
 		<key>alloy/styles/create-goal.js</key>
 		<data>
-		P8peJV7VvyM4dppgFP5NvFjeZbA=
+		LtKIhboaK8RfuFsZCgFHXygwy4Q=
 		</data>
 		<key>alloy/styles/create-tasks.js</key>
 		<data>
-		ML/X4W9vgT/9hRrPXeehOuCOzuY=
+		nvUYlrzJHA4eflfSGj9Vjstv1hU=
 		</data>
 		<key>alloy/styles/dashboard.js</key>
 		<data>
-		IrjEF791Vj7kv70v8PwD7+rNuRA=
+		utHfOtTjUbNibSKNTQjMnEcBe9I=
 		</data>
 		<key>alloy/styles/hot-list.js</key>
 		<data>
-		DOFq1D+S2CXVC2qyjPHISMUtyiw=
+		/IVc+qWU5FU0tRH93EtTfBV8kds=
 		</data>
 		<key>alloy/styles/index.js</key>
 		<data>
-		e9bdwGqcm3YhNCCQrpTDy5ei5y4=
+		tVEsDGjD6ch6zpYEraaL10WAAxM=
+		</data>
+		<key>alloy/styles/pd.js</key>
+		<data>
+		Am84J84PSr25M2uMHgGPkbD2naU=
 		</data>
 		<key>alloy/styles/project-complete.js</key>
 		<data>
-		wYFEW0xe2U6sKMnMrad8gjFxLeU=
-		</data>
-		<key>alloy/styles/project-dashboard.js</key>
-		<data>
-		IrjEF791Vj7kv70v8PwD7+rNuRA=
-		</data>
-		<key>alloy/styles/project-dashboard1.js</key>
-		<data>
-		esQrIaUZorLT8UEh8/XFuEz3RSw=
+		5BEktA5h7QiFEoHk4i6ijWBalg4=
 		</data>
 		<key>alloy/styles/project-hot-list.js</key>
 		<data>
-		1QKVdbay1D4fBhJoSlQu6ukf7bE=
+		CN7xDkVH6RDyo5LREvCIqfnEthk=
 		</data>
 		<key>alloy/styles/project-name-type.js</key>
 		<data>
-		B2l1ZPZnVq3VyGGD/zIP8c4dw4c=
+		0Oj6uTsvet5dTOF992ia/u2KTLk=
 		</data>
 		<key>alloy/styles/projects.js</key>
 		<data>
-		qtiiWszEWFq47C54Ydob4u/szHY=
+		HKpYiC2SeiO4sAbFYCdLwtHzvas=
 		</data>
 		<key>alloy/styles/reporting.js</key>
 		<data>
-		fMP+4je4Bx9yhas4dXtg8Lk5eF0=
+		IBmntmw0gle90FU80IBgg+Fgx0I=
 		</data>
 		<key>alloy/styles/scrollView-test.js</key>
 		<data>
-		Gl6r9cBC/4w41GxzFeoGjFJrUZs=
+		qKld+2+CFIyPlNYsonLcbb2jcgM=
 		</data>
 		<key>alloy/styles/task-list.js</key>
 		<data>
-		26/C3hXiq2Ib+Jp+UcacYkEyzJo=
+		in7fClp2XX+QWH7nFZd0eyDc4mk=
 		</data>
 		<key>alloy/sync/localStorage.js</key>
 		<data>
@@ -430,22 +422,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Bmda8vgCfv1B4VSrSQpDsia/Zsc=
+			bthkm33x5lG09bQp1+HHt+lWyN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			2w2V7yC9M0+Lll5k/w77T+QoYlm1FCNdhEtSCRHa0q8=
+			+cip4aKPe465xsyDe1GSmtoqoe/+ZhHjVrUuG+TrZtM=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q+GnBxBagcOF4fQ6vPg8VEDfyLo=
+			UKGiRGyAOpFQ2iP7kluLqdGoY1M=
 			</data>
 			<key>hash2</key>
 			<data>
-			qhjCBg8ConOMbn+MGOWqDwa6eefhjR78JXUyjx/7l/M=
+			1JlzijpQ33LEj20Xw5tcYo4WrGNgwTIsVdiARTOaCPI=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -463,11 +455,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/5hVa4ymwPLzCjCeDpDEQDOEAYg=
+			vCPao7zasYc5uxSAcCtqGUYb5PM=
 			</data>
 			<key>hash2</key>
 			<data>
-			LgCFfdTNyDY60FOAggd+E5DP/iHg4elKm4eK9FDdSvM=
+			3umZ2TZIgfTEom1u/245ypQNcQVaQRIbrYXS4NsT2eI=
 			</data>
 		</dict>
 		<key>_app_props_.json</key>
@@ -540,132 +532,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ek0j+ivklQjLj310iqL28kV0HuU=
+			AkYLrre1awOx6NnQ8+3WDVkL3e4=
 			</data>
 			<key>hash2</key>
 			<data>
-			X4jazTSI6l6O5yy5ozQ3bPzFthac4mXGzBpf+6cvdkY=
+			bpDgaB/6nDnRpWOIjj9EBhxPISsWQW4KqzTADOF4lxE=
 			</data>
 		</dict>
 		<key>alloy/controllers/create-goal.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Xf1BgmMsJ7Sc7GUO7nJ0jim7qYc=
+			YmpQNtEKLpCyJQ3SHhk/k2ZfOM0=
 			</data>
 			<key>hash2</key>
 			<data>
-			rNzfdPNazZAm7I4x1VOYL1out/Eoz+O5I5yYcCIcckA=
+			PIfBqOw96jWpckZ518ge83pMdEsW/bS0sBCel8ZJnDA=
 			</data>
 		</dict>
 		<key>alloy/controllers/create-tasks.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gVE0CMdURKlMCazrV3IMKVJ+2LI=
+			X6KvAPnJtFa8STqaNhtpNsQyhds=
 			</data>
 			<key>hash2</key>
 			<data>
-			mwSn3/QwRxlgX4jsgScE6sKeCOArLERfURYLbNFT48c=
+			qbgMoDPMCeULY+6jR/0l2RI6b2h4LtK/xtZ7tC70Ohs=
 			</data>
 		</dict>
 		<key>alloy/controllers/dashboard.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IDOKO2LCXC/bq40etWSw1ESzPac=
+			3jgAOZ9LJUOvAUUkSDd3qPZb+fA=
 			</data>
 			<key>hash2</key>
 			<data>
-			wjBWMsHscdMGfXGynz5hyKpaWnRL4mVPFPjM1YcfYNs=
+			CEGxHrC+K9hQEOfUQa35i2bZ2Erpk6OWwXIxh8zwlpE=
 			</data>
 		</dict>
 		<key>alloy/controllers/hot-list.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hAVLl7+6ZZ6fluxY2+YR4A4JK80=
+			AxSN010trMg/mRiBoPznEIXuaaI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y17Gn9KY+vzOjTOr28XXQcjTELYOpKDicqXaOyHmk1k=
+			KicqZJFChHqgwenW95H1X1BMB/h5anKWUhzzcvbfMlw=
 			</data>
 		</dict>
 		<key>alloy/controllers/index.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8RcWRPeq1p3KcZVSVbQwfObk550=
+			t1D8+PiTeVEbhTJNUJrw3rsNMZQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			TDJ71Sp26TUTCJIXp286kVNV+nfZymeskKUtqwAuuic=
+			W5sPHQNWziLK5llolZ6gDQ1eOuDon7SJFP6OSkwhp6c=
+			</data>
+		</dict>
+		<key>alloy/controllers/pd.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TgkS3659oiAj0eowqXS4ferbejY=
+			</data>
+			<key>hash2</key>
+			<data>
+			i/Ud6zYpgbe8HNc2nCGVsGIabUBGWb0pgz17byTUaLw=
 			</data>
 		</dict>
 		<key>alloy/controllers/project-complete.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+u3lm5yRWgNMyYs8YIsCpxnTAvY=
+			qlOF+a5Locfj/UILqaKaH8SeiGg=
 			</data>
 			<key>hash2</key>
 			<data>
-			126+JVrw4b5OSsBKn/oyqQOa8NLas7pVdBfcixK7Qhk=
-			</data>
-		</dict>
-		<key>alloy/controllers/project-dashboard.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			q7175fMBVg/OXDoPHnAGRhItuXE=
-			</data>
-			<key>hash2</key>
-			<data>
-			uolm+qXP9myWFGDDvxMpX00clvU3vlAFFJtaaGaGU4s=
-			</data>
-		</dict>
-		<key>alloy/controllers/project-dashboard1.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wMkALQbQHf2R3zAqeuRxjTDdnmU=
-			</data>
-			<key>hash2</key>
-			<data>
-			j0AK4bDrm/P3F8/V+XpoQclqqhIixcR7v3uz83zKYaY=
+			zC5F9Sxta3dWucbOdUXRqoJgeySYtaWujZ95AKeKBU0=
 			</data>
 		</dict>
 		<key>alloy/controllers/project-hot-list.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JI/1jl56Wkar2umdJBNcUGt3hMU=
+			RHCoYFi086ghwIy8mNrEPWaPW70=
 			</data>
 			<key>hash2</key>
 			<data>
-			j2rnwawqd1Kd/p3wi2H48rnafvDoLYzuoP/L/X5P2Z0=
+			nGyirwVnbrmrCOuI+d+FBQPjBgbfT7FHG+OoGgh4WFM=
 			</data>
 		</dict>
 		<key>alloy/controllers/project-name-type.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QC1fzMac/abRlC0+Xe8kZJiqnRo=
+			cJgaoxpsW+vof6J2hbLyl3ym/Bo=
 			</data>
 			<key>hash2</key>
 			<data>
-			8mdY8omtYJC9JYgCcvURP4Ri1cxLOAW+KI9327SntI8=
+			B5bCkzsTemnRngpSAxyP1vQnc8UFdGqW7r8+VAy4f2U=
 			</data>
 		</dict>
 		<key>alloy/controllers/projects.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GZtfV3sWlh72gcOIs/EsWkGoeQ8=
+			YJnyak6U+9rudotNzTmLvaoj+1k=
 			</data>
 			<key>hash2</key>
 			<data>
-			HUvuQ/b153rC6cZ+ZV3UM+jQdCwc9KetwCAo8OFGpoU=
+			FFLz2CWi2Hx0Y/oh/65AXMwWU48rezRhVH4qIKhkCRg=
 			</data>
 		</dict>
 		<key>alloy/controllers/reporting.js</key>
@@ -683,11 +664,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jgVjnW3/n5dBDnuLnaj8I4aNRLA=
+			FEY4mtPf5OOsfy4JY51P0e8wquo=
 			</data>
 			<key>hash2</key>
 			<data>
-			4HjbJwXzaFjoFDqXnMH1bQF1fwUBg1lVpm/BAzbBDEo=
+			sJKRCaoSvcMn3ZVPnHR2sK7bNWeXiPcq1N/32b2e5UM=
 			</data>
 		</dict>
 		<key>alloy/controllers/task-list.js</key>
@@ -705,165 +686,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xcCitvcHmk3ZdeVpwe6Kjsp4zbk=
+			zPenQtGU5gjOK31W8aXhtIN5+Yg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qa7/yoDnMphXjHtT9c+Ni4g44IMXu9BB3GoobfkA/HE=
+			0c4Svda3EJQIpq0fBIvVmbsfT4OC26Czlh+xVa8NynA=
 			</data>
 		</dict>
 		<key>alloy/styles/create-goal.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P8peJV7VvyM4dppgFP5NvFjeZbA=
+			LtKIhboaK8RfuFsZCgFHXygwy4Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZyaOLzmZR5cOqBXW7ZGmELLeUGSZI2Q/PI812Umgp5c=
+			KDtjT/H7RCtJsw+cwnNfp1lvn92hZorw5aovtO/ROUI=
 			</data>
 		</dict>
 		<key>alloy/styles/create-tasks.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ML/X4W9vgT/9hRrPXeehOuCOzuY=
+			nvUYlrzJHA4eflfSGj9Vjstv1hU=
 			</data>
 			<key>hash2</key>
 			<data>
-			b0dGsRhh0W9cvV+zGPZodrS+49zEBQkxWV0YJQIMmlY=
+			/Oqi4nfdSbEqmUYs0fqZDY6+jeO4Apa6zONUpC6ZZh8=
 			</data>
 		</dict>
 		<key>alloy/styles/dashboard.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IrjEF791Vj7kv70v8PwD7+rNuRA=
+			utHfOtTjUbNibSKNTQjMnEcBe9I=
 			</data>
 			<key>hash2</key>
 			<data>
-			oYrwKE3cOFh1kXLrrimKcEQqs5yX/OrJrW92vQ0KL+U=
+			wgYk4zRzyeqWwfUmyunhcbN4x6U3+0efZHnoi+Ur3lU=
 			</data>
 		</dict>
 		<key>alloy/styles/hot-list.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DOFq1D+S2CXVC2qyjPHISMUtyiw=
+			/IVc+qWU5FU0tRH93EtTfBV8kds=
 			</data>
 			<key>hash2</key>
 			<data>
-			UKSkOZAiljrTkpJmwtMZKdJokU7x61fA7MLyF0Gv9gc=
+			7X0YdTmHhsXEtmwvlKLgEg4UN7hXQ1qBA7luQpGYUYQ=
 			</data>
 		</dict>
 		<key>alloy/styles/index.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e9bdwGqcm3YhNCCQrpTDy5ei5y4=
+			tVEsDGjD6ch6zpYEraaL10WAAxM=
 			</data>
 			<key>hash2</key>
 			<data>
-			cpIOdOSNEO4P98YOFVCuzct+EAuO79RjVjnk8rza5eo=
+			6XJjv7xnbUQa9IC12oryLd4it4PtfPXwb/PvJsw/PFg=
+			</data>
+		</dict>
+		<key>alloy/styles/pd.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Am84J84PSr25M2uMHgGPkbD2naU=
+			</data>
+			<key>hash2</key>
+			<data>
+			tmJC9vBfNPWqt9ClAOgBrMawD0IoRVmw9irPFX+3Wxs=
 			</data>
 		</dict>
 		<key>alloy/styles/project-complete.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wYFEW0xe2U6sKMnMrad8gjFxLeU=
+			5BEktA5h7QiFEoHk4i6ijWBalg4=
 			</data>
 			<key>hash2</key>
 			<data>
-			xR1GtNubFXRCv2c9k53SEx/sGMNrpYUaF8KJQ9N030A=
-			</data>
-		</dict>
-		<key>alloy/styles/project-dashboard.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IrjEF791Vj7kv70v8PwD7+rNuRA=
-			</data>
-			<key>hash2</key>
-			<data>
-			oYrwKE3cOFh1kXLrrimKcEQqs5yX/OrJrW92vQ0KL+U=
-			</data>
-		</dict>
-		<key>alloy/styles/project-dashboard1.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			esQrIaUZorLT8UEh8/XFuEz3RSw=
-			</data>
-			<key>hash2</key>
-			<data>
-			hY4TsSsPyRzHmDGjm8VX/O/pR05Jp3f9P4t7rH06bAs=
+			+mrsiTgvNX5vBEGj82LzpdAhyHpZNLS2YrMPwWrx23o=
 			</data>
 		</dict>
 		<key>alloy/styles/project-hot-list.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1QKVdbay1D4fBhJoSlQu6ukf7bE=
+			CN7xDkVH6RDyo5LREvCIqfnEthk=
 			</data>
 			<key>hash2</key>
 			<data>
-			hMr+LoBTxQq103ZjmndmhchRq/PwzkeEjtnolo9FjoA=
+			L9oZdEdFSPPiFW6P23FHomdUSr6jmd9gugDL8x4SG04=
 			</data>
 		</dict>
 		<key>alloy/styles/project-name-type.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B2l1ZPZnVq3VyGGD/zIP8c4dw4c=
+			0Oj6uTsvet5dTOF992ia/u2KTLk=
 			</data>
 			<key>hash2</key>
 			<data>
-			jGHdrEu8WjDHXDXtJDGUZJbWKJqctOkbJzF6TLLk24s=
+			StBzrYOIKK6Gonv0ifPWCps2iV7pq8bSG6zcP2EjkzM=
 			</data>
 		</dict>
 		<key>alloy/styles/projects.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qtiiWszEWFq47C54Ydob4u/szHY=
+			HKpYiC2SeiO4sAbFYCdLwtHzvas=
 			</data>
 			<key>hash2</key>
 			<data>
-			LrdIuzouURShK3fLYQCna3iCjuFD8NijnER/2SF7hWA=
+			oLQGZd2x8obf6XZ4OZScw20x+fwBH/D05GEnAjwEr5s=
 			</data>
 		</dict>
 		<key>alloy/styles/reporting.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fMP+4je4Bx9yhas4dXtg8Lk5eF0=
+			IBmntmw0gle90FU80IBgg+Fgx0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			p3aF4vsbYIyfeWfWGvI5mchbHDla4FWqYf9wJ8od0Vs=
+			pM4z8hhrc09RbQlUUA6nFIFSmxrPgguEFEQ9CkFG/aw=
 			</data>
 		</dict>
 		<key>alloy/styles/scrollView-test.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Gl6r9cBC/4w41GxzFeoGjFJrUZs=
+			qKld+2+CFIyPlNYsonLcbb2jcgM=
 			</data>
 			<key>hash2</key>
 			<data>
-			VxnH3CMHxtVKBVn9PNYrozwDcxywh7+rbVFll3QTQ2c=
+			GyUEZzmk9MA3B9Ovx4CAPGMmMAPhqbXoA8eOsuoiDxM=
 			</data>
 		</dict>
 		<key>alloy/styles/task-list.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			26/C3hXiq2Ib+Jp+UcacYkEyzJo=
+			in7fClp2XX+QWH7nFZd0eyDc4mk=
 			</data>
 			<key>hash2</key>
 			<data>
-			28lrZbDpm//MDzWeUTV0nJLLOVOv7tlZ9dFwI8phcpk=
+			iJGZ7UQdT/h2GZg6e2By/PO6MO0eMEIrRRBnEz3WTyE=
 			</data>
 		</dict>
 		<key>alloy/sync/localStorage.js</key>

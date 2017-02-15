@@ -14,7 +14,103 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is your global styles file. Selectors and rules you define
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -46,7 +142,103 @@ here will be applied throughout your app. However, these rules
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 have the lowest priority of any style settings.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -78,7 +270,103 @@ For more information, see the "Style Priorities" section of
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 http://docs.appcelerator.com/platform/latest/#!/guide/Alloy_Styles_and_Themes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -110,7 +398,103 @@ For example, the following would apply to all labels, windows,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 and text fields (depending on platform) in your app unless you
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -142,7 +526,103 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 'Label[platform=android,windows]': {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -174,7 +654,103 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -206,6 +782,54 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	backgroundColor: '#fff' // white background instead of default transparent or black
 
 
@@ -222,7 +846,103 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -254,6 +974,54 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	height: Ti.UI.SIZE
 
 
@@ -270,7 +1038,103 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -326,18 +1190,32 @@ overrode the settings with other TSS, XML, or JS settings:
 },
 ".dojo-cover": {
 	"image": "/images/iphone/dojo-cover.png",
-	"width": "100%"
+	"width": "100%",
+	"height": "100%"
 },
-
+".dojo-bottom": {
+	"image": "/images/iphone/dojo-bottom.png",
+	"width": "100%",
+	"height": "100%"
+},
 /*Buttons*/
-
 ".button1": {
 	"left": "9.78%",
 	"width": "80%",
 	"height": "12%",
 	"backgroundColor": "#f7941d",
 	"borderRadius": "10",
-	"color": "white"
+	"color": "white",
+	"selectedBackgroundColor": "#e5790e"
+},
+".button1-full": {
+	"left": "9.78%",
+	"width": "90%",
+	"height": "10%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"selectedBackgroundColor": "#e5790e"
 },
 ".button2": {
 	"height": "8%",
@@ -363,7 +1241,8 @@ overrode the settings with other TSS, XML, or JS settings:
 	"width": "39%",
 	"backgroundColor": "#f7941d",
 	"borderRadius": "10",
-	"color": "#ffffff"
+	"color": "#ffffff",
+	"selectedBackgroundColor": "#e5790e"
 },
 ".button-half2": {
 	"height": "10%",
@@ -372,6 +1251,13 @@ overrode the settings with other TSS, XML, or JS settings:
 	"borderRadius": "10",
 	"color": "#193341",
 	"borderColor": "#193341"
+},
+".button-half1-full": {
+	"height": "8%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
 },
 ".button-half2-full": {
 	"height": "8%",
@@ -384,11 +1270,11 @@ overrode the settings with other TSS, XML, or JS settings:
 /*Text for Large Titles*/
 ".textfield-large": {
 	"font": {fontSize:'40',fontFamily:'',fontStyle:'',fontWeight:'normal'},
-	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
 },
 ".textfield-large[platform=ios formFactor=tablet]": {
 	"font": {fontSize:'60',fontFamily:'',fontStyle:'',fontWeight:'normal'},
-	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
 },
 /*Text for Forms*/
 ".textfield": {
@@ -416,10 +1302,32 @@ overrode the settings with other TSS, XML, or JS settings:
 ".textfield-med-full[platform=ios formFactor=tablet]": {
 	"font": {fontSize:'45',fontFamily:'',fontStyle:'',fontWeight:'normal'}
 },
-
-
+/*LABELS*/
+".label-center": {
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+".label-center[platform=android]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+".label-left": {
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".label-left[platform=android]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".label-right": {
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_RIGHT
+},
+".label-right[platform=android]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_RIGHT
+},
 /*Dashbaord*/
-
 ".db-contacts": {
 	"image": "/images/iphone/db-contacts.png",
 	"selectedImage": "/images/iphone/db-contacts-grey.png"
@@ -479,4 +1387,10 @@ overrode the settings with other TSS, XML, or JS settings:
 	"selectedImage": "android/db-android-settings-grey.png"
 },
 ".db-settings[platform=ios formFactor=tablet]": {
+},
+".side-scroll": {
+	"width": "750"
+},
+".side-scroll[platform=ios formFactor=tablet]": {
+	"width": "1050"
 }

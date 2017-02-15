@@ -65,6 +65,7 @@ function Controller() {
         backgroundColor: "#f7941d",
         borderRadius: "10",
         color: "white",
+        selectedBackgroundColor: "#e5790e",
         top: "59.66%",
         font: {
             fontSize: "20",

@@ -24,11 +24,11 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
-    $.__views.__alloyId32 = Alloy.createController("dashboard", {
-        id: "__alloyId32"
+    $.__views.__alloyId34 = Alloy.createController("project-complete", {
+        id: "__alloyId34"
     });
     $.__views.index = Ti.UI.iOS.createNavigationWindow({
-        window: $.__views.__alloyId32.getViewEx({
+        window: $.__views.__alloyId34.getViewEx({
             recurse: true
         }),
         id: "index"

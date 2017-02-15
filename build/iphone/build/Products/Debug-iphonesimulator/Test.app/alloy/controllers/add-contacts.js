@@ -42,33 +42,6 @@ function Controller() {
         id: "View_1"
     });
     $.__views.Window_1.add($.__views.View_1);
-    $.__views.__alloyId0 = Ti.UI.createLabel(function() {
-        var o = {};
-        Alloy.deepExtend(true, o, {
-            font: {
-                fontSize: "40",
-                fontFamily: "",
-                fontStyle: "",
-                fontWeight: "normal"
-            },
-            textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
-        });
-        Alloy.isTablet && Alloy.deepExtend(true, o, {
-            font: {
-                fontSize: "60",
-                fontFamily: "",
-                fontStyle: "",
-                fontWeight: "normal"
-            },
-            textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
-        });
-        Alloy.deepExtend(true, o, {
-            text: "Add Contacts",
-            id: "__alloyId0"
-        });
-        return o;
-    }());
-    $.__views.View_1.add($.__views.__alloyId0);
     $.__views.Label_2 = Ti.UI.createLabel({
         text: "Who would you like to add to this project?",
         left: "9.19%",
@@ -79,42 +52,13 @@ function Controller() {
         id: "Label_2"
     });
     $.__views.View_1.add($.__views.Label_2);
-    $.__views.__alloyId1 = Ti.UI.createLabel(function() {
-        var o = {};
-        Alloy.deepExtend(true, o, {
-            font: {
-                fontSize: "Ti.UI.SIZE",
-                fontFamily: "",
-                fontStyle: "",
-                fontWeight: "normal"
-            },
-            textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
-            width: "80%"
-        });
-        Alloy.isTablet && Alloy.deepExtend(true, o, {
-            font: {
-                fontSize: "20",
-                fontFamily: "",
-                fontStyle: "",
-                fontWeight: "normal"
-            },
-            textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
-            width: "80%"
-        });
-        Alloy.deepExtend(true, o, {
-            text: "who would you like to add to this project?",
-            top: "20%",
-            id: "__alloyId1"
-        });
-        return o;
-    }());
-    $.__views.View_1.add($.__views.__alloyId1);
     $.__views.Button_1 = Ti.UI.createButton({
         height: "8%",
         width: "39%",
         backgroundColor: "#f7941d",
         borderRadius: "10",
         color: "#ffffff",
+        selectedBackgroundColor: "#e5790e",
         left: "9.19%",
         top: "86.58%",
         font: {
@@ -134,6 +78,7 @@ function Controller() {
         backgroundColor: "#f7941d",
         borderRadius: "10",
         color: "#ffffff",
+        selectedBackgroundColor: "#e5790e",
         title: "NEXT",
         left: "51.85%",
         top: "86.55%",

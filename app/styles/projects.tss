@@ -32,14 +32,14 @@
 	"width": "86.53%"
 },
 "#ImageView_2": {
-	"left": "6.67%",
+	"left": "7.5%",
 	"top": "15%",
 	"width": "40%",
 	"height": "25%"
 },
 "#ImageView_3": {
 	"top": "15%",
-	"left": "53.20%",
+	"right": "7.5%",
 	"width": "40%",
 	"height": "25%"
 },

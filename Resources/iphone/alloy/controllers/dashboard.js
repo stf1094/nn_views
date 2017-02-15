@@ -29,6 +29,7 @@ function Controller() {
     });
     $.__views.dashboard && $.addTopLevelView($.__views.dashboard);
     $.__views.__alloyId4 = Ti.UI.createView({
+        height: "15%",
         left: "0%",
         top: "0%",
         id: "__alloyId4"
@@ -37,6 +38,7 @@ function Controller() {
     $.__views.__alloyId5 = Ti.UI.createImageView({
         image: "/images/iphone/dojo-cover.png",
         width: "100%",
+        height: "100%",
         top: "0%",
         id: "__alloyId5"
     });
@@ -45,7 +47,7 @@ function Controller() {
         color: "white",
         right: "8%",
         text: "welcome,",
-        top: "2%",
+        top: "15%",
         id: "__alloyId6"
     });
     $.__views.__alloyId4.add($.__views.__alloyId6);
@@ -72,7 +74,7 @@ function Controller() {
             right: "8%",
             text: "STEFAN",
             textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
-            top: "5%",
+            top: "35%",
             id: "__alloyId7"
         });
         return o;
@@ -157,11 +159,26 @@ function Controller() {
         columnCount: 2,
         height: "75%",
         left: "0.00%",
-        top: "16.5%",
+        top: "15%",
         width: "100%",
         id: "__alloyId8"
     });
     $.__views.dashboard.add($.__views.__alloyId8);
+    $.__views.__alloyId16 = Ti.UI.createView({
+        height: "15%",
+        left: "0%",
+        top: "90%",
+        id: "__alloyId16"
+    });
+    $.__views.dashboard.add($.__views.__alloyId16);
+    $.__views.__alloyId17 = Ti.UI.createImageView({
+        image: "/images/iphone/dojo-bottom.png",
+        width: "100%",
+        height: "100%",
+        top: "0%",
+        id: "__alloyId17"
+    });
+    $.__views.__alloyId16.add($.__views.__alloyId17);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

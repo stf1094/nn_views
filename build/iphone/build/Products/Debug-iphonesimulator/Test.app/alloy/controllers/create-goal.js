@@ -106,30 +106,32 @@ function Controller() {
         id: "ImageView_4"
     });
     $.__views.View_1.add($.__views.ImageView_4);
-    $.__views.__alloyId2 = Ti.UI.createButton({
+    $.__views.__alloyId0 = Ti.UI.createButton({
         height: "10%",
         width: "39%",
         backgroundColor: "#f7941d",
         borderRadius: "10",
         color: "#ffffff",
+        selectedBackgroundColor: "#e5790e",
         title: "NEXT",
         left: "52%",
         top: "83%",
-        id: "__alloyId2"
+        id: "__alloyId0"
     });
-    $.__views.View_1.add($.__views.__alloyId2);
-    $.__views.__alloyId3 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId0);
+    $.__views.__alloyId1 = Ti.UI.createButton({
         height: "10%",
         width: "39%",
         backgroundColor: "#f7941d",
         borderRadius: "10",
         color: "#ffffff",
+        selectedBackgroundColor: "#e5790e",
         title: "BACK",
         left: "10%",
         top: "83%",
-        id: "__alloyId3"
+        id: "__alloyId1"
     });
-    $.__views.View_1.add($.__views.__alloyId3);
+    $.__views.View_1.add($.__views.__alloyId1);
     $.__views.Label_1 = Ti.UI.createLabel({
         height: "6.18%",
         left: "9.90%",

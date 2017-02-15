@@ -115,44 +115,32 @@ function Controller() {
         image: "/images/iphone/addtasks.png"
     });
     $.__views.View_1.add($.__views.ImageView_2);
-    $.__views.Button_3 = Ti.UI.createButton({
+    $.__views.__alloyId2 = Ti.UI.createButton({
         height: "10%",
         width: "39%",
         backgroundColor: "#f7941d",
         borderRadius: "10",
         color: "#ffffff",
+        selectedBackgroundColor: "#e5790e",
         title: "BACK",
-        left: "9.78%",
-        top: "81.47%",
-        font: {
-            fontSize: "20",
-            fontFamily: "",
-            fontStyle: "",
-            fontWeight: "bold"
-        },
-        id: "Button_3"
+        left: "10%",
+        top: "83%",
+        id: "__alloyId2"
     });
-    $.__views.View_1.add($.__views.Button_3);
-    $.__views.Button_1 = Ti.UI.createButton({
-        height: "10.02%",
+    $.__views.View_1.add($.__views.__alloyId2);
+    $.__views.__alloyId3 = Ti.UI.createButton({
+        height: "10%",
         width: "39%",
         backgroundColor: "#f7941d",
         borderRadius: "10",
         color: "#ffffff",
-        borderColor: "#000000",
-        borderWidth: "0",
-        font: {
-            fontSize: "20",
-            fontFamily: "",
-            fontStyle: "",
-            fontWeight: ""
-        },
-        left: "52.15%",
-        top: "81.34%",
+        selectedBackgroundColor: "#e5790e",
         title: "NEXT",
-        id: "Button_1"
+        right: "10%",
+        top: "83%",
+        id: "__alloyId3"
     });
-    $.__views.View_1.add($.__views.Button_1);
+    $.__views.View_1.add($.__views.__alloyId3);
     $.__views.ImageView_1 = Ti.UI.createImageView({
         left: "40%",
         top: "2.25%",

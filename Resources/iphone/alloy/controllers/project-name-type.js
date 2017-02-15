@@ -87,7 +87,7 @@ function Controller() {
         id: "Label_3"
     });
     $.__views.View_1.add($.__views.Label_3);
-    $.__views.__alloyId55 = Ti.UI.createButton({
+    $.__views.__alloyId59 = Ti.UI.createButton({
         height: "8%",
         left: "10%",
         selectedColor: "#193341",
@@ -105,10 +105,10 @@ function Controller() {
         color: "#193341",
         title: "Personal",
         top: "57%",
-        id: "__alloyId55"
+        id: "__alloyId59"
     });
-    $.__views.View_1.add($.__views.__alloyId55);
-    $.__views.__alloyId56 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId59);
+    $.__views.__alloyId60 = Ti.UI.createButton({
         height: "8%",
         left: "10%",
         selectedColor: "#193341",
@@ -126,33 +126,35 @@ function Controller() {
         color: "#193341",
         title: "Professional",
         top: "68%",
-        id: "__alloyId56"
+        id: "__alloyId60"
     });
-    $.__views.View_1.add($.__views.__alloyId56);
-    $.__views.__alloyId57 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId60);
+    $.__views.__alloyId61 = Ti.UI.createButton({
         height: "10%",
         width: "39%",
         backgroundColor: "#f7941d",
         borderRadius: "10",
         color: "#ffffff",
+        selectedBackgroundColor: "#e5790e",
         title: "NEXT",
         left: "52%",
         top: "83%",
-        id: "__alloyId57"
+        id: "__alloyId61"
     });
-    $.__views.View_1.add($.__views.__alloyId57);
-    $.__views.__alloyId58 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId61);
+    $.__views.__alloyId62 = Ti.UI.createButton({
         height: "10%",
         width: "39%",
         backgroundColor: "#f7941d",
         borderRadius: "10",
         color: "#ffffff",
+        selectedBackgroundColor: "#e5790e",
         title: "BACK",
         left: "10%",
         top: "83%",
-        id: "__alloyId58"
+        id: "__alloyId62"
     });
-    $.__views.View_1.add($.__views.__alloyId58);
+    $.__views.View_1.add($.__views.__alloyId62);
     $.__views.ImageView_2 = Ti.UI.createImageView({
         left: "9.48%",
         top: "13.30%",

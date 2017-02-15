@@ -1,0 +1,14 @@
+<Alloy>
+    <Window id="Window_1" title="Project Dashboard">
+        <ImageView image="/images/iphone/project-db-cover.png" left="0.00%" top="0.00%"/>
+        <Label class="textfield-med-full" color="white" text="Project Name" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5%"/>
+            <Button class="button-half1-full" left="5%" top="19%">Contacts</Button>
+            <Button class="button-half1-full" right="5%" top="19%">Hot List</Button>
+        <View height="8%" top="30%" width="100%" backgroundColor="#ececec">
+        	<Label class="label-center" text="TASKS"></Label>
+        </View>
+        <View height="8%" top="65%" width="100%" backgroundColor="#ececec">
+        	<Label class="label-center" text="GOALS"></Label>
+        </View>
+    </Window>
+</Alloy>

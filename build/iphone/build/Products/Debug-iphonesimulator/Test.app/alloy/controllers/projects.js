@@ -49,70 +49,67 @@ function Controller() {
         id: "View_1"
     });
     $.__views.Window_1.add($.__views.View_1);
-    $.__views.Button_1 = Ti.UI.createButton({
-        left: "6.67%",
-        top: "1.15%",
+    $.__views.__alloyId63 = Ti.UI.createButton({
+        left: "5%",
+        width: "90%",
+        height: "10%",
         backgroundColor: "#f7941d",
-        borderWidth: "0",
-        color: "#ffffff",
-        height: "9%",
-        width: "86.53%",
+        borderRadius: "10",
+        color: "white",
+        selectedBackgroundColor: "#e5790e",
         title: "Create a Project",
-        id: "Button_1"
+        top: "1%",
+        id: "__alloyId63"
     });
-    $.__views.View_1.add($.__views.Button_1);
+    $.__views.View_1.add($.__views.__alloyId63);
     $.__views.ImageView_2 = Ti.UI.createImageView({
-        left: "6.67%",
+        left: "7.5%",
         top: "15%",
         width: "40%",
         height: "25%",
         id: "ImageView_2",
-        image: "images/iphone/project-holder-image.png"
+        image: "/images/iphone/project-holder-image.png"
     });
     $.__views.View_1.add($.__views.ImageView_2);
     $.__views.ImageView_3 = Ti.UI.createImageView({
         top: "15%",
-        left: "53.20%",
+        right: "7.5%",
         width: "40%",
         height: "25%",
         id: "ImageView_3",
-        image: "images/iphone/project-holder-image.png"
+        image: "/images/iphone/project-holder-image.png"
     });
     $.__views.View_1.add($.__views.ImageView_3);
-    $.__views.Label_1 = Ti.UI.createLabel({
-        color: "#000000",
+    $.__views.__alloyId64 = Ti.UI.createLabel({
         font: {
-            fontSize: "3.5%",
+            fontSize: "14",
             fontFamily: "",
             fontStyle: "",
-            fontWeight: ""
+            fontWeight: "normal"
         },
-        height: "5.95%",
-        left: "6.67%",
-        top: "39.67%",
+        textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+        text: "Project Name",
+        left: "7%",
+        top: "41%",
         width: "40%",
-        text: "Project Name",
-        id: "Label_1",
-        textAlign: "center"
+        id: "__alloyId64"
     });
-    $.__views.View_1.add($.__views.Label_1);
-    $.__views.Label_2 = Ti.UI.createLabel({
-        text: "Project Name",
-        left: "53.20%",
-        top: "39.67%",
-        color: "#000000",
+    $.__views.View_1.add($.__views.__alloyId64);
+    $.__views.__alloyId65 = Ti.UI.createLabel({
         font: {
-            fontSize: "3.5%",
+            fontSize: "14",
             fontFamily: "",
             fontStyle: "",
-            fontWeight: ""
+            fontWeight: "normal"
         },
-        height: "5.95%",
+        textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+        text: "Project Name",
+        right: "7%",
+        top: "41%",
         width: "40%",
-        id: "Label_2",
-        textAlign: "center"
+        id: "__alloyId65"
     });
-    $.__views.View_1.add($.__views.Label_2);
+    $.__views.View_1.add($.__views.__alloyId65);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

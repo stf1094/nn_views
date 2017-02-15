@@ -69,21 +69,3 @@
 	"height": "11%",
 	"width": "50%"
 },
-"#Button_3": {
-	"title": "Button",
-	"left": "9.78%",
-	"top": "81.47%",
-	"font": { fontSize: '20', fontFamily: '', fontStyle: '', fontWeight: 'bold'},
-	"width": "39%",
-},
-"#Button_1": {
-	"backgroundColor": "#f7941d",
-	"borderColor": "#000000",
-	"borderWidth": "0",
-	"color": "#ffffff",
-	"font": { fontSize: '20', fontFamily: '', fontStyle: '', fontWeight: ''},
-	"height": "10.02%",
-	"left": "52.15%",
-	"top": "81.34%",
-	"width": "39%",
-}

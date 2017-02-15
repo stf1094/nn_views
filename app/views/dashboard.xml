@@ -20,12 +20,12 @@
 </Alloy>
 --><Alloy>
     <Window>
-        <View left="0%" top="0%">
+        <View height="15%" left="0%" top="0%">
             <ImageView class="dojo-cover" top="0%"/>
-            <Label color="white" right="8%" text="welcome," top="2%"/>
-            <Label class="textfield-med-full" color="white" right="8%" text="STEFAN" textAlign="Ti.UI.TEXT_ALIGNMENT_RIGHT" top="5%"/>
+            <Label color="white" right="8%" text="welcome," top="15%"/>
+            <Label class="textfield-med-full" color="white" right="8%" text="STEFAN" textAlign="Ti.UI.TEXT_ALIGNMENT_RIGHT" top="35%"/>
         </View>
-        <DashboardView center="true" columnCount="2" height="75%" left="0.00%" top="16.5%" width="100%">
+        <DashboardView center="true" columnCount="2" height="75%" left="0.00%" top="15%" width="100%">
             <DashboardItem class="db-contacts"/>
             <DashboardItem class="db-projects"/>
             <DashboardItem class="db-hotlist"/>
@@ -33,5 +33,8 @@
             <DashboardItem class="db-recent"/>
             <DashboardItem class="db-settings"/>
         </DashboardView>
+        <View height="15%" left="0%" top="90%">
+            <ImageView class="dojo-bottom" top="0%"/>
+        </View>
     </Window>
 </Alloy>

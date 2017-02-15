@@ -3282,7 +3282,7 @@
 		},
 		"alloy_generated": {
 			"hash": "b9b62e3e10ab98f03010e1fe8362c390",
-			"mtime": "2017-02-14T17:03:36.000Z",
+			"mtime": "2017-02-15T19:52:49.000Z",
 			"size": 279
 		},
 		"README": {
@@ -3396,9 +3396,9 @@
 			"size": 6227
 		},
 		"images/iphone/dojo-bottom.png": {
-			"hash": "6e920de64bdd3191f04fb601334ca31e",
-			"mtime": "2017-02-13T21:29:43.000Z",
-			"size": 9289
+			"hash": "2526f0e7eded6b1ad05606e6942220b7",
+			"mtime": "2017-02-14T19:25:24.000Z",
+			"size": 8437
 		},
 		"images/iphone/dojo-cover.png": {
 			"hash": "36adeb4ffa1792dddc92e0079d117cf6",
@@ -3415,6 +3415,16 @@
 			"mtime": "2017-02-06T19:56:24.000Z",
 			"size": 926
 		},
+		"images/iphone/project-dashboard-cover.png": {
+			"hash": "c88292060d51913cb07a599be60b3399",
+			"mtime": "2017-02-14T21:33:58.000Z",
+			"size": 12730
+		},
+		"images/iphone/project-db-cover.png": {
+			"hash": "6565619fd696d17ef6b9798137820d2d",
+			"mtime": "2017-02-14T21:39:59.000Z",
+			"size": 12811
+		},
 		"images/iphone/project-holder-image.png": {
 			"hash": "877455c74433114f0e434992b30437fe",
 			"mtime": "2017-02-09T17:10:04.000Z",
@@ -3430,11 +3440,6 @@
 			"mtime": "2017-02-08T18:42:56.000Z",
 			"size": 5197
 		},
-		"images/iphone/projecttemplate.png": {
-			"hash": "263552283465690b6a03bf52f40f6e30",
-			"mtime": "2017-02-08T18:48:57.000Z",
-			"size": 4220
-		},
 		"images/iphone/setgoal.png": {
 			"hash": "eab618b4d202efebee3b9437f33e0e4a",
 			"mtime": "2017-02-08T17:52:13.000Z",
@@ -3449,11 +3454,6 @@
 			"hash": "e2fdb236c1325c5c8d34ce76ef56a41b",
 			"mtime": "2017-02-06T20:09:17.000Z",
 			"size": 13719
-		},
-		"images/iphone/ui-hotlist.png": {
-			"hash": "45f7bda3c7affce5b32e7f6dee87903d",
-			"mtime": "2017-02-12T20:27:12.000Z",
-			"size": 4456
 		},
 		"images/iphone/ui-projects-cover.png": {
 			"hash": "92273377719313a18ca12df83cbd5b55",

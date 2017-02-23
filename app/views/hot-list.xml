@@ -2,7 +2,7 @@
     <Window backgroundColor="white" exitOnClose="true" fullscreen="false" id="win" title="ScrollView Demo">
         <ImageView class="cover" image="/images/iphone/ui-hotlist-cover.png"/>
         <ScrollView height="15%" horizontalBounce="true" id="scrollView" showHorizontalScrollIndicator="true" showVerticalScrollIndicator="true" width="100%">
-            <View class="side-scroll" backgroundColor="#ffffff" height="100%" id="view">
+            <View backgroundColor="#ffffff" class="side-scroll" height="100%" id="view">
                 <ImageView id="ImageView_1" image="/images/iphone/project-shuriken.png"/>
                 <ImageView id="ImageView_2" image="/images/iphone/project-shuriken.png"/>
                 <ImageView id="ImageView_3" image="/images/iphone/project-shuriken.png"/>

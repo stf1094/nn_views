@@ -29,14 +29,14 @@ function Controller() {
         title: "Project Dashboard"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.__alloyId35 = Ti.UI.createImageView({
+    $.__views.__alloyId54 = Ti.UI.createImageView({
         image: "/images/iphone/project-db-cover.png",
         left: "0.00%",
         top: "0.00%",
-        id: "__alloyId35"
+        id: "__alloyId54"
     });
-    $.__views.Window_1.add($.__views.__alloyId35);
-    $.__views.__alloyId36 = Ti.UI.createLabel(function() {
+    $.__views.Window_1.add($.__views.__alloyId54);
+    $.__views.__alloyId55 = Ti.UI.createLabel(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             font: {
@@ -48,7 +48,7 @@ function Controller() {
         });
         Alloy.isTablet && Alloy.deepExtend(true, o, {
             font: {
-                fontSize: "45",
+                fontSize: "35",
                 fontFamily: "",
                 fontStyle: "",
                 fontWeight: "normal"
@@ -59,12 +59,12 @@ function Controller() {
             text: "Project Name",
             textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
             top: "5%",
-            id: "__alloyId36"
+            id: "__alloyId55"
         });
         return o;
     }());
-    $.__views.Window_1.add($.__views.__alloyId36);
-    $.__views.__alloyId37 = Ti.UI.createButton({
+    $.__views.Window_1.add($.__views.__alloyId55);
+    $.__views.__alloyId56 = Ti.UI.createButton({
         height: "8%",
         width: "44%",
         backgroundColor: "#f7941d",
@@ -73,10 +73,10 @@ function Controller() {
         title: "Contacts",
         left: "5%",
         top: "19%",
-        id: "__alloyId37"
+        id: "__alloyId56"
     });
-    $.__views.Window_1.add($.__views.__alloyId37);
-    $.__views.__alloyId38 = Ti.UI.createButton({
+    $.__views.Window_1.add($.__views.__alloyId56);
+    $.__views.__alloyId57 = Ti.UI.createButton({
         height: "8%",
         width: "44%",
         backgroundColor: "#f7941d",
@@ -85,18 +85,18 @@ function Controller() {
         title: "Hot List",
         right: "5%",
         top: "19%",
-        id: "__alloyId38"
+        id: "__alloyId57"
     });
-    $.__views.Window_1.add($.__views.__alloyId38);
-    $.__views.__alloyId39 = Ti.UI.createView({
+    $.__views.Window_1.add($.__views.__alloyId57);
+    $.__views.__alloyId58 = Ti.UI.createView({
         height: "8%",
         top: "30%",
         width: "100%",
         backgroundColor: "#ececec",
-        id: "__alloyId39"
+        id: "__alloyId58"
     });
-    $.__views.Window_1.add($.__views.__alloyId39);
-    $.__views.__alloyId40 = Ti.UI.createLabel({
+    $.__views.Window_1.add($.__views.__alloyId58);
+    $.__views.__alloyId59 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
@@ -105,18 +105,18 @@ function Controller() {
         },
         textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
         text: "TASKS",
-        id: "__alloyId40"
+        id: "__alloyId59"
     });
-    $.__views.__alloyId39.add($.__views.__alloyId40);
-    $.__views.__alloyId41 = Ti.UI.createView({
+    $.__views.__alloyId58.add($.__views.__alloyId59);
+    $.__views.__alloyId60 = Ti.UI.createView({
         height: "8%",
         top: "65%",
         width: "100%",
         backgroundColor: "#ececec",
-        id: "__alloyId41"
+        id: "__alloyId60"
     });
-    $.__views.Window_1.add($.__views.__alloyId41);
-    $.__views.__alloyId42 = Ti.UI.createLabel({
+    $.__views.Window_1.add($.__views.__alloyId60);
+    $.__views.__alloyId61 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
@@ -125,9 +125,9 @@ function Controller() {
         },
         textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
         text: "GOALS",
-        id: "__alloyId42"
+        id: "__alloyId61"
     });
-    $.__views.__alloyId41.add($.__views.__alloyId42);
+    $.__views.__alloyId60.add($.__views.__alloyId61);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

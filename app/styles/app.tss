@@ -1198,6 +1198,31 @@ overrode the settings with other TSS, XML, or JS settings:
 	"width": "100%",
 	"height": "100%"
 },
+/*Views*/
+".view500": {
+	"height": "500px",
+	"width": "750px"
+},
+".view500[platform=ios formFactor=tablet]": {
+	"height": "500px",
+	"width": "850px"
+},
+".view600": {
+	"height": "600px",
+	"width": "750px"
+},
+".view600[platform=ios formFactor=tablet]": {
+	"height": "600px",
+	"width": "850px"
+},
+".view700": {
+	"height": "700px",
+	"width": "750px"
+},
+".view700[platform=ios formFactor=tablet]": {
+	"height": "700px",
+	"width": "850px"
+},
 /*Buttons*/
 ".button1": {
 	"left": "9.78%",
@@ -1300,8 +1325,43 @@ overrode the settings with other TSS, XML, or JS settings:
 	"font": {fontSize:'30',fontFamily:'',fontStyle:'',fontWeight:'normal'}
 },
 ".textfield-med-full[platform=ios formFactor=tablet]": {
-	"font": {fontSize:'45',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+	"font": {fontSize:'35',fontFamily:'',fontStyle:'',fontWeight:'normal'}
 },
+/*Textfield with widths (for text entry and forms)*/
+".textfield600": {
+	"width": "600px",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"left": "10%",
+	"borderRadius": "10"
+},
+".textfield600[platform=ios formFactor=tablet]": {
+	"width": "80%",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10"
+},
+
+/*Font sizes*/
+".font14": {
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+},
+".font16": {
+	"font": {fontSize:'16',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+},
+".font20": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+},
+
+
+/*TextAreas (for sending messages and emails)*/
+".textarea": {
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+}, 
+".textarea[platform=android]": {
+	"font": {fontSize:'16',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+}, 
+
 /*LABELS*/
 ".label-center": {
 	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'},
@@ -1388,6 +1448,7 @@ overrode the settings with other TSS, XML, or JS settings:
 },
 ".db-settings[platform=ios formFactor=tablet]": {
 },
+/*Hot List Scroller*/
 ".side-scroll": {
 	"width": "750"
 },

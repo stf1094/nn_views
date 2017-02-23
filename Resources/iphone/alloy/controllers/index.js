@@ -24,7 +24,7 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
-    $.__views.__alloyId34 = Alloy.createController("pd", {
+    $.__views.__alloyId34 = Alloy.createController("newmessage", {
         id: "__alloyId34"
     });
     $.__views.index = Ti.UI.iOS.createNavigationWindow({

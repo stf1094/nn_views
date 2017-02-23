@@ -87,7 +87,7 @@ function Controller() {
         id: "Label_3"
     });
     $.__views.View_1.add($.__views.Label_3);
-    $.__views.__alloyId59 = Ti.UI.createButton({
+    $.__views.__alloyId78 = Ti.UI.createButton({
         height: "8%",
         left: "10%",
         selectedColor: "#193341",
@@ -105,10 +105,10 @@ function Controller() {
         color: "#193341",
         title: "Personal",
         top: "57%",
-        id: "__alloyId59"
+        id: "__alloyId78"
     });
-    $.__views.View_1.add($.__views.__alloyId59);
-    $.__views.__alloyId60 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId78);
+    $.__views.__alloyId79 = Ti.UI.createButton({
         height: "8%",
         left: "10%",
         selectedColor: "#193341",
@@ -126,10 +126,10 @@ function Controller() {
         color: "#193341",
         title: "Professional",
         top: "68%",
-        id: "__alloyId60"
+        id: "__alloyId79"
     });
-    $.__views.View_1.add($.__views.__alloyId60);
-    $.__views.__alloyId61 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId79);
+    $.__views.__alloyId80 = Ti.UI.createButton({
         height: "10%",
         width: "39%",
         backgroundColor: "#f7941d",
@@ -139,10 +139,10 @@ function Controller() {
         title: "NEXT",
         left: "52%",
         top: "83%",
-        id: "__alloyId61"
+        id: "__alloyId80"
     });
-    $.__views.View_1.add($.__views.__alloyId61);
-    $.__views.__alloyId62 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId80);
+    $.__views.__alloyId81 = Ti.UI.createButton({
         height: "10%",
         width: "39%",
         backgroundColor: "#f7941d",
@@ -152,9 +152,9 @@ function Controller() {
         title: "BACK",
         left: "10%",
         top: "83%",
-        id: "__alloyId62"
+        id: "__alloyId81"
     });
-    $.__views.View_1.add($.__views.__alloyId62);
+    $.__views.View_1.add($.__views.__alloyId81);
     $.__views.ImageView_2 = Ti.UI.createImageView({
         left: "9.48%",
         top: "13.30%",

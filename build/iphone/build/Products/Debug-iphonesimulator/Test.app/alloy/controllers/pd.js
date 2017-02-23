@@ -26,18 +26,17 @@ function Controller() {
     var exports = {};
     $.__views.Window_1 = Ti.UI.createWindow({
         id: "Window_1",
-        layout: "vertical",
         title: "Project Dashboard"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.__alloyId35 = Ti.UI.createImageView({
+    $.__views.__alloyId48 = Ti.UI.createImageView({
         image: "/images/iphone/project-db-cover.png",
         left: "0.00%",
         top: "0.00%",
-        id: "__alloyId35"
+        id: "__alloyId48"
     });
-    $.__views.Window_1.add($.__views.__alloyId35);
-    $.__views.__alloyId36 = Ti.UI.createLabel(function() {
+    $.__views.Window_1.add($.__views.__alloyId48);
+    $.__views.__alloyId49 = Ti.UI.createLabel(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             font: {
@@ -49,7 +48,7 @@ function Controller() {
         });
         Alloy.isTablet && Alloy.deepExtend(true, o, {
             font: {
-                fontSize: "45",
+                fontSize: "35",
                 fontFamily: "",
                 fontStyle: "",
                 fontWeight: "normal"
@@ -59,78 +58,76 @@ function Controller() {
             color: "white",
             text: "Project Name",
             textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
-            top: "-10%",
-            id: "__alloyId36"
+            top: "5%",
+            id: "__alloyId49"
         });
         return o;
     }());
-    $.__views.Window_1.add($.__views.__alloyId36);
-    $.__views.__alloyId37 = Ti.UI.createView({
-        height: "5%",
-        top: "5%",
-        width: "100%",
-        id: "__alloyId37"
-    });
-    $.__views.Window_1.add($.__views.__alloyId37);
-    $.__views.__alloyId38 = Ti.UI.createLabel({
-        font: {
-            fontSize: "14",
-            fontFamily: "",
-            fontStyle: "",
-            fontWeight: "normal"
-        },
-        textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+    $.__views.Window_1.add($.__views.__alloyId49);
+    $.__views.__alloyId50 = Ti.UI.createButton({
+        height: "8%",
+        width: "44%",
+        backgroundColor: "#f7941d",
+        borderRadius: "10",
+        color: "#ffffff",
+        title: "Contacts",
         left: "5%",
-        text: "Contacts",
-        id: "__alloyId38"
+        top: "19%",
+        id: "__alloyId50"
     });
-    $.__views.__alloyId37.add($.__views.__alloyId38);
-    $.__views.__alloyId39 = Ti.UI.createLabel({
-        font: {
-            fontSize: "14",
-            fontFamily: "",
-            fontStyle: "",
-            fontWeight: "normal"
-        },
-        textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+    $.__views.Window_1.add($.__views.__alloyId50);
+    $.__views.__alloyId51 = Ti.UI.createButton({
+        height: "8%",
+        width: "44%",
+        backgroundColor: "#f7941d",
+        borderRadius: "10",
+        color: "#ffffff",
+        title: "Hot List",
         right: "5%",
-        text: "See All",
-        id: "__alloyId39"
+        top: "19%",
+        id: "__alloyId51"
     });
-    $.__views.__alloyId37.add($.__views.__alloyId39);
-    $.__views.__alloyId40 = Ti.UI.createView({
-        height: "5%",
-        top: "2%",
+    $.__views.Window_1.add($.__views.__alloyId51);
+    $.__views.__alloyId52 = Ti.UI.createView({
+        height: "8%",
+        top: "30%",
         width: "100%",
-        id: "__alloyId40"
+        backgroundColor: "#ececec",
+        id: "__alloyId52"
     });
-    $.__views.Window_1.add($.__views.__alloyId40);
-    $.__views.__alloyId41 = Ti.UI.createLabel({
+    $.__views.Window_1.add($.__views.__alloyId52);
+    $.__views.__alloyId53 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
             fontStyle: "",
             fontWeight: "normal"
         },
-        textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
-        left: "5%",
-        text: "Hot List",
-        id: "__alloyId41"
+        textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+        text: "TASKS",
+        id: "__alloyId53"
     });
-    $.__views.__alloyId40.add($.__views.__alloyId41);
-    $.__views.__alloyId42 = Ti.UI.createLabel({
+    $.__views.__alloyId52.add($.__views.__alloyId53);
+    $.__views.__alloyId54 = Ti.UI.createView({
+        height: "8%",
+        top: "65%",
+        width: "100%",
+        backgroundColor: "#ececec",
+        id: "__alloyId54"
+    });
+    $.__views.Window_1.add($.__views.__alloyId54);
+    $.__views.__alloyId55 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
             fontStyle: "",
             fontWeight: "normal"
         },
-        textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
-        right: "5%",
-        text: "See All",
-        id: "__alloyId42"
+        textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+        text: "GOALS",
+        id: "__alloyId55"
     });
-    $.__views.__alloyId40.add($.__views.__alloyId42);
+    $.__views.__alloyId54.add($.__views.__alloyId55);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

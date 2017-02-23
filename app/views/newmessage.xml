@@ -1,0 +1,15 @@
+<Alloy>
+    <Window>
+        <View backgroundColor="#f9f9f9" height="300px" top="0%" width="100%">
+            <Label class="font14" color="#444444" text="To:" left="5%"/>
+            <Label class="font14" color="#444444" text="Send Via" top="76%" left="5%"/>
+            <Label text="New Message" fontWeight="bold" top="10%"/>
+            <Label text="Cancel" color="#444444" top="10%" right="5%"/>
+            <TextField width="600px" left="15%" top="35%" color="#444444" backgroundColor="#f9f9f9" height="90px"></TextField>
+            <ImageView image="/images/iphone/divider-line-grey.png" top="33%" width="Titanium.UI.FILL"/>
+        <ImageView image="/images/iphone/divider-line-grey.png" width="Titanium.UI.FILL" top="66%"/>
+        <ImageView image="/images/iphone/divider-line-grey.png" width="Titanium.UI.FILL" top="299px"/>
+        </View>
+        <TextArea class="textarea" value="Compose Message" top="27%" width="90%" height="30%"></TextArea>
+    </Window>
+</Alloy>

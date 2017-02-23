@@ -1,5 +1,5 @@
 <Alloy>
 	 <NavigationWindow platform="ios" >
-        <Require src="pd"/>
+        <Require src="newmessage"/>
     </NavigationWindow>
 </Alloy>

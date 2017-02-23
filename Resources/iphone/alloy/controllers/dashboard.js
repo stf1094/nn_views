@@ -63,7 +63,7 @@ function Controller() {
         });
         Alloy.isTablet && Alloy.deepExtend(true, o, {
             font: {
-                fontSize: "45",
+                fontSize: "35",
                 fontFamily: "",
                 fontStyle: "",
                 fontWeight: "normal"

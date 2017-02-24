@@ -9,7 +9,7 @@ function __processArg(obj, key) {
 
 function Controller() {
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
-    this.__controllerPath = "edit-task";
+    this.__controllerPath = "edit-goal";
     this.args = arguments[0] || {};
     if (arguments[0]) {
         {
@@ -28,26 +28,26 @@ function Controller() {
         id: "Window_1"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.__alloyId33 = Ti.UI.createView({
+    $.__views.__alloyId18 = Ti.UI.createView({
         layout: "vertical",
-        id: "__alloyId33"
+        id: "__alloyId18"
     });
-    $.__views.Window_1.add($.__views.__alloyId33);
-    $.__views.__alloyId34 = Ti.UI.createView({
+    $.__views.Window_1.add($.__views.__alloyId18);
+    $.__views.__alloyId19 = Ti.UI.createView({
         top: 0,
         backgroundColor: "f9f9f9",
         height: "150px",
-        id: "__alloyId34"
+        id: "__alloyId19"
     });
-    $.__views.__alloyId33.add($.__views.__alloyId34);
-    $.__views.__alloyId35 = Ti.UI.createLabel({
+    $.__views.__alloyId18.add($.__views.__alloyId19);
+    $.__views.__alloyId20 = Ti.UI.createLabel({
         fontWeight: "bold",
-        text: "Edit Task",
+        text: "Edit Goal",
         top: "10%",
-        id: "__alloyId35"
+        id: "__alloyId20"
     });
-    $.__views.__alloyId34.add($.__views.__alloyId35);
-    $.__views.__alloyId36 = Ti.UI.createLabel({
+    $.__views.__alloyId19.add($.__views.__alloyId20);
+    $.__views.__alloyId21 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
@@ -58,10 +58,10 @@ function Controller() {
         left: "5%",
         text: "Cancel",
         top: "10%",
-        id: "__alloyId36"
+        id: "__alloyId21"
     });
-    $.__views.__alloyId34.add($.__views.__alloyId36);
-    $.__views.__alloyId37 = Ti.UI.createLabel({
+    $.__views.__alloyId19.add($.__views.__alloyId21);
+    $.__views.__alloyId22 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
@@ -72,15 +72,15 @@ function Controller() {
         right: "5%",
         text: "Done",
         top: "10%",
-        id: "__alloyId37"
+        id: "__alloyId22"
     });
-    $.__views.__alloyId34.add($.__views.__alloyId37);
-    $.__views.__alloyId38 = Ti.UI.createView({
+    $.__views.__alloyId19.add($.__views.__alloyId22);
+    $.__views.__alloyId23 = Ti.UI.createView({
         height: "70px",
-        id: "__alloyId38"
+        id: "__alloyId23"
     });
-    $.__views.__alloyId33.add($.__views.__alloyId38);
-    $.__views.__alloyId39 = Ti.UI.createLabel({
+    $.__views.__alloyId18.add($.__views.__alloyId23);
+    $.__views.__alloyId24 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
@@ -88,35 +88,35 @@ function Controller() {
             fontWeight: "normal"
         },
         textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
-        text: "Task",
+        text: "Goal",
         width: "90%",
-        id: "__alloyId39"
+        id: "__alloyId24"
     });
-    $.__views.__alloyId38.add($.__views.__alloyId39);
-    $.__views.__alloyId40 = Ti.UI.createView({
+    $.__views.__alloyId23.add($.__views.__alloyId24);
+    $.__views.__alloyId25 = Ti.UI.createView({
         height: "90px",
-        id: "__alloyId40"
+        id: "__alloyId25"
     });
-    $.__views.__alloyId33.add($.__views.__alloyId40);
-    $.__views.__alloyId41 = Ti.UI.createTextField({
+    $.__views.__alloyId18.add($.__views.__alloyId25);
+    $.__views.__alloyId26 = Ti.UI.createTextField({
         backgroundColor: "#f9f9f9",
         color: "#444444",
         height: "90px",
         left: "5%",
         top: 5,
         width: "650px",
-        id: "__alloyId41"
+        id: "__alloyId26"
     });
-    $.__views.__alloyId40.add($.__views.__alloyId41);
-    $.__views.__alloyId42 = Ti.UI.createView({
+    $.__views.__alloyId25.add($.__views.__alloyId26);
+    $.__views.__alloyId27 = Ti.UI.createView({
         layout: "horizontal",
         height: "100px",
         width: Ti.UI.SIZE,
         top: 20,
-        id: "__alloyId42"
+        id: "__alloyId27"
     });
-    $.__views.__alloyId33.add($.__views.__alloyId42);
-    $.__views.__alloyId43 = Ti.UI.createLabel({
+    $.__views.__alloyId18.add($.__views.__alloyId27);
+    $.__views.__alloyId28 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
@@ -124,33 +124,26 @@ function Controller() {
             fontWeight: "normal"
         },
         text: "Start Date",
-        id: "__alloyId43"
+        id: "__alloyId28"
     });
-    $.__views.__alloyId42.add($.__views.__alloyId43);
-    $.__views.__alloyId44 = Ti.UI.createImageView({
-        height: "90px",
-        image: "/images/iphone/calendar-icon.png",
-        left: 15,
-        width: "90px",
-        id: "__alloyId44"
-    });
-    $.__views.__alloyId42.add($.__views.__alloyId44);
-    $.__views.__alloyId45 = Ti.UI.createTextField({
+    $.__views.__alloyId27.add($.__views.__alloyId28);
+    $.__views.__alloyId29 = Ti.UI.createTextField({
+        left: 10,
         borderColor: "#444444",
         height: "90px",
         width: "300px",
-        id: "__alloyId45"
+        id: "__alloyId29"
     });
-    $.__views.__alloyId42.add($.__views.__alloyId45);
-    $.__views.__alloyId46 = Ti.UI.createView({
+    $.__views.__alloyId27.add($.__views.__alloyId29);
+    $.__views.__alloyId30 = Ti.UI.createView({
         layout: "horizontal",
         height: "100px",
         width: Ti.UI.SIZE,
         top: 10,
-        id: "__alloyId46"
+        id: "__alloyId30"
     });
-    $.__views.__alloyId33.add($.__views.__alloyId46);
-    $.__views.__alloyId47 = Ti.UI.createLabel({
+    $.__views.__alloyId18.add($.__views.__alloyId30);
+    $.__views.__alloyId31 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
@@ -158,24 +151,17 @@ function Controller() {
             fontWeight: "normal"
         },
         text: "End Date",
-        id: "__alloyId47"
+        id: "__alloyId31"
     });
-    $.__views.__alloyId46.add($.__views.__alloyId47);
-    $.__views.__alloyId48 = Ti.UI.createImageView({
-        height: "90px",
-        image: "/images/iphone/calendar-icon.png",
+    $.__views.__alloyId30.add($.__views.__alloyId31);
+    $.__views.__alloyId32 = Ti.UI.createTextField({
         left: 15,
-        width: "90px",
-        id: "__alloyId48"
-    });
-    $.__views.__alloyId46.add($.__views.__alloyId48);
-    $.__views.__alloyId49 = Ti.UI.createTextField({
         borderColor: "#444444",
         height: "90px",
         width: "300px",
-        id: "__alloyId49"
+        id: "__alloyId32"
     });
-    $.__views.__alloyId46.add($.__views.__alloyId49);
+    $.__views.__alloyId30.add($.__views.__alloyId32);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

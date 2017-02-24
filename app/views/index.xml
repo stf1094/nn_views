@@ -1,5 +1,5 @@
 <Alloy>
 	 <NavigationWindow platform="ios" >
-        <Require src="edit-task"/>
+        <Require src="task-list"/>
     </NavigationWindow>
 </Alloy>

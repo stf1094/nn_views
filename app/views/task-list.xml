@@ -1,21 +1,25 @@
 <Alloy>
     <Window id="Window_1" title="Tasks">
-        <View id="View_1">
-            <Label id="Label_1">Project Name</Label>/&amp;amp;gt;
+        <ImageView class="top span-width" image="/images/iphone/project-dashboard-cover.png"/>
+        <Label color="white" class="textfield-med-full" text="Project Name" top="30"/>
+        <View class="vgroup" top="100">
+            <View height="50">
+                <Label class="label-center font20" text="TASKS"/>
+            </View>
+            <View height="90">
+                <Button id="Button_1">Add Task</Button>
+        		<TextField id="TextField_1"/>
+            </View>
+            <ListView>
+                <ListSection>
+                    <ListItem title="Task 1"/>
+                    <ListItem title="Task 2"/>
+                    <ListItem title="Task 3"/>
+                    <ListItem title="Task 4"/>
+                    <ListItem title="Task 5"/>
+                    <ListItem title="Task 6"/>
+                </ListSection>
+            </ListView>
         </View>
-        <View id="View_2">
-            <Button id="Button_1">Add Task</Button>/&amp;gt;
-        <TextField id="TextField_1"/>
-        </View>
-        <ListView top="22%">
-            <ListSection>
-                <ListItem title="Task 1"/>
-                <ListItem title="Task 2"/>
-                <ListItem title="Task 3"/>
-                <ListItem title="Task 4"/>
-                <ListItem title="Task 5"/>
-                <ListItem title="Task 6"/>
-            </ListSection>
-        </ListView>
     </Window>
 </Alloy>

@@ -30,13 +30,13 @@ function Controller() {
         backgroundColor: "#f3f3f3"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.__alloyId46 = Ti.UI.createImageView({
+    $.__views.__alloyId67 = Ti.UI.createImageView({
         image: "/images/thenetworkninjas-logo.png",
         top: 30,
-        id: "__alloyId46"
+        id: "__alloyId67"
     });
-    $.__views.Window_1.add($.__views.__alloyId46);
-    $.__views.__alloyId47 = Ti.UI.createLabel(function() {
+    $.__views.Window_1.add($.__views.__alloyId67);
+    $.__views.__alloyId68 = Ti.UI.createLabel(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             font: {
@@ -59,12 +59,12 @@ function Controller() {
             text: "Log In",
             top: "24%",
             width: "100%",
-            id: "__alloyId47"
+            id: "__alloyId68"
         });
         return o;
     }());
-    $.__views.Window_1.add($.__views.__alloyId47);
-    $.__views.__alloyId48 = Ti.UI.createView(function() {
+    $.__views.Window_1.add($.__views.__alloyId68);
+    $.__views.__alloyId69 = Ti.UI.createView(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             height: "700px",
@@ -78,12 +78,12 @@ function Controller() {
             top: "30%",
             backgroundColor: "white",
             borderColor: "#e1e1e1",
-            id: "__alloyId48"
+            id: "__alloyId69"
         });
         return o;
     }());
-    $.__views.Window_1.add($.__views.__alloyId48);
-    $.__views.__alloyId49 = Ti.UI.createTextField(function() {
+    $.__views.Window_1.add($.__views.__alloyId69);
+    $.__views.__alloyId70 = Ti.UI.createTextField(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             width: "600px",
@@ -100,12 +100,12 @@ function Controller() {
         });
         Alloy.deepExtend(true, o, {
             top: "14%",
-            id: "__alloyId49"
+            id: "__alloyId70"
         });
         return o;
     }());
-    $.__views.__alloyId48.add($.__views.__alloyId49);
-    $.__views.__alloyId50 = Ti.UI.createTextField(function() {
+    $.__views.__alloyId69.add($.__views.__alloyId70);
+    $.__views.__alloyId71 = Ti.UI.createTextField(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             width: "600px",
@@ -122,12 +122,12 @@ function Controller() {
         });
         Alloy.deepExtend(true, o, {
             top: "31%",
-            id: "__alloyId50"
+            id: "__alloyId71"
         });
         return o;
     }());
-    $.__views.__alloyId48.add($.__views.__alloyId50);
-    $.__views.__alloyId51 = Ti.UI.createButton({
+    $.__views.__alloyId69.add($.__views.__alloyId71);
+    $.__views.__alloyId72 = Ti.UI.createButton({
         left: "9.78%",
         width: "80%",
         height: "106px",
@@ -137,10 +137,10 @@ function Controller() {
         selectedBackgroundColor: "#e5790e",
         title: "LOG IN",
         top: "50%",
-        id: "__alloyId51"
+        id: "__alloyId72"
     });
-    $.__views.__alloyId48.add($.__views.__alloyId51);
-    $.__views.__alloyId52 = Ti.UI.createButton({
+    $.__views.__alloyId69.add($.__views.__alloyId72);
+    $.__views.__alloyId73 = Ti.UI.createButton({
         left: "9.78%",
         width: "80%",
         height: "106px",
@@ -150,10 +150,10 @@ function Controller() {
         selectedBackgroundColor: "#e5790e",
         title: "SIGN UP",
         top: "68%",
-        id: "__alloyId52"
+        id: "__alloyId73"
     });
-    $.__views.__alloyId48.add($.__views.__alloyId52);
-    $.__views.__alloyId53 = Ti.UI.createLabel({
+    $.__views.__alloyId69.add($.__views.__alloyId73);
+    $.__views.__alloyId74 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
@@ -163,9 +163,9 @@ function Controller() {
         textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
         text: "Forgot Password?",
         top: "90%",
-        id: "__alloyId53"
+        id: "__alloyId74"
     });
-    $.__views.__alloyId48.add($.__views.__alloyId53);
+    $.__views.__alloyId69.add($.__views.__alloyId74);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

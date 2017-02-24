@@ -24,11 +24,11 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
-    $.__views.__alloyId45 = Alloy.createController("edit-task", {
-        id: "__alloyId45"
+    $.__views.__alloyId66 = Alloy.createController("task-list", {
+        id: "__alloyId66"
     });
     $.__views.index = Ti.UI.iOS.createNavigationWindow({
-        window: $.__views.__alloyId45.getViewEx({
+        window: $.__views.__alloyId66.getViewEx({
             recurse: true
         }),
         id: "index"

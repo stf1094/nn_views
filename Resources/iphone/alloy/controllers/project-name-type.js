@@ -87,7 +87,7 @@ function Controller() {
         id: "Label_3"
     });
     $.__views.View_1.add($.__views.Label_3);
-    $.__views.__alloyId88 = Ti.UI.createButton({
+    $.__views.__alloyId109 = Ti.UI.createButton({
         height: "8%",
         left: "10%",
         selectedColor: "#193341",
@@ -105,10 +105,10 @@ function Controller() {
         color: "#193341",
         title: "Personal",
         top: "57%",
-        id: "__alloyId88"
+        id: "__alloyId109"
     });
-    $.__views.View_1.add($.__views.__alloyId88);
-    $.__views.__alloyId89 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId109);
+    $.__views.__alloyId110 = Ti.UI.createButton({
         height: "8%",
         left: "10%",
         selectedColor: "#193341",
@@ -126,10 +126,10 @@ function Controller() {
         color: "#193341",
         title: "Professional",
         top: "68%",
-        id: "__alloyId89"
+        id: "__alloyId110"
     });
-    $.__views.View_1.add($.__views.__alloyId89);
-    $.__views.__alloyId90 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId110);
+    $.__views.__alloyId111 = Ti.UI.createButton({
         height: "10%",
         width: "39%",
         backgroundColor: "#f7941d",
@@ -139,10 +139,10 @@ function Controller() {
         title: "NEXT",
         left: "52%",
         top: "83%",
-        id: "__alloyId90"
+        id: "__alloyId111"
     });
-    $.__views.View_1.add($.__views.__alloyId90);
-    $.__views.__alloyId91 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId111);
+    $.__views.__alloyId112 = Ti.UI.createButton({
         height: "10%",
         width: "39%",
         backgroundColor: "#f7941d",
@@ -152,9 +152,9 @@ function Controller() {
         title: "BACK",
         left: "10%",
         top: "83%",
-        id: "__alloyId91"
+        id: "__alloyId112"
     });
-    $.__views.View_1.add($.__views.__alloyId91);
+    $.__views.View_1.add($.__views.__alloyId112);
     $.__views.ImageView_2 = Ti.UI.createImageView({
         left: "9.48%",
         top: "13.30%",

@@ -39,17 +39,15 @@
 	"borderRadius": "10",
 	"borderWidth": "2",
 	"color": "#193341",
-	"height": "10%%",
+	"height": "90px",
 	"left": "66.13%",
 	"top": "3.21%",
 	"width": "30%"
 },
 "#TextField_1": {
 	"width": "60%",
-	"height": "10.09%",
+	"height": "90px",
 	"borderRadius": "10",
-	"borderColor": "#E5E5E5",
-	"borderWidth": "1",
 	"left": "3.73%",
 	"top": "3.21%",
 	"backgroundColor": "#ececec"

@@ -3,13 +3,13 @@
         <View class="vgroup">
             <!--Header-->
             <View backgroundColor="f9f9f9" class="top" height="150px">
-                <Label fontWeight="bold" text="Edit Task" top="10%"/>
+                <Label fontWeight="bold" text="Edit Goal" top="10%"/>
                 <Label class="font14" color="#444444" left="5%" text="Cancel" top="10%"/>
                 <Label class="font14" color="#f7941d" right="5%" text="Done" top="10%"/>
             </View>
-            <!--Task Label-->
+            <!--Goal Label-->
             <View height="70px">
-                <Label class="label-left" text="Task" width="90%"/>
+                <Label class="label-left" text="Goal" width="90%"/>
             </View>
             <!--Enter Task Text Field-->
             <View height="90px">
@@ -18,13 +18,11 @@
             <!--date entries, start/end-->
             <View class="hgroup size" height="100px" top="20">
                 <Label class="font14" text="Start Date"/>
-                <ImageView height="90px" image="/images/iphone/calendar-icon.png" left="15" width="90px"/>
-                <TextField borderColor="#444444" height="90px" width="300px"/>
+                <TextField class="left-buffer" borderColor="#444444" height="90px" width="300px"/>
             </View>
             <View class="hgroup size" height="100px" top="10">
                 <Label class="font14" text="End Date"/>
-                <ImageView height="90px" image="/images/iphone/calendar-icon.png" left="15" width="90px"></ImageView>
-                <TextField borderColor="#444444" height="90px" width="300px"/>
+                <TextField left="15" borderColor="#444444" height="90px" width="300px"/>
             </View>
         </View>
     </Window>

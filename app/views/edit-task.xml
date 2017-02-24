@@ -1,0 +1,23 @@
+<Alloy>
+    <Window id="Window_1">
+    	<View class="vgroup">
+    		<!--Header-->
+        	<View class="top" backgroundColor="f9f9f9" height="150px">
+        		<Label text="Edit Task" fontWeight="bold" top="10%"/>
+            	<Label class="font14" text="Cancel" color="#444444" top="10%" left="5%"/>
+            	<Label class="font14" text="Done" color="#f7941d" top="10%" right="5%"/>
+        	</View>
+        	<!--Task Label-->
+        	<View height="70px">
+        		<Label class="label-left" width="90%" text="Task"/>
+        	</View>
+        	<!--Enter Task Text Field-->
+        	<View>
+        		<TextField width="650px" left="5%" top="5" color="#444444" backgroundColor="#f9f9f9" height="90px"></TextField>
+        	</View>
+        	<!--Header-->
+        	<View></View>
+        	<View></View>
+        </View>
+    </Window>
+</Alloy>

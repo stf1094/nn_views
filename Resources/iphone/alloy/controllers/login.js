@@ -30,13 +30,13 @@ function Controller() {
         backgroundColor: "#f3f3f3"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.__alloyId36 = Ti.UI.createImageView({
+    $.__views.__alloyId46 = Ti.UI.createImageView({
         image: "/images/thenetworkninjas-logo.png",
-        top: "12%",
-        id: "__alloyId36"
+        top: 30,
+        id: "__alloyId46"
     });
-    $.__views.Window_1.add($.__views.__alloyId36);
-    $.__views.__alloyId37 = Ti.UI.createLabel(function() {
+    $.__views.Window_1.add($.__views.__alloyId46);
+    $.__views.__alloyId47 = Ti.UI.createLabel(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             font: {
@@ -48,7 +48,7 @@ function Controller() {
         });
         Alloy.isTablet && Alloy.deepExtend(true, o, {
             font: {
-                fontSize: "35",
+                fontSize: "45",
                 fontFamily: "",
                 fontStyle: "",
                 fontWeight: "normal"
@@ -59,12 +59,12 @@ function Controller() {
             text: "Log In",
             top: "24%",
             width: "100%",
-            id: "__alloyId37"
+            id: "__alloyId47"
         });
         return o;
     }());
-    $.__views.Window_1.add($.__views.__alloyId37);
-    $.__views.__alloyId38 = Ti.UI.createView(function() {
+    $.__views.Window_1.add($.__views.__alloyId47);
+    $.__views.__alloyId48 = Ti.UI.createView(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             height: "700px",
@@ -78,12 +78,12 @@ function Controller() {
             top: "30%",
             backgroundColor: "white",
             borderColor: "#e1e1e1",
-            id: "__alloyId38"
+            id: "__alloyId48"
         });
         return o;
     }());
-    $.__views.Window_1.add($.__views.__alloyId38);
-    $.__views.__alloyId39 = Ti.UI.createTextField(function() {
+    $.__views.Window_1.add($.__views.__alloyId48);
+    $.__views.__alloyId49 = Ti.UI.createTextField(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             width: "600px",
@@ -100,12 +100,12 @@ function Controller() {
         });
         Alloy.deepExtend(true, o, {
             top: "14%",
-            id: "__alloyId39"
+            id: "__alloyId49"
         });
         return o;
     }());
-    $.__views.__alloyId38.add($.__views.__alloyId39);
-    $.__views.__alloyId40 = Ti.UI.createTextField(function() {
+    $.__views.__alloyId48.add($.__views.__alloyId49);
+    $.__views.__alloyId50 = Ti.UI.createTextField(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             width: "600px",
@@ -122,12 +122,12 @@ function Controller() {
         });
         Alloy.deepExtend(true, o, {
             top: "31%",
-            id: "__alloyId40"
+            id: "__alloyId50"
         });
         return o;
     }());
-    $.__views.__alloyId38.add($.__views.__alloyId40);
-    $.__views.__alloyId41 = Ti.UI.createButton({
+    $.__views.__alloyId48.add($.__views.__alloyId50);
+    $.__views.__alloyId51 = Ti.UI.createButton({
         left: "9.78%",
         width: "80%",
         height: "106px",
@@ -137,10 +137,10 @@ function Controller() {
         selectedBackgroundColor: "#e5790e",
         title: "LOG IN",
         top: "50%",
-        id: "__alloyId41"
+        id: "__alloyId51"
     });
-    $.__views.__alloyId38.add($.__views.__alloyId41);
-    $.__views.__alloyId42 = Ti.UI.createButton({
+    $.__views.__alloyId48.add($.__views.__alloyId51);
+    $.__views.__alloyId52 = Ti.UI.createButton({
         left: "9.78%",
         width: "80%",
         height: "106px",
@@ -150,10 +150,10 @@ function Controller() {
         selectedBackgroundColor: "#e5790e",
         title: "SIGN UP",
         top: "68%",
-        id: "__alloyId42"
+        id: "__alloyId52"
     });
-    $.__views.__alloyId38.add($.__views.__alloyId42);
-    $.__views.__alloyId43 = Ti.UI.createLabel({
+    $.__views.__alloyId48.add($.__views.__alloyId52);
+    $.__views.__alloyId53 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
@@ -163,9 +163,9 @@ function Controller() {
         textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
         text: "Forgot Password?",
         top: "90%",
-        id: "__alloyId43"
+        id: "__alloyId53"
     });
-    $.__views.__alloyId38.add($.__views.__alloyId43);
+    $.__views.__alloyId48.add($.__views.__alloyId53);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

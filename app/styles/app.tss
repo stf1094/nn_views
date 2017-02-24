@@ -1198,31 +1198,40 @@ overrode the settings with other TSS, XML, or JS settings:
 	"width": "100%",
 	"height": "100%"
 },
-/*Views*/
-".view500": {
-	"height": "500px",
-	"width": "750px"
+/* Layouts and Fills */
+".vgroup": {
+	"layout": "vertical"
 },
-".view500[platform=ios formFactor=tablet]": {
-	"height": "500px",
-	"width": "850px"
+".hgroup": {
+	"layout": "horizontal"
 },
-".view600": {
-	"height": "600px",
-	"width": "750px"
+".buffer": {
+	"top": 10,
+	"left": 10,
+	"right": 10,
+	"bottom": 10
 },
-".view600[platform=ios formFactor=tablet]": {
-	"height": "600px",
-	"width": "850px"
+".top-buffer": {
+	"top": 10
 },
-".view700": {
-	"height": "700px",
-	"width": "750px"
+".left-buffer": {
+	"left": 10
 },
-".view700[platform=ios formFactor=tablet]": {
-	"height": "700px",
-	"width": "850px"
+".right-buffer": {
+	"right": 10
 },
+".bottom-buffer": {
+	"bottom": 10
+},
+".fill": {
+	"height": Ti.UI.FILL,
+	"width": Ti.UI.FILL
+},
+".span-width": {
+	"width": "100%",
+	"height": Ti.UI.SIZE
+},
+
 /*Buttons*/
 ".button1": {
 	"left": "9.78%",
@@ -1292,6 +1301,18 @@ overrode the settings with other TSS, XML, or JS settings:
 	"color": "#193341",
 	"borderColor": "#193341"
 },
+
+/*Font sizes */
+".font14": {
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+},
+".font16": {
+	"font": {fontSize:'16',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+},
+".font20": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+},
+
 /*Text for Large Titles*/
 ".textfield-large": {
 	"font": {fontSize:'40',fontFamily:'',fontStyle:'',fontWeight:'normal'},
@@ -1325,8 +1346,9 @@ overrode the settings with other TSS, XML, or JS settings:
 	"font": {fontSize:'30',fontFamily:'',fontStyle:'',fontWeight:'normal'}
 },
 ".textfield-med-full[platform=ios formFactor=tablet]": {
-	"font": {fontSize:'35',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+	"font": {fontSize:'45',fontFamily:'',fontStyle:'',fontWeight:'normal'}
 },
+
 /*Textfield with widths (for text entry and forms)*/
 ".textfield600": {
 	"width": "600px",
@@ -1341,26 +1363,6 @@ overrode the settings with other TSS, XML, or JS settings:
 	"backgroundColor": "#ececec",
 	"borderRadius": "10"
 },
-
-/*Font sizes*/
-".font14": {
-	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'}
-},
-".font16": {
-	"font": {fontSize:'16',fontFamily:'',fontStyle:'',fontWeight:'normal'}
-},
-".font20": {
-	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'}
-},
-
-
-/*TextAreas (for sending messages and emails)*/
-".textarea": {
-	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'}
-}, 
-".textarea[platform=android]": {
-	"font": {fontSize:'16',fontFamily:'',fontStyle:'',fontWeight:'normal'}
-}, 
 
 /*LABELS*/
 ".label-center": {
@@ -1386,6 +1388,16 @@ overrode the settings with other TSS, XML, or JS settings:
 ".label-right[platform=android]": {
 	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
 	"textAlign": Ti.UI.TEXT_ALIGNMENT_RIGHT
+},
+
+/* Views */
+".view700": {
+	"height": "700px",
+	"width": "750px"
+},
+".view700[platform=ios formFactor=tablet]": {
+	"height": "700px",
+	"width": "850px"
 },
 /*Dashbaord*/
 ".db-contacts": {
@@ -1448,7 +1460,6 @@ overrode the settings with other TSS, XML, or JS settings:
 },
 ".db-settings[platform=ios formFactor=tablet]": {
 },
-/*Hot List Scroller*/
 ".side-scroll": {
 	"width": "750"
 },

@@ -1,5 +1,5 @@
 <Alloy>
 	 <NavigationWindow platform="ios" >
-        <Require src="newmessage"/>
+        <Require src="edit-task"/>
     </NavigationWindow>
 </Alloy>

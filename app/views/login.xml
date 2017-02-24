@@ -1,6 +1,6 @@
 <Alloy>
     <Window id="Window_1" backgroundColor="#f3f3f3">
-        	<ImageView image="/images/thenetworkninjas-logo.png" top="12%"/>
+        	<ImageView image="/images/thenetworkninjas-logo.png" top="30"/>
        		<Label class="textfield-med-full" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" text="Log In" top="24%" width="100%"/>
         <View class="view700" top="30%" backgroundColor="white" borderColor="#e1e1e1">
         	<TextField class="textfield600" top="14%"/>

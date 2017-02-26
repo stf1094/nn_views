@@ -24,7 +24,7 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
-    $.__views.__alloyId66 = Alloy.createController("task-list", {
+    $.__views.__alloyId66 = Alloy.createController("reporting", {
         id: "__alloyId66"
     });
     $.__views.index = Ti.UI.iOS.createNavigationWindow({

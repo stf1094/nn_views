@@ -1247,7 +1247,11 @@ overrode the settings with other TSS, XML, or JS settings:
 	"height": Ti.UI.SIZE,
 	"width": Ti.UI.SIZE
 },
-
+".separator": {
+	"height": 1,
+	"width": "90%",
+	"backgroundColor": "#acacac"
+},
 /*Buttons*/
 ".button1": {
 	"left": "9.78%",
@@ -1317,8 +1321,7 @@ overrode the settings with other TSS, XML, or JS settings:
 	"color": "#193341",
 	"borderColor": "#193341"
 },
-
-/*Font sizes */
+/*Font sizes and Typography*/
 ".font14": {
 	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'}
 },
@@ -1328,15 +1331,58 @@ overrode the settings with other TSS, XML, or JS settings:
 ".font20": {
 	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'}
 },
-
-/*Text for Large Titles*/
-".textfield-large": {
-	"font": {fontSize:'40',fontFamily:'',fontStyle:'',fontWeight:'normal'},
-	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+".font40": {
+	"font": {fontSize:'40',fontFamily:'',fontStyle:'',fontWeight:'normal'}
 },
-".textfield-large[platform=ios formFactor=tablet]": {
-	"font": {fontSize:'60',fontFamily:'',fontStyle:'',fontWeight:'normal'},
-	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+".h1": {
+	"font": {fontSize:36}
+},
+".h1[platform=blackberry]": {
+	"font": {fontSize:30}
+},
+".h2": {
+	"font": {fontSize:30}
+},
+".h2[platform=blackberry]": {
+	"font": {fontSize:24}
+},
+".h3": {
+	"font": {fontSize:24}
+},
+".h3[platform=blackberry]": {
+	"font": {fontSize:18}
+},
+".h4": {
+	"font": {fontSize:18}
+},
+".h4[platform=blackberry]": {
+	"font": {fontSize:14}
+},
+".h5": {
+	"font": {fontSize:14}
+},
+".h5[platform=blackberry]": {
+	"font": {fontSize:12}
+},
+".h6": {
+	"font": {fontSize:12}
+},
+".h6[platform=blackberry]": {
+	"font": {fontSize:10}
+},
+".grey": {
+	"color": "#9d9d9d"
+},
+/*Messaging Colors*/
+".message-grey": {
+	"backgroundColor": "#ececec",
+	"borderRadius": "10",
+	"color": "black"
+},
+".message-orange": {
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white"
 },
 /*Text for Forms*/
 ".textfield": {
@@ -1350,21 +1396,12 @@ overrode the settings with other TSS, XML, or JS settings:
 	"width": "80%"
 },
 /*Text (set width in xml)*/
-".textfield-full": {
-	"font": {fontSize:'Ti.UI.SIZE',fontFamily:'',fontStyle:'',fontWeight:'normal'},
-	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
-},
-".textfield-full[platform=ios formFactor=tablet]": {
-	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
-	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
-},
 ".textfield-med-full": {
 	"font": {fontSize:'30',fontFamily:'',fontStyle:'',fontWeight:'normal'}
 },
 ".textfield-med-full[platform=ios formFactor=tablet]": {
 	"font": {fontSize:'45',fontFamily:'',fontStyle:'',fontWeight:'normal'}
 },
-
 /*Textfield with widths (for text entry and forms)*/
 ".textfield600": {
 	"width": "600px",
@@ -1379,7 +1416,6 @@ overrode the settings with other TSS, XML, or JS settings:
 	"backgroundColor": "#ececec",
 	"borderRadius": "10"
 },
-
 /*LABELS*/
 ".label-center": {
 	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'},
@@ -1405,7 +1441,6 @@ overrode the settings with other TSS, XML, or JS settings:
 	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
 	"textAlign": Ti.UI.TEXT_ALIGNMENT_RIGHT
 },
-
 /* Views */
 ".view700": {
 	"height": "700px",

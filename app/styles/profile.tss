@@ -1,0 +1,12 @@
+
+".container" : {
+  
+},
+"#profileImage": {
+	"height": "150px",
+	"width": "150px"
+},
+"#textfield-profile": {
+	"width": "80%",
+	"height": "90px"
+}

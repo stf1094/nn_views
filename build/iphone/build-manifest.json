@@ -3282,7 +3282,7 @@
 		},
 		"alloy_generated": {
 			"hash": "b9b62e3e10ab98f03010e1fe8362c390",
-			"mtime": "2017-02-23T16:26:35.000Z",
+			"mtime": "2017-02-25T20:35:46.000Z",
 			"size": 279
 		},
 		"README": {
@@ -3324,6 +3324,16 @@
 			"hash": "0e5b924633d92594a4f38f219879e9b1",
 			"mtime": "2017-02-08T17:52:13.000Z",
 			"size": 2764
+		},
+		"images/iphone/arrow-right.png": {
+			"hash": "7e7920ae0cac859ab0aa6166bab558c2",
+			"mtime": "2017-02-25T20:12:33.000Z",
+			"size": 406
+		},
+		"images/iphone/calendar-icon.png": {
+			"hash": "95623983106a43296943e918ffd7235b",
+			"mtime": "2017-02-24T16:11:25.000Z",
+			"size": 634
 		},
 		"images/iphone/congratulations.png": {
 			"hash": "0d2188a1d228083fcde93bbbaf1d3cbd",
@@ -3397,7 +3407,7 @@
 		},
 		"images/iphone/divider-line-grey.png": {
 			"hash": "d0572d8cf21305d579b20595e4b3f117",
-			"mtime": "2017-02-23T16:19:53.000Z",
+			"mtime": "2017-02-24T14:55:28.000Z",
 			"size": 108
 		},
 		"images/iphone/dojo-bottom.png": {
@@ -3422,7 +3432,7 @@
 		},
 		"images/iphone/project-contacts-cover.png": {
 			"hash": "878157b21c6fe51917317c9c0b39f692",
-			"mtime": "2017-02-18T20:54:35.000Z",
+			"mtime": "2017-02-24T14:55:28.000Z",
 			"size": 18771
 		},
 		"images/iphone/project-dashboard-cover.png": {
@@ -3442,7 +3452,7 @@
 		},
 		"images/iphone/project-hotlist-cover.png": {
 			"hash": "9df88766810802a3d8bc6ee6b41e9eb2",
-			"mtime": "2017-02-18T20:54:35.000Z",
+			"mtime": "2017-02-24T14:55:28.000Z",
 			"size": 17797
 		},
 		"images/iphone/project-shuriken.png": {
@@ -3457,7 +3467,7 @@
 		},
 		"images/iphone/recent-cover.png": {
 			"hash": "a0f604cc67acd029e3a774800d1f0208",
-			"mtime": "2017-02-18T20:54:35.000Z",
+			"mtime": "2017-02-24T14:55:28.000Z",
 			"size": 9764
 		},
 		"images/iphone/setgoal.png": {
@@ -3482,7 +3492,7 @@
 		},
 		"images/thenetworkninjas-logo.png": {
 			"hash": "d7d808ddf2ca6f101faaeddbe10cc349",
-			"mtime": "2017-02-18T20:54:35.000Z",
+			"mtime": "2017-02-24T14:55:28.000Z",
 			"size": 28067
 		},
 		"iphone 2/Default-568h@2x.png": {

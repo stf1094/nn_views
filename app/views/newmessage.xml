@@ -1,15 +1,18 @@
 <Alloy>
-    <Window>
+    <Window title="New Message">
         <View backgroundColor="#f9f9f9" height="300px" top="0%" width="100%">
-            <Label class="font14" color="#444444" text="To:" left="5%"/>
-            <Label class="font14" color="#444444" text="Send Via" top="76%" left="5%"/>
-            <Label text="New Message" fontWeight="bold" top="10%"/>
-            <Label text="Cancel" color="#444444" top="10%" right="5%"/>
-            <TextField width="600px" left="15%" top="35%" color="#444444" backgroundColor="#f9f9f9" height="90px"></TextField>
+            <Label class="font14" color="#444444" left="5%" text="To:"/>
+            <Label class="font14" color="#444444" left="5%" text="Send Via" top="76%"/>
+            <Label fontWeight="bold" text="New Message" top="10%"/>
+            <Label class="font14" color="#444444" left="5%" text="Cancel" top="10%"/>
+            <Label class="font14" color="#f7941d" right="5%" text="Send" top="10%"/>
+            <TextField hintText="Name, Email, or Topic" backgroundColor="#f9f9f9" color="#444444" height="90px" left="15%" top="35%" width="600px"/>
             <ImageView image="/images/iphone/divider-line-grey.png" top="33%" width="Titanium.UI.FILL"/>
-        <ImageView image="/images/iphone/divider-line-grey.png" width="Titanium.UI.FILL" top="66%"/>
-        <ImageView image="/images/iphone/divider-line-grey.png" width="Titanium.UI.FILL" top="299px"/>
+            <ImageView image="/images/iphone/divider-line-grey.png" top="66%" width="Titanium.UI.FILL"/>
+            <ImageView image="/images/iphone/divider-line-grey.png" top="99%" width="Titanium.UI.FILL"/>
         </View>
-        <TextArea class="textarea" value="Compose Message" top="27%" width="90%" height="30%"></TextArea>
+        
+       
+        <TextArea height="30%" top="27%" width="90%"/>
     </Window>
 </Alloy>

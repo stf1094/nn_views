@@ -1,5 +1,5 @@
 <Alloy>
-    <Window id="Window_1">
+    <Window id="Window_1" title="Edit Goal">
         <View class="vgroup">
             <!--Header-->
             <View backgroundColor="f9f9f9" class="top" height="150px">

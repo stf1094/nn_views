@@ -1,20 +1,20 @@
 <Alloy>
-    <Window id="Window_1">
-        <ImageView image="/images/iphone/ui-hotlist-cover.png" top="0%"/>
-        <View height="7%" top="25%">
-            <Label class="textfield-med-full" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" text="Project Name" top="0%"/>
+    <Window id="Window_1" class="vgroup">
+        <ImageView class="top" image="/images/iphone/project-hotlist-cover.png"/>
+        <View height="60">
+            <Label class="h2 top-buffer" text="Project Name"/>
         </View>
-        <ListView top="32%">
-        	<ListSection>
-        		<ListItem height="90" title="Contact 1"></ListItem>
-        		<ListItem height="90" title="Contact 2"></ListItem>
-        		<ListItem height="90" title="Contact 3"></ListItem>
-        		<ListItem height="90" title="Contact 4"></ListItem>
-        		<ListItem height="90" title="Contact 5"></ListItem>
-        		<ListItem height="90" title="Contact 6"></ListItem>
-        		<ListItem height="90" title="Contact 7"></ListItem>
-        		<ListItem height="90" title="Contact 8"></ListItem>
-        	</ListSection>
+        <ListView>
+            <ListSection>
+                <ListItem height="90" title="Contact 1"/>
+                <ListItem height="90" title="Contact 2"/>
+                <ListItem height="90" title="Contact 3"/>
+                <ListItem height="90" title="Contact 4"/>
+                <ListItem height="90" title="Contact 5"/>
+                <ListItem height="90" title="Contact 6"/>
+                <ListItem height="90" title="Contact 7"/>
+                <ListItem height="90" title="Contact 8"/>
+            </ListSection>
         </ListView>
     </Window>
 </Alloy>

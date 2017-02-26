@@ -25,6 +25,7 @@ function Controller() {
     var $ = this;
     var exports = {};
     $.__views.newmessage = Ti.UI.createWindow({
+        title: "New Message",
         id: "newmessage"
     });
     $.__views.newmessage && $.addTopLevelView($.__views.newmessage);
@@ -44,8 +45,8 @@ function Controller() {
             fontWeight: "normal"
         },
         color: "#444444",
-        text: "To:",
         left: "5%",
+        text: "To:",
         id: "__alloyId76"
     });
     $.__views.__alloyId75.add($.__views.__alloyId76);
@@ -57,66 +58,86 @@ function Controller() {
             fontWeight: "normal"
         },
         color: "#444444",
+        left: "5%",
         text: "Send Via",
         top: "76%",
-        left: "5%",
         id: "__alloyId77"
     });
     $.__views.__alloyId75.add($.__views.__alloyId77);
     $.__views.__alloyId78 = Ti.UI.createLabel({
-        text: "New Message",
         fontWeight: "bold",
+        text: "New Message",
         top: "10%",
         id: "__alloyId78"
     });
     $.__views.__alloyId75.add($.__views.__alloyId78);
     $.__views.__alloyId79 = Ti.UI.createLabel({
-        text: "Cancel",
+        font: {
+            fontSize: "14",
+            fontFamily: "",
+            fontStyle: "",
+            fontWeight: "normal"
+        },
         color: "#444444",
+        left: "5%",
+        text: "Cancel",
         top: "10%",
-        right: "5%",
         id: "__alloyId79"
     });
     $.__views.__alloyId75.add($.__views.__alloyId79);
-    $.__views.__alloyId80 = Ti.UI.createTextField({
-        width: "600px",
-        left: "15%",
-        top: "35%",
-        color: "#444444",
-        backgroundColor: "#f9f9f9",
-        height: "90px",
+    $.__views.__alloyId80 = Ti.UI.createLabel({
+        font: {
+            fontSize: "14",
+            fontFamily: "",
+            fontStyle: "",
+            fontWeight: "normal"
+        },
+        color: "#f7941d",
+        right: "5%",
+        text: "Send",
+        top: "10%",
         id: "__alloyId80"
     });
     $.__views.__alloyId75.add($.__views.__alloyId80);
-    $.__views.__alloyId81 = Ti.UI.createImageView({
-        image: "/images/iphone/divider-line-grey.png",
-        top: "33%",
-        width: Titanium.UI.FILL,
+    $.__views.__alloyId81 = Ti.UI.createTextField({
+        hintText: "Name, Email, or Topic",
+        backgroundColor: "#f9f9f9",
+        color: "#444444",
+        height: "90px",
+        left: "15%",
+        top: "35%",
+        width: "600px",
         id: "__alloyId81"
     });
     $.__views.__alloyId75.add($.__views.__alloyId81);
     $.__views.__alloyId82 = Ti.UI.createImageView({
         image: "/images/iphone/divider-line-grey.png",
+        top: "33%",
         width: Titanium.UI.FILL,
-        top: "66%",
         id: "__alloyId82"
     });
     $.__views.__alloyId75.add($.__views.__alloyId82);
     $.__views.__alloyId83 = Ti.UI.createImageView({
         image: "/images/iphone/divider-line-grey.png",
+        top: "66%",
         width: Titanium.UI.FILL,
-        top: "299px",
         id: "__alloyId83"
     });
     $.__views.__alloyId75.add($.__views.__alloyId83);
-    $.__views.__alloyId84 = Ti.UI.createTextArea({
-        value: "Compose Message",
-        top: "27%",
-        width: "90%",
-        height: "30%",
+    $.__views.__alloyId84 = Ti.UI.createImageView({
+        image: "/images/iphone/divider-line-grey.png",
+        top: "99%",
+        width: Titanium.UI.FILL,
         id: "__alloyId84"
     });
-    $.__views.newmessage.add($.__views.__alloyId84);
+    $.__views.__alloyId75.add($.__views.__alloyId84);
+    $.__views.__alloyId85 = Ti.UI.createTextArea({
+        height: "30%",
+        top: "27%",
+        width: "90%",
+        id: "__alloyId85"
+    });
+    $.__views.newmessage.add($.__views.__alloyId85);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

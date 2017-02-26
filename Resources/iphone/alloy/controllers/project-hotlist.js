@@ -25,126 +25,107 @@ function Controller() {
     var $ = this;
     var exports = {};
     $.__views.Window_1 = Ti.UI.createWindow({
+        layout: "vertical",
         title: "Window",
         id: "Window_1"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.__alloyId93 = Ti.UI.createImageView({
-        image: "/images/iphone/ui-hotlist-cover.png",
-        top: "0%",
-        id: "__alloyId93"
+    $.__views.__alloyId127 = Ti.UI.createImageView({
+        top: 0,
+        image: "/images/iphone/project-hotlist-cover.png",
+        id: "__alloyId127"
     });
-    $.__views.Window_1.add($.__views.__alloyId93);
-    $.__views.__alloyId94 = Ti.UI.createView({
-        height: "7%",
-        top: "25%",
-        id: "__alloyId94"
+    $.__views.Window_1.add($.__views.__alloyId127);
+    $.__views.__alloyId128 = Ti.UI.createView({
+        height: 60,
+        id: "__alloyId128"
     });
-    $.__views.Window_1.add($.__views.__alloyId94);
-    $.__views.__alloyId95 = Ti.UI.createLabel(function() {
-        var o = {};
-        Alloy.deepExtend(true, o, {
-            font: {
-                fontSize: "30",
-                fontFamily: "",
-                fontStyle: "",
-                fontWeight: "normal"
-            }
-        });
-        Alloy.isTablet && Alloy.deepExtend(true, o, {
-            font: {
-                fontSize: "45",
-                fontFamily: "",
-                fontStyle: "",
-                fontWeight: "normal"
-            }
-        });
-        Alloy.deepExtend(true, o, {
-            textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
-            text: "Project Name",
-            top: "0%",
-            id: "__alloyId95"
-        });
-        return o;
-    }());
-    $.__views.__alloyId94.add($.__views.__alloyId95);
-    var __alloyId99 = [];
-    $.__views.__alloyId100 = {
+    $.__views.Window_1.add($.__views.__alloyId128);
+    $.__views.__alloyId129 = Ti.UI.createLabel({
+        top: 10,
+        font: {
+            fontSize: 30
+        },
+        text: "Project Name",
+        id: "__alloyId129"
+    });
+    $.__views.__alloyId128.add($.__views.__alloyId129);
+    var __alloyId133 = [];
+    $.__views.__alloyId134 = {
         properties: {
             height: 90,
             title: "Contact 1",
-            id: "__alloyId100"
+            id: "__alloyId134"
         }
     };
-    __alloyId99.push($.__views.__alloyId100);
-    $.__views.__alloyId101 = {
+    __alloyId133.push($.__views.__alloyId134);
+    $.__views.__alloyId135 = {
         properties: {
             height: 90,
             title: "Contact 2",
-            id: "__alloyId101"
+            id: "__alloyId135"
         }
     };
-    __alloyId99.push($.__views.__alloyId101);
-    $.__views.__alloyId102 = {
+    __alloyId133.push($.__views.__alloyId135);
+    $.__views.__alloyId136 = {
         properties: {
             height: 90,
             title: "Contact 3",
-            id: "__alloyId102"
+            id: "__alloyId136"
         }
     };
-    __alloyId99.push($.__views.__alloyId102);
-    $.__views.__alloyId103 = {
+    __alloyId133.push($.__views.__alloyId136);
+    $.__views.__alloyId137 = {
         properties: {
             height: 90,
             title: "Contact 4",
-            id: "__alloyId103"
+            id: "__alloyId137"
         }
     };
-    __alloyId99.push($.__views.__alloyId103);
-    $.__views.__alloyId104 = {
+    __alloyId133.push($.__views.__alloyId137);
+    $.__views.__alloyId138 = {
         properties: {
             height: 90,
             title: "Contact 5",
-            id: "__alloyId104"
+            id: "__alloyId138"
         }
     };
-    __alloyId99.push($.__views.__alloyId104);
-    $.__views.__alloyId105 = {
+    __alloyId133.push($.__views.__alloyId138);
+    $.__views.__alloyId139 = {
         properties: {
             height: 90,
             title: "Contact 6",
-            id: "__alloyId105"
+            id: "__alloyId139"
         }
     };
-    __alloyId99.push($.__views.__alloyId105);
-    $.__views.__alloyId106 = {
+    __alloyId133.push($.__views.__alloyId139);
+    $.__views.__alloyId140 = {
         properties: {
             height: 90,
             title: "Contact 7",
-            id: "__alloyId106"
+            id: "__alloyId140"
         }
     };
-    __alloyId99.push($.__views.__alloyId106);
-    $.__views.__alloyId107 = {
+    __alloyId133.push($.__views.__alloyId140);
+    $.__views.__alloyId141 = {
         properties: {
             height: 90,
             title: "Contact 8",
-            id: "__alloyId107"
+            id: "__alloyId141"
         }
     };
-    __alloyId99.push($.__views.__alloyId107);
-    $.__views.__alloyId97 = Ti.UI.createListSection({
-        id: "__alloyId97"
+    __alloyId133.push($.__views.__alloyId141);
+    $.__views.__alloyId131 = Ti.UI.createListSection({
+        id: "__alloyId131"
     });
-    $.__views.__alloyId97.items = __alloyId99;
-    var __alloyId108 = [];
-    __alloyId108.push($.__views.__alloyId97);
-    $.__views.__alloyId96 = Ti.UI.createListView({
-        sections: __alloyId108,
-        top: "32%",
-        id: "__alloyId96"
+    $.__views.__alloyId131.items = __alloyId133;
+    var __alloyId142 = [];
+    __alloyId142.push($.__views.__alloyId131);
+    $.__views.__alloyId130 = Ti.UI.createListView({
+        sections: __alloyId142,
+        id: "__alloyId130"
     });
-    $.__views.Window_1.add($.__views.__alloyId96);
+    $.__views.Window_1.add($.__views.__alloyId130);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

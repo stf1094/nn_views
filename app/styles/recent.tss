@@ -1,0 +1,12 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+},
+"#TableView_1": {
+},
+".rightArrow": {
+	"image": "images/iphone/arrow-right.png",
+	"height": "30px",
+	"width": "30px"
+}

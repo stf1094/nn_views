@@ -3282,7 +3282,7 @@
 		},
 		"alloy_generated": {
 			"hash": "b9b62e3e10ab98f03010e1fe8362c390",
-			"mtime": "2017-02-25T20:35:46.000Z",
+			"mtime": "2017-03-01T20:38:20.000Z",
 			"size": 279
 		},
 		"README": {
@@ -3314,6 +3314,26 @@
 			"hash": "9c4bbe6f981350b37cefa7344c7635f8",
 			"mtime": "2017-02-06T18:41:48.000Z",
 			"size": 999
+		},
+		"images/ipad/hotlist-cover-ipad.png": {
+			"hash": "13851c1035138aa060ca3e6215e2f948",
+			"mtime": "2017-02-26T18:45:06.000Z",
+			"size": 23784
+		},
+		"images/ipad/projects-cover-ipad.png": {
+			"hash": "c4be2962c3ffc2264d7d7db717278d76",
+			"mtime": "2017-02-26T18:45:06.000Z",
+			"size": 32460
+		},
+		"images/ipad/recent-cover-ipad.png": {
+			"hash": "ec7110a0c2ba2345c39a8833d874abaf",
+			"mtime": "2017-02-28T18:34:07.000Z",
+			"size": 23237
+		},
+		"images/ipad/reporting-cover-ipad.png": {
+			"hash": "4102b801b661204a315b4b490bf176b1",
+			"mtime": "2017-02-26T18:45:06.000Z",
+			"size": 14842
 		},
 		"images/iphone/addcontacts.png": {
 			"hash": "113c90593300209a35afb0a878dbe90d",
@@ -3469,6 +3489,11 @@
 			"hash": "a0f604cc67acd029e3a774800d1f0208",
 			"mtime": "2017-02-24T14:55:28.000Z",
 			"size": 9764
+		},
+		"images/iphone/reporting-cover_1.png": {
+			"hash": "deb6fa30ab16cd09be16b8a61028b225",
+			"mtime": "2017-02-25T20:41:12.000Z",
+			"size": 5232
 		},
 		"images/iphone/setgoal.png": {
 			"hash": "eab618b4d202efebee3b9437f33e0e4a",

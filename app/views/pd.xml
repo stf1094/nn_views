@@ -1,60 +1,61 @@
 <Alloy>
     <Window id="Window_1" title="Project Dashboard">
-    	<!--Header-->
-    	<ImageView class="top" image="/images/iphone/project-db-cover.png"/>
+        <!--Header-->
+        <ImageView class="top" image="/images/iphone/project-db-cover.png"/>
         <Label class="textfield-med-full" color="white" text="Project Name" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5%"/>
-    	<ScrollView class='vgroup scroll-container'>
-    	<!--Contacts-->
-    		<View height="50">
-    			<Label class="label-left font14 size" text="CONTACTS"/>
-    		</View>
-    		<ScrollView height="15%" horizontalBounce="true" id="scrollView" showHorizontalScrollIndicator="true" showVerticalScrollIndicator="true" width="100%">
-            	<View backgroundColor="#ffffff" class="side-scroll" height="100%">
-                	<ImageView id="ImageView_1" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_2" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_3" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_4" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_5" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_6" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_7" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_8" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_9" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_10" image="/images/iphone/project-shuriken.png"/>
-           	 	</View>
-        	</ScrollView>
-    	<!--Hot List-->
-    		<View height="50">
-    			<Label class="label-left font14 size" text="HOT LIST"/>
-    		</View>
-    		<ScrollView height="15%" horizontalBounce="true" id="scrollView" showHorizontalScrollIndicator="true" showVerticalScrollIndicator="true" width="100%">
-            	<View backgroundColor="#ffffff" class="side-scroll" height="100%">
-                	<ImageView id="ImageView_1" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_2" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_3" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_4" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_5" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_6" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_7" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_8" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_9" image="/images/iphone/project-shuriken.png"/>
-                	<ImageView id="ImageView_10" image="/images/iphone/project-shuriken.png"/>
-            	</View>
-        	</ScrollView>
-        <!--Tasks-->
-         	<View top="20" height="50" width="100%" backgroundColor="#ececec">
-        		<Label class="label-center" text="TASKS"></Label>
-        		<Label right="5%" class="font14" text="See All"></Label>
-        		<Label left="5%" class="font20" text="+"></Label>
-        	</View>
-        	<View height="500px"/>
-        	
-        <!--Goals-->
-        	<View class="top-buffer" height="50" width="100%" backgroundColor="#ececec">
-        		<Label class="label-center" text="GOALS"/>
-        		<Label right="5%" class="font14" text="See All"></Label>
-        		<Label left="5%" class="font20" text="+"></Label>
-        	</View>
-        	<View height="500px"/>
-       </ScrollView>
+        <ScrollView class="vgroup scroll-container">
+            <!--Contacts-->
+            <View height="50">
+                <Label class="h4 size" text="CONTACTS"/>
+                <Label class="h5" right="5%" text="See All"/>
+            </View>
+            <ScrollView height="15%" horizontalBounce="true" id="scrollView" showHorizontalScrollIndicator="true" showVerticalScrollIndicator="true" width="100%">
+                <View backgroundColor="#ffffff" class="side-scroll" height="100%">
+                    <ImageView id="ImageView_1" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_2" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_3" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_4" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_5" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_6" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_7" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_8" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_9" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_10" image="/images/iphone/project-shuriken.png"/>
+                </View>
+            </ScrollView>
+            <!--Hot List-->
+            <View height="50">
+                <Label class="h4 size" text="HOT LIST"/>
+                <Label class="h5" right="5%" text="See All"/>
+            </View>
+            <ScrollView height="15%" horizontalBounce="true" id="scrollView" showHorizontalScrollIndicator="true" showVerticalScrollIndicator="true" width="100%">
+                <View backgroundColor="#ffffff" class="side-scroll" height="100%">
+                    <ImageView id="ImageView_1" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_2" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_3" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_4" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_5" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_6" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_7" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_8" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_9" image="/images/iphone/project-shuriken.png"/>
+                    <ImageView id="ImageView_10" image="/images/iphone/project-shuriken.png"/>
+                </View>
+            </ScrollView>
+            <!--Tasks-->
+            <View backgroundColor="#ececec" height="50" top="20" width="100%">
+                <Label class="h4" text="TASKS"/>
+                <Label class="h5" right="5%" text="See All"/>
+                <Label class="h3" left="5%" text="+"/>
+            </View>
+            <ListView height="520px"></ListView>
+            <!--Goals-->
+            <View backgroundColor="#ececec" class="top-buffer" height="50" width="100%">
+                <Label class="h4" text="GOALS"/>
+                <Label class="h5" right="5%" text="See All"/>
+                <Label class="h3" left="5%" text="+"/>
+            </View>
+            <ListView height="520px"></ListView>
+        </ScrollView>
     </Window>
 </Alloy>

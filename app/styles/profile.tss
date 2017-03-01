@@ -6,7 +6,35 @@
 	"height": "150px",
 	"width": "150px"
 },
-"#textfield-profile": {
-	"width": "80%",
-	"height": "90px"
+".textfield-profile": {
+	"width": "70%",
+	"height": "90px",
+	"borderRadius": "10",
+	"borderColor": "#ececec",
+	"backgroundColor": "white",
+	"color": "#444444",
+	"top": "15",
+	"left": "15",
+	"hintText": "Message"
+}, 
+".textfield-profile[platform=ios formFactor=tablet]": {
+	"width": "70%",
+	"height": "90px",
+	"borderRadius": "10",
+	"borderColor": "#ececec",
+	"backgroundColor": "white",
+	"color": "#444444",
+	"top": "15",
+	"left": "35",
+	"hintText": "Message"
+}, 
+".send": {
+	"height": "90px",
+	"width": "20%",
+	"backgroundColor": "white",
+	"color": "#193441",
+	"borderRadius": "10",
+	"borderColor": "#193441",
+	"borderWidth": "2"
 }
+

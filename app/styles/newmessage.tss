@@ -1,0 +1,50 @@
+/*Space where you type message content*/
+".message-field": {
+	"width": "90%",
+	"height": "30%",
+	"top": "27%"
+},
+".message-field[platform=ios formFactor=tablet]": {
+	"width": "90%",
+	"height": "30%",
+	"top": "18%"
+},
+/* Textfields for To and Send Via*/
+".to":{
+	"width": "600px",
+	"height": "90px",
+	"left": "15%",
+	"top": "35%",
+	"hintText": "Name or Email",
+	"color": "#444444",
+	"backgroundColor": "f9f9f9"
+},
+".to[platform=ios formFactor=tablet]":{
+	"width": "700px",
+	"height": "90px",
+	"left": "10%",
+	"top": "35%",
+	"hintText": "Name or Email",
+	"color": "#444444",
+	"backgroundColor": "f9f9f9"
+},
+".send-via": {
+	"top": "67%",
+	"left": "25%",
+	"width": "600px",
+	"height": "90px",
+	"hintText": "Message, Email, or Facebook",
+	"color": "#444444",
+	"backgroundColor": "f9f9f9"
+},
+".send-via[platform=ios formFactor=tablet]": {
+	"top": "67%",
+	"left": "15%",
+	"width": "700px",
+	"height": "90px",
+	"hintText": "Message, Email, or Facebook",
+	"color": "#444444",
+	"backgroundColor": "f9f9f9"
+}
+
+

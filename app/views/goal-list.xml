@@ -1,0 +1,82 @@
+<Alloy>
+    <Window id="Window_1" title="Goals">
+        <ImageView class="top span-width" image="/images/iphone/project-dashboard-cover.png"/>
+        <Label class="textfield-med-full" color="white" text="Project Name" top="30"/>
+        <ScrollView class="vgroup" top="100">
+            <View class="hgroup top-buffer" height="60">
+                <Button class="button1" height="90px">Add Goal</Button>
+            
+            </View>
+            <ScrollableView>
+                <View class="vgroup" title="Goal 1">
+                    <View backgroundColor="#ffffff" height="50" width="100%">
+                        <Label class="h2" color="black" text="GOAL 1"/>
+                    </View>
+                    <ProgressBar class="top-buffer" id="ProgressBar_1"/>
+                    <View backgroundColor="#ececec" height="50" width="100%">
+                        <Label class="label-center" text="SAID YES"/>
+                        <Label class="font14" right="5%" text="See All"/>
+                    </View>
+                    <ListView height="300" title="Said Yes">
+                        <ListSection>
+                            <ListItem title="Contact 1"/>
+                            <ListItem title="Contact 2"/>
+                            <ListItem title="Contact 3"/>
+                            <ListItem title="Contact 4"/>
+                            <ListItem title="Contact 5"/>
+                            <ListItem title="Contact 6"/>
+                        </ListSection>
+                    </ListView>
+                    <View backgroundColor="#ececec" height="50" width="100%">
+                        <Label class="label-center" text="SAID NO"/>
+                        <Label class="font14" right="5%" text="See All"/>
+                    </View>
+                    <ListView height="300" title="Said No">
+                        <ListSection>
+                            <ListItem title="Task 1"/>
+                            <ListItem title="Task 2"/>
+                            <ListItem title="Task 3"/>
+                            <ListItem title="Task 4"/>
+                            <ListItem title="Task 5"/>
+                            <ListItem title="Task 6"/>
+                        </ListSection>
+                    </ListView>
+                </View>
+                <View class="vgroup" title="Goal 2">
+                    <View backgroundColor="#ffffff" height="50" width="100%">
+                        <Label class="h2" color="black" text="GOAL 2"/>
+                    </View>
+                    <ProgressBar class="top-buffer" id="ProgressBar_2"/>
+                    <View backgroundColor="#ececec" height="50" width="100%">
+                        <Label class="label-center" text="SAID YES"/>
+                        <Label class="font14" right="5%" text="See All"/>
+                    </View>
+                    <ListView height="300" title="Said Yes">
+                        <ListSection>
+                            <ListItem title="Contact 1"/>
+                            <ListItem title="Contact 2"/>
+                            <ListItem title="Contact 3"/>
+                            <ListItem title="Contact 4"/>
+                            <ListItem title="Contact 5"/>
+                            <ListItem title="Contact 6"/>
+                        </ListSection>
+                    </ListView>
+                    <View backgroundColor="#ececec" height="50" width="100%">
+                        <Label class="label-center" text="SAID NO"/>
+                        <Label class="font14" right="5%" text="See All"/>
+                    </View>
+                    <ListView height="300" title="Said No">
+                        <ListSection>
+                            <ListItem title="Task 1"/>
+                            <ListItem title="Task 2"/>
+                            <ListItem title="Task 3"/>
+                            <ListItem title="Task 4"/>
+                            <ListItem title="Task 5"/>
+                            <ListItem title="Task 6"/>
+                        </ListSection>
+                    </ListView>
+                </View>
+            </ScrollableView>
+        </ScrollView>
+    </Window>
+</Alloy>

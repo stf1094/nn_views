@@ -1,5 +1,5 @@
 <Alloy>
-    <Window id="Window_1" class="vgroup">
+    <Window class="vgroup" id="Window_1">
         <ImageView class="top" image="/images/iphone/project-hotlist-cover.png"/>
         <View height="60">
             <Label class="h2 top-buffer" text="Project Name"/>

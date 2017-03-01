@@ -4,8 +4,8 @@
             <!--Header-->
             <View backgroundColor="f9f9f9" class="top" height="150px">
                 <Label fontWeight="bold" text="Edit Goal" top="10%"/>
-                <Label class="font14" color="#444444" left="5%" text="Cancel" top="10%"/>
-                <Label class="font14" color="#f7941d" right="5%" text="Done" top="10%"/>
+                <Label class="h5" color="#444444" left="5%" text="Delete Goal" top="10%"/>
+                <Label class="h5" color="#f7941d" right="5%" text="Done" top="10%"/>
             </View>
             <!--Goal Label-->
             <View height="70px">
@@ -13,16 +13,18 @@
             </View>
             <!--Enter Task Text Field-->
             <View height="90px">
-                <TextField backgroundColor="#f9f9f9" color="#444444" height="90px" left="5%" top="5" width="650px"/>
+                <TextField backgroundColor="#ececec" color="#444444" height="90px" left="5%" top="5" value="Whatever the goal is currently" width="650px"/>
             </View>
             <!--date entries, start/end-->
             <View class="hgroup size" height="100px" top="20">
                 <Label class="font14" text="Start Date"/>
-                <TextField class="left-buffer" borderColor="#444444" height="90px" width="300px"/>
+                <ImageView height="90px" image="/images/iphone/calendar-icon.png" left="15" width="90px"/>
+                <TextField backgroundColor="#ececec" height="90px" width="300px"/>
             </View>
             <View class="hgroup size" height="100px" top="10">
                 <Label class="font14" text="End Date"/>
-                <TextField left="15" borderColor="#444444" height="90px" width="300px"/>
+                <ImageView height="90px" image="/images/iphone/calendar-icon.png" left="20" width="90px"/>
+                <TextField backgroundColor="#ececec" height="90px" width="300px"/>
             </View>
         </View>
     </Window>

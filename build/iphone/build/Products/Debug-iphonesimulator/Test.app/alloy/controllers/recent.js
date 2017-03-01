@@ -30,47 +30,47 @@ function Controller() {
         id: "Window_1"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.__alloyId150 = Ti.UI.createImageView({
+    $.__views.__alloyId238 = Ti.UI.createImageView({
         top: 0,
         height: Ti.UI.SIZE,
         width: Ti.UI.SIZE,
         image: "/images/iphone/recent-cover.png",
-        id: "__alloyId150"
+        id: "__alloyId238"
     });
-    $.__views.Window_1.add($.__views.__alloyId150);
-    var __alloyId151 = [];
-    $.__views.__alloyId152 = Ti.UI.createTableViewRow({
+    $.__views.Window_1.add($.__views.__alloyId238);
+    var __alloyId239 = [];
+    $.__views.__alloyId240 = Ti.UI.createTableViewRow({
         layout: "horizontal",
         height: "140px",
-        id: "__alloyId152"
+        id: "__alloyId240"
     });
-    __alloyId151.push($.__views.__alloyId152);
-    $.__views.__alloyId153 = Ti.UI.createImageView({
+    __alloyId239.push($.__views.__alloyId240);
+    $.__views.__alloyId241 = Ti.UI.createImageView({
         top: 10,
         left: 10,
         height: "100px",
         image: "/images/iphone/project-shuriken.png",
         width: "100px",
-        id: "__alloyId153"
+        id: "__alloyId241"
     });
-    $.__views.__alloyId152.add($.__views.__alloyId153);
-    $.__views.__alloyId154 = Ti.UI.createView({
+    $.__views.__alloyId240.add($.__views.__alloyId241);
+    $.__views.__alloyId242 = Ti.UI.createView({
         layout: "vertical",
         width: 210,
-        id: "__alloyId154"
+        id: "__alloyId242"
     });
-    $.__views.__alloyId152.add($.__views.__alloyId154);
-    $.__views.__alloyId155 = Ti.UI.createLabel({
+    $.__views.__alloyId240.add($.__views.__alloyId242);
+    $.__views.__alloyId243 = Ti.UI.createLabel({
         top: 10,
         left: 10,
         font: {
             fontSize: 14
         },
         text: "Stefan Forsberg",
-        id: "__alloyId155"
+        id: "__alloyId243"
     });
-    $.__views.__alloyId154.add($.__views.__alloyId155);
-    $.__views.__alloyId156 = Ti.UI.createLabel({
+    $.__views.__alloyId242.add($.__views.__alloyId243);
+    $.__views.__alloyId244 = Ti.UI.createLabel({
         left: 10,
         font: {
             fontSize: 12
@@ -78,10 +78,25 @@ function Controller() {
         color: "#9d9d9d",
         text: "This this the most recent message",
         top: 5,
-        id: "__alloyId156"
+        id: "__alloyId244"
     });
-    $.__views.__alloyId154.add($.__views.__alloyId156);
-    $.__views.__alloyId157 = Ti.UI.createLabel({
+    $.__views.__alloyId242.add($.__views.__alloyId244);
+    $.__views.__alloyId245 = Ti.UI.createView(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            layout: "horizontal",
+            left: "10"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            left: "375"
+        });
+        Alloy.deepExtend(true, o, {
+            id: "__alloyId245"
+        });
+        return o;
+    }());
+    $.__views.__alloyId240.add($.__views.__alloyId245);
+    $.__views.__alloyId246 = Ti.UI.createLabel({
         top: 10,
         left: 10,
         font: {
@@ -89,50 +104,50 @@ function Controller() {
         },
         color: "#9d9d9d",
         text: "TimeDay",
-        id: "__alloyId157"
+        id: "__alloyId246"
     });
-    $.__views.__alloyId152.add($.__views.__alloyId157);
-    $.__views.__alloyId158 = Ti.UI.createImageView({
+    $.__views.__alloyId245.add($.__views.__alloyId246);
+    $.__views.__alloyId247 = Ti.UI.createImageView({
         top: 10,
         left: 10,
         image: "images/iphone/arrow-right.png",
         height: "30px",
         width: "30px",
-        id: "__alloyId158"
+        id: "__alloyId247"
     });
-    $.__views.__alloyId152.add($.__views.__alloyId158);
-    $.__views.__alloyId159 = Ti.UI.createTableViewRow({
+    $.__views.__alloyId245.add($.__views.__alloyId247);
+    $.__views.__alloyId248 = Ti.UI.createTableViewRow({
         layout: "horizontal",
         height: "140px",
-        id: "__alloyId159"
+        id: "__alloyId248"
     });
-    __alloyId151.push($.__views.__alloyId159);
-    $.__views.__alloyId160 = Ti.UI.createImageView({
+    __alloyId239.push($.__views.__alloyId248);
+    $.__views.__alloyId249 = Ti.UI.createImageView({
         top: 10,
         left: 10,
         height: "100px",
         image: "/images/iphone/project-shuriken.png",
         width: "100px",
-        id: "__alloyId160"
+        id: "__alloyId249"
     });
-    $.__views.__alloyId159.add($.__views.__alloyId160);
-    $.__views.__alloyId161 = Ti.UI.createView({
+    $.__views.__alloyId248.add($.__views.__alloyId249);
+    $.__views.__alloyId250 = Ti.UI.createView({
         layout: "vertical",
         width: 210,
-        id: "__alloyId161"
+        id: "__alloyId250"
     });
-    $.__views.__alloyId159.add($.__views.__alloyId161);
-    $.__views.__alloyId162 = Ti.UI.createLabel({
+    $.__views.__alloyId248.add($.__views.__alloyId250);
+    $.__views.__alloyId251 = Ti.UI.createLabel({
         top: 10,
         left: 10,
         font: {
             fontSize: 14
         },
         text: "Stefan Forsberg",
-        id: "__alloyId162"
+        id: "__alloyId251"
     });
-    $.__views.__alloyId161.add($.__views.__alloyId162);
-    $.__views.__alloyId163 = Ti.UI.createLabel({
+    $.__views.__alloyId250.add($.__views.__alloyId251);
+    $.__views.__alloyId252 = Ti.UI.createLabel({
         left: 10,
         font: {
             fontSize: 12
@@ -140,10 +155,25 @@ function Controller() {
         color: "#9d9d9d",
         text: "This this the most recent message",
         top: 5,
-        id: "__alloyId163"
+        id: "__alloyId252"
     });
-    $.__views.__alloyId161.add($.__views.__alloyId163);
-    $.__views.__alloyId164 = Ti.UI.createLabel({
+    $.__views.__alloyId250.add($.__views.__alloyId252);
+    $.__views.__alloyId253 = Ti.UI.createView(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            layout: "horizontal",
+            left: "10"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            left: "375"
+        });
+        Alloy.deepExtend(true, o, {
+            id: "__alloyId253"
+        });
+        return o;
+    }());
+    $.__views.__alloyId248.add($.__views.__alloyId253);
+    $.__views.__alloyId254 = Ti.UI.createLabel({
         top: 10,
         left: 10,
         font: {
@@ -151,50 +181,50 @@ function Controller() {
         },
         color: "#9d9d9d",
         text: "TimeDay",
-        id: "__alloyId164"
+        id: "__alloyId254"
     });
-    $.__views.__alloyId159.add($.__views.__alloyId164);
-    $.__views.__alloyId165 = Ti.UI.createImageView({
+    $.__views.__alloyId253.add($.__views.__alloyId254);
+    $.__views.__alloyId255 = Ti.UI.createImageView({
         top: 10,
         left: 10,
         image: "images/iphone/arrow-right.png",
         height: "30px",
         width: "30px",
-        id: "__alloyId165"
+        id: "__alloyId255"
     });
-    $.__views.__alloyId159.add($.__views.__alloyId165);
-    $.__views.__alloyId166 = Ti.UI.createTableViewRow({
+    $.__views.__alloyId253.add($.__views.__alloyId255);
+    $.__views.__alloyId256 = Ti.UI.createTableViewRow({
         layout: "horizontal",
         height: "140px",
-        id: "__alloyId166"
+        id: "__alloyId256"
     });
-    __alloyId151.push($.__views.__alloyId166);
-    $.__views.__alloyId167 = Ti.UI.createImageView({
+    __alloyId239.push($.__views.__alloyId256);
+    $.__views.__alloyId257 = Ti.UI.createImageView({
         top: 10,
         left: 10,
         height: "100px",
         image: "/images/iphone/project-shuriken.png",
         width: "100px",
-        id: "__alloyId167"
+        id: "__alloyId257"
     });
-    $.__views.__alloyId166.add($.__views.__alloyId167);
-    $.__views.__alloyId168 = Ti.UI.createView({
+    $.__views.__alloyId256.add($.__views.__alloyId257);
+    $.__views.__alloyId258 = Ti.UI.createView({
         layout: "vertical",
         width: 210,
-        id: "__alloyId168"
+        id: "__alloyId258"
     });
-    $.__views.__alloyId166.add($.__views.__alloyId168);
-    $.__views.__alloyId169 = Ti.UI.createLabel({
+    $.__views.__alloyId256.add($.__views.__alloyId258);
+    $.__views.__alloyId259 = Ti.UI.createLabel({
         top: 10,
         left: 10,
         font: {
             fontSize: 14
         },
         text: "Stefan Forsberg",
-        id: "__alloyId169"
+        id: "__alloyId259"
     });
-    $.__views.__alloyId168.add($.__views.__alloyId169);
-    $.__views.__alloyId170 = Ti.UI.createLabel({
+    $.__views.__alloyId258.add($.__views.__alloyId259);
+    $.__views.__alloyId260 = Ti.UI.createLabel({
         left: 10,
         font: {
             fontSize: 12
@@ -202,10 +232,25 @@ function Controller() {
         color: "#9d9d9d",
         text: "This this the most recent message",
         top: 5,
-        id: "__alloyId170"
+        id: "__alloyId260"
     });
-    $.__views.__alloyId168.add($.__views.__alloyId170);
-    $.__views.__alloyId171 = Ti.UI.createLabel({
+    $.__views.__alloyId258.add($.__views.__alloyId260);
+    $.__views.__alloyId261 = Ti.UI.createView(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            layout: "horizontal",
+            left: "10"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            left: "375"
+        });
+        Alloy.deepExtend(true, o, {
+            id: "__alloyId261"
+        });
+        return o;
+    }());
+    $.__views.__alloyId256.add($.__views.__alloyId261);
+    $.__views.__alloyId262 = Ti.UI.createLabel({
         top: 10,
         left: 10,
         font: {
@@ -213,50 +258,50 @@ function Controller() {
         },
         color: "#9d9d9d",
         text: "TimeDay",
-        id: "__alloyId171"
+        id: "__alloyId262"
     });
-    $.__views.__alloyId166.add($.__views.__alloyId171);
-    $.__views.__alloyId172 = Ti.UI.createImageView({
+    $.__views.__alloyId261.add($.__views.__alloyId262);
+    $.__views.__alloyId263 = Ti.UI.createImageView({
         top: 10,
         left: 10,
         image: "images/iphone/arrow-right.png",
         height: "30px",
         width: "30px",
-        id: "__alloyId172"
+        id: "__alloyId263"
     });
-    $.__views.__alloyId166.add($.__views.__alloyId172);
-    $.__views.__alloyId173 = Ti.UI.createTableViewRow({
+    $.__views.__alloyId261.add($.__views.__alloyId263);
+    $.__views.__alloyId264 = Ti.UI.createTableViewRow({
         layout: "horizontal",
         height: "140px",
-        id: "__alloyId173"
+        id: "__alloyId264"
     });
-    __alloyId151.push($.__views.__alloyId173);
-    $.__views.__alloyId174 = Ti.UI.createImageView({
+    __alloyId239.push($.__views.__alloyId264);
+    $.__views.__alloyId265 = Ti.UI.createImageView({
         top: 10,
         left: 10,
         height: "100px",
         image: "/images/iphone/project-shuriken.png",
         width: "100px",
-        id: "__alloyId174"
+        id: "__alloyId265"
     });
-    $.__views.__alloyId173.add($.__views.__alloyId174);
-    $.__views.__alloyId175 = Ti.UI.createView({
+    $.__views.__alloyId264.add($.__views.__alloyId265);
+    $.__views.__alloyId266 = Ti.UI.createView({
         layout: "vertical",
         width: 210,
-        id: "__alloyId175"
+        id: "__alloyId266"
     });
-    $.__views.__alloyId173.add($.__views.__alloyId175);
-    $.__views.__alloyId176 = Ti.UI.createLabel({
+    $.__views.__alloyId264.add($.__views.__alloyId266);
+    $.__views.__alloyId267 = Ti.UI.createLabel({
         top: 10,
         left: 10,
         font: {
             fontSize: 14
         },
         text: "Stefan Forsberg",
-        id: "__alloyId176"
+        id: "__alloyId267"
     });
-    $.__views.__alloyId175.add($.__views.__alloyId176);
-    $.__views.__alloyId177 = Ti.UI.createLabel({
+    $.__views.__alloyId266.add($.__views.__alloyId267);
+    $.__views.__alloyId268 = Ti.UI.createLabel({
         left: 10,
         font: {
             fontSize: 12
@@ -264,10 +309,25 @@ function Controller() {
         color: "#9d9d9d",
         text: "This this the most recent message",
         top: 5,
-        id: "__alloyId177"
+        id: "__alloyId268"
     });
-    $.__views.__alloyId175.add($.__views.__alloyId177);
-    $.__views.__alloyId178 = Ti.UI.createLabel({
+    $.__views.__alloyId266.add($.__views.__alloyId268);
+    $.__views.__alloyId269 = Ti.UI.createView(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            layout: "horizontal",
+            left: "10"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            left: "375"
+        });
+        Alloy.deepExtend(true, o, {
+            id: "__alloyId269"
+        });
+        return o;
+    }());
+    $.__views.__alloyId264.add($.__views.__alloyId269);
+    $.__views.__alloyId270 = Ti.UI.createLabel({
         top: 10,
         left: 10,
         font: {
@@ -275,20 +335,20 @@ function Controller() {
         },
         color: "#9d9d9d",
         text: "TimeDay",
-        id: "__alloyId178"
+        id: "__alloyId270"
     });
-    $.__views.__alloyId173.add($.__views.__alloyId178);
-    $.__views.__alloyId179 = Ti.UI.createImageView({
+    $.__views.__alloyId269.add($.__views.__alloyId270);
+    $.__views.__alloyId271 = Ti.UI.createImageView({
         top: 10,
         left: 10,
         image: "images/iphone/arrow-right.png",
         height: "30px",
         width: "30px",
-        id: "__alloyId179"
+        id: "__alloyId271"
     });
-    $.__views.__alloyId173.add($.__views.__alloyId179);
+    $.__views.__alloyId269.add($.__views.__alloyId271);
     $.__views.TableView_1 = Ti.UI.createTableView({
-        data: __alloyId151,
+        data: __alloyId239,
         id: "TableView_1"
     });
     $.__views.Window_1.add($.__views.TableView_1);

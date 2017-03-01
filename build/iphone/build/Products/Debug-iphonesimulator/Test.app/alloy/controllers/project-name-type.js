@@ -87,7 +87,7 @@ function Controller() {
         id: "Label_3"
     });
     $.__views.View_1.add($.__views.Label_3);
-    $.__views.__alloyId143 = Ti.UI.createButton({
+    $.__views.__alloyId231 = Ti.UI.createButton({
         height: "8%",
         left: "10%",
         selectedColor: "#193341",
@@ -105,10 +105,10 @@ function Controller() {
         color: "#193341",
         title: "Personal",
         top: "57%",
-        id: "__alloyId143"
+        id: "__alloyId231"
     });
-    $.__views.View_1.add($.__views.__alloyId143);
-    $.__views.__alloyId144 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId231);
+    $.__views.__alloyId232 = Ti.UI.createButton({
         height: "8%",
         left: "10%",
         selectedColor: "#193341",
@@ -126,10 +126,10 @@ function Controller() {
         color: "#193341",
         title: "Professional",
         top: "68%",
-        id: "__alloyId144"
+        id: "__alloyId232"
     });
-    $.__views.View_1.add($.__views.__alloyId144);
-    $.__views.__alloyId145 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId232);
+    $.__views.__alloyId233 = Ti.UI.createButton({
         height: "10%",
         width: "39%",
         backgroundColor: "#f7941d",
@@ -139,10 +139,10 @@ function Controller() {
         title: "NEXT",
         left: "52%",
         top: "83%",
-        id: "__alloyId145"
+        id: "__alloyId233"
     });
-    $.__views.View_1.add($.__views.__alloyId145);
-    $.__views.__alloyId146 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId233);
+    $.__views.__alloyId234 = Ti.UI.createButton({
         height: "10%",
         width: "39%",
         backgroundColor: "#f7941d",
@@ -152,9 +152,9 @@ function Controller() {
         title: "BACK",
         left: "10%",
         top: "83%",
-        id: "__alloyId146"
+        id: "__alloyId234"
     });
-    $.__views.View_1.add($.__views.__alloyId146);
+    $.__views.View_1.add($.__views.__alloyId234);
     $.__views.ImageView_2 = Ti.UI.createImageView({
         left: "9.48%",
         top: "13.30%",

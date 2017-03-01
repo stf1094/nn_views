@@ -29,115 +29,158 @@ function Controller() {
         id: "newmessage"
     });
     $.__views.newmessage && $.addTopLevelView($.__views.newmessage);
-    $.__views.__alloyId75 = Ti.UI.createView({
+    $.__views.__alloyId147 = Ti.UI.createView({
+        top: 0,
         backgroundColor: "#f9f9f9",
         height: "300px",
-        top: "0%",
         width: "100%",
-        id: "__alloyId75"
+        id: "__alloyId147"
     });
-    $.__views.newmessage.add($.__views.__alloyId75);
-    $.__views.__alloyId76 = Ti.UI.createLabel({
+    $.__views.newmessage.add($.__views.__alloyId147);
+    $.__views.__alloyId148 = Ti.UI.createLabel({
         font: {
-            fontSize: "14",
-            fontFamily: "",
-            fontStyle: "",
-            fontWeight: "normal"
+            fontSize: 14
         },
         color: "#444444",
         left: "5%",
         text: "To:",
-        id: "__alloyId76"
+        id: "__alloyId148"
     });
-    $.__views.__alloyId75.add($.__views.__alloyId76);
-    $.__views.__alloyId77 = Ti.UI.createLabel({
+    $.__views.__alloyId147.add($.__views.__alloyId148);
+    $.__views.__alloyId149 = Ti.UI.createLabel({
         font: {
-            fontSize: "14",
-            fontFamily: "",
-            fontStyle: "",
-            fontWeight: "normal"
+            fontSize: 14
         },
         color: "#444444",
         left: "5%",
         text: "Send Via",
         top: "76%",
-        id: "__alloyId77"
+        id: "__alloyId149"
     });
-    $.__views.__alloyId75.add($.__views.__alloyId77);
-    $.__views.__alloyId78 = Ti.UI.createLabel({
+    $.__views.__alloyId147.add($.__views.__alloyId149);
+    $.__views.__alloyId150 = Ti.UI.createLabel({
         fontWeight: "bold",
         text: "New Message",
         top: "10%",
-        id: "__alloyId78"
+        id: "__alloyId150"
     });
-    $.__views.__alloyId75.add($.__views.__alloyId78);
-    $.__views.__alloyId79 = Ti.UI.createLabel({
+    $.__views.__alloyId147.add($.__views.__alloyId150);
+    $.__views.__alloyId151 = Ti.UI.createLabel({
         font: {
-            fontSize: "14",
-            fontFamily: "",
-            fontStyle: "",
-            fontWeight: "normal"
+            fontSize: 14
         },
         color: "#444444",
         left: "5%",
         text: "Cancel",
         top: "10%",
-        id: "__alloyId79"
+        id: "__alloyId151"
     });
-    $.__views.__alloyId75.add($.__views.__alloyId79);
-    $.__views.__alloyId80 = Ti.UI.createLabel({
+    $.__views.__alloyId147.add($.__views.__alloyId151);
+    $.__views.__alloyId152 = Ti.UI.createLabel({
         font: {
-            fontSize: "14",
-            fontFamily: "",
-            fontStyle: "",
-            fontWeight: "normal"
+            fontSize: 14
         },
         color: "#f7941d",
         right: "5%",
         text: "Send",
         top: "10%",
-        id: "__alloyId80"
+        id: "__alloyId152"
     });
-    $.__views.__alloyId75.add($.__views.__alloyId80);
-    $.__views.__alloyId81 = Ti.UI.createTextField({
-        hintText: "Name, Email, or Topic",
-        backgroundColor: "#f9f9f9",
-        color: "#444444",
-        height: "90px",
-        left: "15%",
-        top: "35%",
-        width: "600px",
-        id: "__alloyId81"
-    });
-    $.__views.__alloyId75.add($.__views.__alloyId81);
-    $.__views.__alloyId82 = Ti.UI.createImageView({
+    $.__views.__alloyId147.add($.__views.__alloyId152);
+    $.__views.__alloyId153 = Ti.UI.createTextField(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            width: "600px",
+            height: "90px",
+            left: "15%",
+            top: "35%",
+            hintText: "Name or Email",
+            color: "#444444",
+            backgroundColor: "f9f9f9"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            width: "700px",
+            height: "90px",
+            left: "10%",
+            top: "35%",
+            hintText: "Name or Email",
+            color: "#444444",
+            backgroundColor: "f9f9f9"
+        });
+        Alloy.deepExtend(true, o, {
+            id: "__alloyId153"
+        });
+        return o;
+    }());
+    $.__views.__alloyId147.add($.__views.__alloyId153);
+    $.__views.__alloyId154 = Ti.UI.createTextField(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            top: "67%",
+            left: "25%",
+            width: "600px",
+            height: "90px",
+            hintText: "Message, Email, or Facebook",
+            color: "#444444",
+            backgroundColor: "f9f9f9"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            top: "67%",
+            left: "15%",
+            width: "700px",
+            height: "90px",
+            hintText: "Message, Email, or Facebook",
+            color: "#444444",
+            backgroundColor: "f9f9f9"
+        });
+        Alloy.deepExtend(true, o, {
+            id: "__alloyId154"
+        });
+        return o;
+    }());
+    $.__views.__alloyId147.add($.__views.__alloyId154);
+    $.__views.__alloyId155 = Ti.UI.createImageView({
         image: "/images/iphone/divider-line-grey.png",
         top: "33%",
         width: Titanium.UI.FILL,
-        id: "__alloyId82"
+        id: "__alloyId155"
     });
-    $.__views.__alloyId75.add($.__views.__alloyId82);
-    $.__views.__alloyId83 = Ti.UI.createImageView({
+    $.__views.__alloyId147.add($.__views.__alloyId155);
+    $.__views.__alloyId156 = Ti.UI.createImageView({
         image: "/images/iphone/divider-line-grey.png",
         top: "66%",
         width: Titanium.UI.FILL,
-        id: "__alloyId83"
+        id: "__alloyId156"
     });
-    $.__views.__alloyId75.add($.__views.__alloyId83);
-    $.__views.__alloyId84 = Ti.UI.createImageView({
+    $.__views.__alloyId147.add($.__views.__alloyId156);
+    $.__views.__alloyId157 = Ti.UI.createImageView({
         image: "/images/iphone/divider-line-grey.png",
         top: "99%",
         width: Titanium.UI.FILL,
-        id: "__alloyId84"
+        id: "__alloyId157"
     });
-    $.__views.__alloyId75.add($.__views.__alloyId84);
-    $.__views.__alloyId85 = Ti.UI.createTextArea({
-        height: "30%",
-        top: "27%",
-        width: "90%",
-        id: "__alloyId85"
-    });
-    $.__views.newmessage.add($.__views.__alloyId85);
+    $.__views.__alloyId147.add($.__views.__alloyId157);
+    $.__views.__alloyId158 = Ti.UI.createTextArea(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            font: {
+                fontSize: 14
+            },
+            width: "90%",
+            height: "30%",
+            top: "27%"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            width: "90%",
+            height: "30%",
+            top: "18%"
+        });
+        Alloy.deepExtend(true, o, {
+            id: "__alloyId158"
+        });
+        return o;
+    }());
+    $.__views.newmessage.add($.__views.__alloyId158);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

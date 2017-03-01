@@ -1,5 +1,5 @@
 <Alloy>
 	 <NavigationWindow platform="ios" >
-        <Require src="reporting"/>
+        <Require src="thread"/>
     </NavigationWindow>
 </Alloy>

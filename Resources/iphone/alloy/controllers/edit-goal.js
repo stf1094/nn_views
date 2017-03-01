@@ -50,24 +50,18 @@ function Controller() {
     $.__views.__alloyId19.add($.__views.__alloyId20);
     $.__views.__alloyId21 = Ti.UI.createLabel({
         font: {
-            fontSize: "14",
-            fontFamily: "",
-            fontStyle: "",
-            fontWeight: "normal"
+            fontSize: 14
         },
         color: "#444444",
         left: "5%",
-        text: "Cancel",
+        text: "Delete Goal",
         top: "10%",
         id: "__alloyId21"
     });
     $.__views.__alloyId19.add($.__views.__alloyId21);
     $.__views.__alloyId22 = Ti.UI.createLabel({
         font: {
-            fontSize: "14",
-            fontFamily: "",
-            fontStyle: "",
-            fontWeight: "normal"
+            fontSize: 14
         },
         color: "#f7941d",
         right: "5%",
@@ -100,11 +94,12 @@ function Controller() {
     });
     $.__views.__alloyId18.add($.__views.__alloyId25);
     $.__views.__alloyId26 = Ti.UI.createTextField({
-        backgroundColor: "#f9f9f9",
+        backgroundColor: "#ececec",
         color: "#444444",
         height: "90px",
         left: "5%",
         top: 5,
+        value: "Whatever the goal is currently",
         width: "650px",
         id: "__alloyId26"
     });
@@ -128,23 +123,30 @@ function Controller() {
         id: "__alloyId28"
     });
     $.__views.__alloyId27.add($.__views.__alloyId28);
-    $.__views.__alloyId29 = Ti.UI.createTextField({
-        left: 10,
-        borderColor: "#444444",
+    $.__views.__alloyId29 = Ti.UI.createImageView({
         height: "90px",
-        width: "300px",
+        image: "/images/iphone/calendar-icon.png",
+        left: 15,
+        width: "90px",
         id: "__alloyId29"
     });
     $.__views.__alloyId27.add($.__views.__alloyId29);
-    $.__views.__alloyId30 = Ti.UI.createView({
+    $.__views.__alloyId30 = Ti.UI.createTextField({
+        backgroundColor: "#ececec",
+        height: "90px",
+        width: "300px",
+        id: "__alloyId30"
+    });
+    $.__views.__alloyId27.add($.__views.__alloyId30);
+    $.__views.__alloyId31 = Ti.UI.createView({
         layout: "horizontal",
         height: "100px",
         width: Ti.UI.SIZE,
         top: 10,
-        id: "__alloyId30"
+        id: "__alloyId31"
     });
-    $.__views.__alloyId18.add($.__views.__alloyId30);
-    $.__views.__alloyId31 = Ti.UI.createLabel({
+    $.__views.__alloyId18.add($.__views.__alloyId31);
+    $.__views.__alloyId32 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
@@ -152,17 +154,24 @@ function Controller() {
             fontWeight: "normal"
         },
         text: "End Date",
-        id: "__alloyId31"
-    });
-    $.__views.__alloyId30.add($.__views.__alloyId31);
-    $.__views.__alloyId32 = Ti.UI.createTextField({
-        left: 15,
-        borderColor: "#444444",
-        height: "90px",
-        width: "300px",
         id: "__alloyId32"
     });
-    $.__views.__alloyId30.add($.__views.__alloyId32);
+    $.__views.__alloyId31.add($.__views.__alloyId32);
+    $.__views.__alloyId33 = Ti.UI.createImageView({
+        height: "90px",
+        image: "/images/iphone/calendar-icon.png",
+        left: 20,
+        width: "90px",
+        id: "__alloyId33"
+    });
+    $.__views.__alloyId31.add($.__views.__alloyId33);
+    $.__views.__alloyId34 = Ti.UI.createTextField({
+        backgroundColor: "#ececec",
+        height: "90px",
+        width: "300px",
+        id: "__alloyId34"
+    });
+    $.__views.__alloyId31.add($.__views.__alloyId34);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

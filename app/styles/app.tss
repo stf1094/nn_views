@@ -1377,12 +1377,14 @@ overrode the settings with other TSS, XML, or JS settings:
 ".message-grey": {
 	"backgroundColor": "#ececec",
 	"borderRadius": "10",
-	"color": "black"
+	"color": "black",
+	"width": "70%"
 },
 ".message-orange": {
 	"backgroundColor": "#f7941d",
 	"borderRadius": "10",
-	"color": "white"
+	"color": "white",
+	"width": "70%"
 },
 /*Text for Forms*/
 ".textfield": {

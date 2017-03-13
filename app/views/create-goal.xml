@@ -1,18 +1,16 @@
 <Alloy>
     <Window id="Window_1" title="Set a Goal">
-        <View class="form1" id="View_1">
-            <Label id="startDate">Start Date</Label>
-            <Label id="endDate">End Date</Label>
-            <TextField id="TextField_1"/>
-            <ImageView id="ImageView_2" image="/images/choose-date-entry.png"/>
-            <ImageView id="ImageView_4" image="/choose-date-entry.png"/>
-            <Button class="button-half1" left="52%" top="83%">NEXT</Button>
-            <Button class="button-half1" left="10%" top="83%">BACK</Button>
-            <Label id="Label_1">What is your goal for this project?</Label>
-            <TextField id="TextField_2"/>
-            <TextField id="TextField_3"/>
-            <ImageView id="ImageView_1" image="images/iphone/setgoal.png"/>
+        <View borderRadius="10" class="form1 bg-white vgroup">
+            <Label class="h1" left="25" top="15%">Set a Goal</Label>
+            <Label class="h5" left="25" top="5">What would you like to achieve?</Label>
+            <Label class="h5 top-buffer" left="50">Ex: Get 15 Customers or</Label>
+            <Label class="h5" left="73">Recruit 10 New Associates</Label>
+            <TextField class="textfield600 top-buffer" left="5%"/>
+            <View class="hgroup two-buttons" top="35">
+                <Button class="button-half1-full">Back</Button>
+                <Button class="button-half1-full" left="20">Next</Button>
+            </View>
         </View>
-        <ImageView id="ImageView_3" image="/images/iphone/project-shuriken.png"/>
+        <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
     </Window>
 </Alloy>

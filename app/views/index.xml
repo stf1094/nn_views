@@ -1,5 +1,5 @@
 <Alloy>
 	 <NavigationWindow platform="ios" >
-        <Require src="thread"/>
+        <Require src="add-contacts"/>
     </NavigationWindow>
 </Alloy>

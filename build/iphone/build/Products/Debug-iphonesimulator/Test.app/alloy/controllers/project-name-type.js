@@ -30,149 +30,153 @@ function Controller() {
         id: "Window_1"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.View_1 = Ti.UI.createView({
-        left: "5.07%",
-        right: "5%",
-        top: "8.11%",
-        height: "72.53%",
-        width: "90.00%",
-        backgroundColor: "#ffffff",
-        center: "100%",
-        borderRadius: "10",
-        id: "View_1"
-    });
-    $.__views.Window_1.add($.__views.View_1);
-    $.__views.Label_2 = Ti.UI.createLabel({
+    $.__views.__alloyId269 = Ti.UI.createView(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            borderRadius: "10",
+            left: "5%",
+            right: "5%",
+            top: "8%",
+            height: "50%",
+            width: "90%",
+            layout: "vertical",
+            backgroundColor: "white"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            left: "5%",
+            right: "5%",
+            top: "8%",
+            height: "35%",
+            width: "90%"
+        });
+        Alloy.deepExtend(true, o, {
+            id: "__alloyId269"
+        });
+        return o;
+    }());
+    $.__views.Window_1.add($.__views.__alloyId269);
+    $.__views.__alloyId270 = Ti.UI.createLabel(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            font: {
+                fontSize: 30
+            },
+            top: "15%"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            top: "22%"
+        });
+        Alloy.deepExtend(true, o, {
+            text: "Create a Project",
+            left: 25,
+            id: "__alloyId270"
+        });
+        return o;
+    }());
+    $.__views.__alloyId269.add($.__views.__alloyId270);
+    $.__views.__alloyId271 = Ti.UI.createLabel({
+        font: {
+            fontSize: 14
+        },
         text: "What would you like to name your project?",
-        left: "10%",
-        top: "23.73%",
-        height: "7.47%",
-        width: "76.74%",
+        top: 5,
+        left: 25,
+        id: "__alloyId271"
+    });
+    $.__views.__alloyId269.add($.__views.__alloyId271);
+    $.__views.__alloyId272 = Ti.UI.createLabel({
         font: {
-            fontSize: "14",
-            fontFamily: "",
-            fontStyle: "",
-            fontWeight: ""
+            fontSize: 14
         },
-        color: "#444444",
-        id: "Label_2"
+        text: "Ex: Your Company Name",
+        top: 5,
+        left: 45,
+        id: "__alloyId272"
     });
-    $.__views.View_1.add($.__views.Label_2);
-    $.__views.TextField_1 = Ti.UI.createTextField({
-        width: "80%",
-        height: "10%",
-        borderRadius: "10",
-        borderColor: "#E5E5E5",
-        borderWidth: "0",
-        left: "9.93%",
-        top: "33.26%",
-        backgroundColor: "#ececec",
-        id: "TextField_1"
-    });
-    $.__views.View_1.add($.__views.TextField_1);
-    $.__views.Label_3 = Ti.UI.createLabel({
-        text: "Is it a personal or professional project?",
-        left: "10%",
-        top: "46%",
-        "class": "text1",
-        font: {
-            fontSize: "14",
-            fontFamily: "",
-            fontStyle: "",
-            fontWeight: ""
-        },
-        height: "7.32%",
-        width: "78.52%",
-        color: "#444444",
-        id: "Label_3"
-    });
-    $.__views.View_1.add($.__views.Label_3);
-    $.__views.__alloyId231 = Ti.UI.createButton({
-        height: "8%",
-        left: "10%",
-        selectedColor: "#193341",
-        width: "80%",
-        font: {
-            fontSize: "20",
-            fontFamily: "sans-serif",
-            fontStyle: "normal",
-            fontWeight: "bold"
-        },
-        backgroundColor: "#ffffff",
-        borderColor: "#193341",
-        borderRadius: "10",
-        borderWidth: "2",
-        color: "#193341",
-        title: "Personal",
-        top: "57%",
-        id: "__alloyId231"
-    });
-    $.__views.View_1.add($.__views.__alloyId231);
-    $.__views.__alloyId232 = Ti.UI.createButton({
-        height: "8%",
-        left: "10%",
-        selectedColor: "#193341",
-        width: "80%",
-        font: {
-            fontSize: "20",
-            fontFamily: "sans-serif",
-            fontStyle: "normal",
-            fontWeight: "bold"
-        },
-        backgroundColor: "#ffffff",
-        borderColor: "#193341",
-        borderRadius: "10",
-        borderWidth: "2",
-        color: "#193341",
-        title: "Professional",
-        top: "68%",
-        id: "__alloyId232"
-    });
-    $.__views.View_1.add($.__views.__alloyId232);
-    $.__views.__alloyId233 = Ti.UI.createButton({
-        height: "10%",
-        width: "39%",
+    $.__views.__alloyId269.add($.__views.__alloyId272);
+    $.__views.__alloyId273 = Ti.UI.createTextField(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            top: 10,
+            width: "600px",
+            height: "100px",
+            backgroundColor: "#ececec",
+            left: "10%",
+            borderRadius: "10"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            width: "80%",
+            height: "100px",
+            backgroundColor: "#ececec",
+            borderRadius: "10"
+        });
+        Alloy.deepExtend(true, o, {
+            left: 25,
+            id: "__alloyId273"
+        });
+        return o;
+    }());
+    $.__views.__alloyId269.add($.__views.__alloyId273);
+    $.__views.__alloyId274 = Ti.UI.createView(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            layout: "horizontal",
+            left: "20"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            left: "50"
+        });
+        Alloy.deepExtend(true, o, {
+            top: 35,
+            id: "__alloyId274"
+        });
+        return o;
+    }());
+    $.__views.__alloyId269.add($.__views.__alloyId274);
+    $.__views.__alloyId275 = Ti.UI.createButton({
+        height: "90px",
+        width: "44%",
         backgroundColor: "#f7941d",
         borderRadius: "10",
         color: "#ffffff",
-        selectedBackgroundColor: "#e5790e",
-        title: "NEXT",
-        left: "52%",
-        top: "83%",
-        id: "__alloyId233"
+        title: "Back",
+        id: "__alloyId275"
     });
-    $.__views.View_1.add($.__views.__alloyId233);
-    $.__views.__alloyId234 = Ti.UI.createButton({
-        height: "10%",
-        width: "39%",
+    $.__views.__alloyId274.add($.__views.__alloyId275);
+    $.__views.__alloyId276 = Ti.UI.createButton({
+        height: "90px",
+        width: "44%",
         backgroundColor: "#f7941d",
         borderRadius: "10",
         color: "#ffffff",
-        selectedBackgroundColor: "#e5790e",
-        title: "BACK",
-        left: "10%",
-        top: "83%",
-        id: "__alloyId234"
+        title: "Next",
+        left: 20,
+        id: "__alloyId276"
     });
-    $.__views.View_1.add($.__views.__alloyId234);
-    $.__views.ImageView_2 = Ti.UI.createImageView({
-        left: "9.48%",
-        top: "13.30%",
-        height: "9%",
-        width: "75%",
-        id: "ImageView_2",
-        image: "images/iphone/create-project.png"
-    });
-    $.__views.View_1.add($.__views.ImageView_2);
-    $.__views.ImageView_1 = Ti.UI.createImageView({
-        left: "40%",
-        top: "2.5%",
-        height: "12%",
-        width: "21%",
-        image: "/images/iphone/project-shuriken.png",
-        id: "ImageView_1"
-    });
-    $.__views.Window_1.add($.__views.ImageView_1);
+    $.__views.__alloyId274.add($.__views.__alloyId276);
+    $.__views.__alloyId277 = Ti.UI.createImageView(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            left: "41%",
+            top: "1.5%",
+            height: "150px",
+            width: "150px",
+            image: "/images/iphone/project-shuriken.png"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            left: "43%",
+            top: "2.25%",
+            height: "200px",
+            width: "200px",
+            image: "/images/iphone/project-shuriken.png"
+        });
+        Alloy.deepExtend(true, o, {
+            image: "/images/iphone/project-shuriken.png",
+            id: "__alloyId277"
+        });
+        return o;
+    }());
+    $.__views.Window_1.add($.__views.__alloyId277);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

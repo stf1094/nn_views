@@ -30,71 +30,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 This is your global styles file. Selectors and rules you define
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -158,71 +94,7 @@ here will be applied throughout your app. However, these rules
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 have the lowest priority of any style settings.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -286,71 +158,7 @@ For more information, see the "Style Priorities" section of
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 http://docs.appcelerator.com/platform/latest/#!/guide/Alloy_Styles_and_Themes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -414,71 +222,7 @@ For example, the following would apply to all labels, windows,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 and text fields (depending on platform) in your app unless you
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -542,71 +286,7 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 'Label[platform=android,windows]': {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -670,71 +350,7 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -798,38 +414,6 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	backgroundColor: '#fff' // white background instead of default transparent or black
 
 
@@ -862,71 +446,7 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -990,71 +510,7 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	height: Ti.UI.SIZE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1118,44 +574,7 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 */
-"#Tab_1": {
-},
-"#Window_2": {
-	"title": "Window"
-},
 "#View_1": {
 	"backgroundColor": "#ffffff",
 	"center": "100%",
@@ -1175,17 +594,52 @@ overrode the settings with other TSS, XML, or JS settings:
 	"top": "16.5%",
 	"color": "black"
 },
+".borderRadius10": {
+	"borderRadius": "10"
+},
+".borderRadius20": {
+	"borderRadius": "20"
+},
 ".topCircle": {
-	"left": "40%",
+	"left": "41%",
+	"top": "1.5%",
+	"height": "150px",
+	"width": "150px",
+	"image": "/images/iphone/project-shuriken.png"
+},
+".topCircle[platform=ios formFactor=tablet]": {
+	"left": "43%",
 	"top": "2.25%",
-	"height": "12%",
-	"width": "21%"
+	"height": "200px",
+	"width": "200px",
+	"image": "/images/iphone/project-shuriken.png"
 },
 ".form1": {
 	"left": "5%",
 	"right": "5%",
 	"top": "8%",
 	"height": "65%",
+	"width": "90%"
+},
+".form1[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "40%",
+	"width": "90%"
+},
+".form2": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "50%",
+	"width": "90%"
+},
+".form2[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "35%",
 	"width": "90%"
 },
 ".dojo-cover": {
@@ -1252,11 +706,14 @@ overrode the settings with other TSS, XML, or JS settings:
 	"width": "90%",
 	"backgroundColor": "#acacac"
 },
+".bg-white": {
+	"backgroundColor": "white"
+},
 /*Buttons*/
 ".button1": {
 	"left": "9.78%",
 	"width": "80%",
-	"height": "12%",
+	"height": "90px",
 	"backgroundColor": "#f7941d",
 	"borderRadius": "10",
 	"color": "white",
@@ -1272,11 +729,10 @@ overrode the settings with other TSS, XML, or JS settings:
 	"selectedBackgroundColor": "#e5790e"
 },
 ".button2": {
-	"height": "8%",
+	"height": "90px",
 	"left": "10%",
 	"selectedColor": "#193341",
 	"width": "80%",
-	"font": {fontSize:'20',fontFamily:'sans-serif',fontStyle:'normal',fontWeight:'bold'},
 	"backgroundColor": "#ffffff",
 	"borderColor": "#193341",
 	"borderRadius": "10",
@@ -1284,14 +740,14 @@ overrode the settings with other TSS, XML, or JS settings:
 	"color": "#193341"
 },
 ".button3": {
-	"height": "10%",
+	"height": "90px",
 	"width": "80%",
 	"backgroundColor": "#193341",
 	"borderRadius": "10",
 	"color": "white"
 },
 ".button-half1": {
-	"height": "10%",
+	"height": "90px",
 	"width": "39%",
 	"backgroundColor": "#f7941d",
 	"borderRadius": "10",
@@ -1299,7 +755,7 @@ overrode the settings with other TSS, XML, or JS settings:
 	"selectedBackgroundColor": "#e5790e"
 },
 ".button-half2": {
-	"height": "10%",
+	"height": "90px",
 	"width": "39%",
 	"backgroundColor": "#ffffff",
 	"borderRadius": "10",
@@ -1307,33 +763,27 @@ overrode the settings with other TSS, XML, or JS settings:
 	"borderColor": "#193341"
 },
 ".button-half1-full": {
-	"height": "8%",
+	"height": "90px",
 	"width": "44%",
 	"backgroundColor": "#f7941d",
 	"borderRadius": "10",
 	"color": "#ffffff"
 },
 ".button-half2-full": {
-	"height": "8%",
+	"height": "90px",
 	"width": "44%",
 	"backgroundColor": "#ffffff",
 	"borderRadius": "10",
 	"color": "#193341",
 	"borderColor": "#193341"
 },
+".two-buttons": {
+	"left": "20"
+},
+".two-buttons[platform=ios formFactor=tablet]": {
+	"left": "50"
+},
 /*Font sizes and Typography*/
-".font14": {
-	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'}
-},
-".font16": {
-	"font": {fontSize:'16',fontFamily:'',fontStyle:'',fontWeight:'normal'}
-},
-".font20": {
-	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'}
-},
-".font40": {
-	"font": {fontSize:'40',fontFamily:'',fontStyle:'',fontWeight:'normal'}
-},
 ".h1": {
 	"font": {fontSize:36}
 },

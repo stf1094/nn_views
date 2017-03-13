@@ -1,0 +1,7 @@
+
+".start-title" : {
+  "top": "15%"
+},
+".start-title[platform=ios formFactor=tablet]" : {
+  "top": "25%"
+},

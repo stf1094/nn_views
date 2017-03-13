@@ -1,12 +1,15 @@
 <Alloy>
     <Window id="Window_1" title="Add Contacts">
-        <View class="form1" id="View_1">
-            /&amp;gt;
-            <Label id="Label_2">Who would you like to add to this project?</Label>/&amp;gt;
-            <Button class="button-half1" id="Button_1">BACK</Button>/&amp;gt;
-        <Button class="button-half1" id="Button_2">NEXT</Button>/&amp;gt;
-        <ImageView id="ImageView_2" image="/images/iphone/addcontacts.png"/>
+        <View class="form1 vgroup bg-white borderRadius10" height="90%">
+            <Label class="h2 add-contacts-title" left="25" text="Add Your Contacts"/>
+            <Label class="h5 top-buffer" left="25" width="80%">Who are you going to contact to achieve this goal?</Label> 
+        	<!--Contact List-->
+        	<View class="bg-white" height="58%"/>
+        	<View class="hgroup two-buttons" top="35">
+                <Button class="button-half1-full">Back</Button>
+                <Button class="button-half1-full" left="20">Next</Button>
+            </View>
         </View>
-        <ImageView class="topCircle" id="ImageView_1" image="/images/iphone/project-shuriken.png"/>
+        <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
     </Window>
 </Alloy>

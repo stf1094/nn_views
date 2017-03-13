@@ -30,102 +30,102 @@ function Controller() {
         id: "Window_1"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.__alloyId213 = Ti.UI.createImageView({
+    $.__views.__alloyId253 = Ti.UI.createImageView({
         top: 0,
         image: "/images/iphone/project-hotlist-cover.png",
-        id: "__alloyId213"
+        id: "__alloyId253"
     });
-    $.__views.Window_1.add($.__views.__alloyId213);
-    $.__views.__alloyId214 = Ti.UI.createView({
+    $.__views.Window_1.add($.__views.__alloyId253);
+    $.__views.__alloyId254 = Ti.UI.createView({
         height: 60,
-        id: "__alloyId214"
+        id: "__alloyId254"
     });
-    $.__views.Window_1.add($.__views.__alloyId214);
-    $.__views.__alloyId215 = Ti.UI.createLabel({
+    $.__views.Window_1.add($.__views.__alloyId254);
+    $.__views.__alloyId255 = Ti.UI.createLabel({
         top: 10,
         font: {
             fontSize: 30
         },
         text: "Project Name",
-        id: "__alloyId215"
+        id: "__alloyId255"
     });
-    $.__views.__alloyId214.add($.__views.__alloyId215);
-    var __alloyId219 = [];
-    $.__views.__alloyId220 = {
+    $.__views.__alloyId254.add($.__views.__alloyId255);
+    var __alloyId259 = [];
+    $.__views.__alloyId260 = {
         properties: {
             height: 90,
             title: "Contact 1",
-            id: "__alloyId220"
+            id: "__alloyId260"
         }
     };
-    __alloyId219.push($.__views.__alloyId220);
-    $.__views.__alloyId221 = {
+    __alloyId259.push($.__views.__alloyId260);
+    $.__views.__alloyId261 = {
         properties: {
             height: 90,
             title: "Contact 2",
-            id: "__alloyId221"
+            id: "__alloyId261"
         }
     };
-    __alloyId219.push($.__views.__alloyId221);
-    $.__views.__alloyId222 = {
+    __alloyId259.push($.__views.__alloyId261);
+    $.__views.__alloyId262 = {
         properties: {
             height: 90,
             title: "Contact 3",
-            id: "__alloyId222"
+            id: "__alloyId262"
         }
     };
-    __alloyId219.push($.__views.__alloyId222);
-    $.__views.__alloyId223 = {
+    __alloyId259.push($.__views.__alloyId262);
+    $.__views.__alloyId263 = {
         properties: {
             height: 90,
             title: "Contact 4",
-            id: "__alloyId223"
+            id: "__alloyId263"
         }
     };
-    __alloyId219.push($.__views.__alloyId223);
-    $.__views.__alloyId224 = {
+    __alloyId259.push($.__views.__alloyId263);
+    $.__views.__alloyId264 = {
         properties: {
             height: 90,
             title: "Contact 5",
-            id: "__alloyId224"
+            id: "__alloyId264"
         }
     };
-    __alloyId219.push($.__views.__alloyId224);
-    $.__views.__alloyId225 = {
+    __alloyId259.push($.__views.__alloyId264);
+    $.__views.__alloyId265 = {
         properties: {
             height: 90,
             title: "Contact 6",
-            id: "__alloyId225"
+            id: "__alloyId265"
         }
     };
-    __alloyId219.push($.__views.__alloyId225);
-    $.__views.__alloyId226 = {
+    __alloyId259.push($.__views.__alloyId265);
+    $.__views.__alloyId266 = {
         properties: {
             height: 90,
             title: "Contact 7",
-            id: "__alloyId226"
+            id: "__alloyId266"
         }
     };
-    __alloyId219.push($.__views.__alloyId226);
-    $.__views.__alloyId227 = {
+    __alloyId259.push($.__views.__alloyId266);
+    $.__views.__alloyId267 = {
         properties: {
             height: 90,
             title: "Contact 8",
-            id: "__alloyId227"
+            id: "__alloyId267"
         }
     };
-    __alloyId219.push($.__views.__alloyId227);
-    $.__views.__alloyId217 = Ti.UI.createListSection({
-        id: "__alloyId217"
+    __alloyId259.push($.__views.__alloyId267);
+    $.__views.__alloyId257 = Ti.UI.createListSection({
+        id: "__alloyId257"
     });
-    $.__views.__alloyId217.items = __alloyId219;
-    var __alloyId228 = [];
-    __alloyId228.push($.__views.__alloyId217);
-    $.__views.__alloyId216 = Ti.UI.createListView({
-        sections: __alloyId228,
-        id: "__alloyId216"
+    $.__views.__alloyId257.items = __alloyId259;
+    var __alloyId268 = [];
+    __alloyId268.push($.__views.__alloyId257);
+    $.__views.__alloyId256 = Ti.UI.createListView({
+        sections: __alloyId268,
+        id: "__alloyId256"
     });
-    $.__views.Window_1.add($.__views.__alloyId216);
+    $.__views.Window_1.add($.__views.__alloyId256);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

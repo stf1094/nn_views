@@ -29,25 +29,25 @@ function Controller() {
         id: "newmessage"
     });
     $.__views.newmessage && $.addTopLevelView($.__views.newmessage);
-    $.__views.__alloyId147 = Ti.UI.createView({
+    $.__views.__alloyId180 = Ti.UI.createView({
         top: 0,
         backgroundColor: "#f9f9f9",
         height: "300px",
         width: "100%",
-        id: "__alloyId147"
+        id: "__alloyId180"
     });
-    $.__views.newmessage.add($.__views.__alloyId147);
-    $.__views.__alloyId148 = Ti.UI.createLabel({
+    $.__views.newmessage.add($.__views.__alloyId180);
+    $.__views.__alloyId181 = Ti.UI.createLabel({
         font: {
             fontSize: 14
         },
         color: "#444444",
         left: "5%",
         text: "To:",
-        id: "__alloyId148"
+        id: "__alloyId181"
     });
-    $.__views.__alloyId147.add($.__views.__alloyId148);
-    $.__views.__alloyId149 = Ti.UI.createLabel({
+    $.__views.__alloyId180.add($.__views.__alloyId181);
+    $.__views.__alloyId182 = Ti.UI.createLabel({
         font: {
             fontSize: 14
         },
@@ -55,17 +55,17 @@ function Controller() {
         left: "5%",
         text: "Send Via",
         top: "76%",
-        id: "__alloyId149"
+        id: "__alloyId182"
     });
-    $.__views.__alloyId147.add($.__views.__alloyId149);
-    $.__views.__alloyId150 = Ti.UI.createLabel({
+    $.__views.__alloyId180.add($.__views.__alloyId182);
+    $.__views.__alloyId183 = Ti.UI.createLabel({
         fontWeight: "bold",
         text: "New Message",
         top: "10%",
-        id: "__alloyId150"
+        id: "__alloyId183"
     });
-    $.__views.__alloyId147.add($.__views.__alloyId150);
-    $.__views.__alloyId151 = Ti.UI.createLabel({
+    $.__views.__alloyId180.add($.__views.__alloyId183);
+    $.__views.__alloyId184 = Ti.UI.createLabel({
         font: {
             fontSize: 14
         },
@@ -73,10 +73,10 @@ function Controller() {
         left: "5%",
         text: "Cancel",
         top: "10%",
-        id: "__alloyId151"
+        id: "__alloyId184"
     });
-    $.__views.__alloyId147.add($.__views.__alloyId151);
-    $.__views.__alloyId152 = Ti.UI.createLabel({
+    $.__views.__alloyId180.add($.__views.__alloyId184);
+    $.__views.__alloyId185 = Ti.UI.createLabel({
         font: {
             fontSize: 14
         },
@@ -84,10 +84,10 @@ function Controller() {
         right: "5%",
         text: "Send",
         top: "10%",
-        id: "__alloyId152"
+        id: "__alloyId185"
     });
-    $.__views.__alloyId147.add($.__views.__alloyId152);
-    $.__views.__alloyId153 = Ti.UI.createTextField(function() {
+    $.__views.__alloyId180.add($.__views.__alloyId185);
+    $.__views.__alloyId186 = Ti.UI.createTextField(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             width: "600px",
@@ -108,12 +108,12 @@ function Controller() {
             backgroundColor: "f9f9f9"
         });
         Alloy.deepExtend(true, o, {
-            id: "__alloyId153"
+            id: "__alloyId186"
         });
         return o;
     }());
-    $.__views.__alloyId147.add($.__views.__alloyId153);
-    $.__views.__alloyId154 = Ti.UI.createTextField(function() {
+    $.__views.__alloyId180.add($.__views.__alloyId186);
+    $.__views.__alloyId187 = Ti.UI.createTextField(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             top: "67%",
@@ -134,33 +134,33 @@ function Controller() {
             backgroundColor: "f9f9f9"
         });
         Alloy.deepExtend(true, o, {
-            id: "__alloyId154"
+            id: "__alloyId187"
         });
         return o;
     }());
-    $.__views.__alloyId147.add($.__views.__alloyId154);
-    $.__views.__alloyId155 = Ti.UI.createImageView({
+    $.__views.__alloyId180.add($.__views.__alloyId187);
+    $.__views.__alloyId188 = Ti.UI.createImageView({
         image: "/images/iphone/divider-line-grey.png",
         top: "33%",
         width: Titanium.UI.FILL,
-        id: "__alloyId155"
+        id: "__alloyId188"
     });
-    $.__views.__alloyId147.add($.__views.__alloyId155);
-    $.__views.__alloyId156 = Ti.UI.createImageView({
+    $.__views.__alloyId180.add($.__views.__alloyId188);
+    $.__views.__alloyId189 = Ti.UI.createImageView({
         image: "/images/iphone/divider-line-grey.png",
         top: "66%",
         width: Titanium.UI.FILL,
-        id: "__alloyId156"
+        id: "__alloyId189"
     });
-    $.__views.__alloyId147.add($.__views.__alloyId156);
-    $.__views.__alloyId157 = Ti.UI.createImageView({
+    $.__views.__alloyId180.add($.__views.__alloyId189);
+    $.__views.__alloyId190 = Ti.UI.createImageView({
         image: "/images/iphone/divider-line-grey.png",
         top: "99%",
         width: Titanium.UI.FILL,
-        id: "__alloyId157"
+        id: "__alloyId190"
     });
-    $.__views.__alloyId147.add($.__views.__alloyId157);
-    $.__views.__alloyId158 = Ti.UI.createTextArea(function() {
+    $.__views.__alloyId180.add($.__views.__alloyId190);
+    $.__views.__alloyId191 = Ti.UI.createTextArea(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             font: {
@@ -176,11 +176,11 @@ function Controller() {
             top: "18%"
         });
         Alloy.deepExtend(true, o, {
-            id: "__alloyId158"
+            id: "__alloyId191"
         });
         return o;
     }());
-    $.__views.newmessage.add($.__views.__alloyId158);
+    $.__views.newmessage.add($.__views.__alloyId191);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

@@ -1,10 +1,8 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2017 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -60,7 +58,7 @@ extern "C" {
 	#define KMETHOD_DEBUG MEMORY_DEBUG
 #endif
 
-// in simulator we redefine to format for Test Developer console
+// in simulator we redefine to format for Titanium Developer console
 
 
 #define TI_INLINE static __inline__
@@ -309,13 +307,13 @@ void TiExceptionThrowWithNameAndReason(NSString *exceptionName, NSString *reason
 #define DEFINE_EXCEPTIONS \
 - (void) throwException:(NSString *) reason subreason:(NSString*)subreason location:(NSString *)location\
 {\
-	NSString * exceptionName = [@"org.test." stringByAppendingString:NSStringFromClass([self class])];\
+	NSString * exceptionName = [@"org.appcelerator." stringByAppendingString:NSStringFromClass([self class])];\
 	TiExceptionThrowWithNameAndReason(exceptionName,reason,subreason,location);\
 }\
 \
 + (void) throwException:(NSString *) reason subreason:(NSString*)subreason location:(NSString *)location\
 {\
-	NSString * exceptionName = @"org.test";\
+	NSString * exceptionName = @"org.appcelerator";\
 	TiExceptionThrowWithNameAndReason(exceptionName,reason,subreason,location);\
 }\
 
@@ -426,28 +424,28 @@ DebugLog(@"[WARN] Ti.%@ DEPRECATED in %@, in favor of Ti.%@",api,in,newapi);
 
  //MUST BE NEGATIVE, as it inhabits the same space as UIBarButtonSystemItem
 enum {
-	UITestNativeItemNone = -1, 
-	UITestNativeItemSpinner = -2,
-	UITestNativeItemProgressBar = -3,
+	UITitaniumNativeItemNone = -1, 
+	UITitaniumNativeItemSpinner = -2,
+	UITitaniumNativeItemProgressBar = -3,
 	
-	UITestNativeItemSlider = -4,
-	UITestNativeItemSwitch = -5,
-	UITestNativeItemMultiButton = -6,
-	UITestNativeItemSegmented = -7,
+	UITitaniumNativeItemSlider = -4,
+	UITitaniumNativeItemSwitch = -5,
+	UITitaniumNativeItemMultiButton = -6,
+	UITitaniumNativeItemSegmented = -7,
 	
-	UITestNativeItemTextView = -8,
-	UITestNativeItemTextField = -9,
-	UITestNativeItemSearchBar = -10,
+	UITitaniumNativeItemTextView = -8,
+	UITitaniumNativeItemTextField = -9,
+	UITitaniumNativeItemSearchBar = -10,
 	
-	UITestNativeItemPicker = -11,
-	UITestNativeItemDatePicker = -12,
+	UITitaniumNativeItemPicker = -11,
+	UITitaniumNativeItemDatePicker = -12,
 	
-	UITestNativeItemInfoLight = -13,
-	UITestNativeItemInfoDark = -14,
+	UITitaniumNativeItemInfoLight = -13,
+	UITitaniumNativeItemInfoDark = -14,
 	
-	UITestNativeItemDisclosure = -15,
+	UITitaniumNativeItemDisclosure = -15,
 	
-	UITestNativeItemContactAdd = -16
+	UITitaniumNativeItemContactAdd = -16
 };
 
 
@@ -635,7 +633,7 @@ void incrementKrollCounter();
 void decrementKrollCounter();
 #endif
 /**
- *	TiThreadPerformOnMainThread should replace all Test instances of
+ *	TiThreadPerformOnMainThread should replace all Titanium instances of
  *	performSelectorOnMainThread, ESPECIALLY if wait is to be yes. That way,
  *	exceptional-case main thread activities can process them outside of the
  *	standard event loop.

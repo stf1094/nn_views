@@ -30,13 +30,13 @@ function Controller() {
         backgroundColor: "#f3f3f3"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.__alloyId139 = Ti.UI.createImageView({
+    $.__views.__alloyId172 = Ti.UI.createImageView({
         image: "/images/thenetworkninjas-logo.png",
         top: 30,
-        id: "__alloyId139"
+        id: "__alloyId172"
     });
-    $.__views.Window_1.add($.__views.__alloyId139);
-    $.__views.__alloyId140 = Ti.UI.createLabel(function() {
+    $.__views.Window_1.add($.__views.__alloyId172);
+    $.__views.__alloyId173 = Ti.UI.createLabel(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             font: {
@@ -59,12 +59,12 @@ function Controller() {
             text: "Log In",
             top: "24%",
             width: "100%",
-            id: "__alloyId140"
+            id: "__alloyId173"
         });
         return o;
     }());
-    $.__views.Window_1.add($.__views.__alloyId140);
-    $.__views.__alloyId141 = Ti.UI.createView(function() {
+    $.__views.Window_1.add($.__views.__alloyId173);
+    $.__views.__alloyId174 = Ti.UI.createView(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             height: "700px",
@@ -78,12 +78,12 @@ function Controller() {
             top: "30%",
             backgroundColor: "white",
             borderColor: "#e1e1e1",
-            id: "__alloyId141"
+            id: "__alloyId174"
         });
         return o;
     }());
-    $.__views.Window_1.add($.__views.__alloyId141);
-    $.__views.__alloyId142 = Ti.UI.createTextField(function() {
+    $.__views.Window_1.add($.__views.__alloyId174);
+    $.__views.__alloyId175 = Ti.UI.createTextField(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             width: "600px",
@@ -100,12 +100,12 @@ function Controller() {
         });
         Alloy.deepExtend(true, o, {
             top: "14%",
-            id: "__alloyId142"
+            id: "__alloyId175"
         });
         return o;
     }());
-    $.__views.__alloyId141.add($.__views.__alloyId142);
-    $.__views.__alloyId143 = Ti.UI.createTextField(function() {
+    $.__views.__alloyId174.add($.__views.__alloyId175);
+    $.__views.__alloyId176 = Ti.UI.createTextField(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
             width: "600px",
@@ -122,12 +122,12 @@ function Controller() {
         });
         Alloy.deepExtend(true, o, {
             top: "31%",
-            id: "__alloyId143"
+            id: "__alloyId176"
         });
         return o;
     }());
-    $.__views.__alloyId141.add($.__views.__alloyId143);
-    $.__views.__alloyId144 = Ti.UI.createButton({
+    $.__views.__alloyId174.add($.__views.__alloyId176);
+    $.__views.__alloyId177 = Ti.UI.createButton({
         left: "9.78%",
         width: "80%",
         height: "106px",
@@ -137,10 +137,10 @@ function Controller() {
         selectedBackgroundColor: "#e5790e",
         title: "LOG IN",
         top: "50%",
-        id: "__alloyId144"
+        id: "__alloyId177"
     });
-    $.__views.__alloyId141.add($.__views.__alloyId144);
-    $.__views.__alloyId145 = Ti.UI.createButton({
+    $.__views.__alloyId174.add($.__views.__alloyId177);
+    $.__views.__alloyId178 = Ti.UI.createButton({
         left: "9.78%",
         width: "80%",
         height: "106px",
@@ -150,10 +150,10 @@ function Controller() {
         selectedBackgroundColor: "#e5790e",
         title: "SIGN UP",
         top: "68%",
-        id: "__alloyId145"
+        id: "__alloyId178"
     });
-    $.__views.__alloyId141.add($.__views.__alloyId145);
-    $.__views.__alloyId146 = Ti.UI.createLabel({
+    $.__views.__alloyId174.add($.__views.__alloyId178);
+    $.__views.__alloyId179 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
@@ -163,9 +163,9 @@ function Controller() {
         textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
         text: "Forgot Password?",
         top: "90%",
-        id: "__alloyId146"
+        id: "__alloyId179"
     });
-    $.__views.__alloyId141.add($.__views.__alloyId146);
+    $.__views.__alloyId174.add($.__views.__alloyId179);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

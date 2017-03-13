@@ -1,16 +1,17 @@
 <Alloy>
     <Window id="Window_1" title="Create Project">
-        <View class="form1" id="View_1">
-            /&gt;
-        <Label id="Label_2">What would you like to name your project?</Label>/&gt;
-        <TextField id="TextField_1"/>
-            <Label id="Label_3">Is it a personal or professional project?</Label>/&gt;
-        <Button class="button2" left="10%" top="57%">Personal</Button>/&gt;
-        <Button class="button2" left="10%" top="68%">Professional</Button>/&gt;
-        <Button class="button-half1" left="52%" top="83%">NEXT</Button>/&gt;
-        <Button class="button-half1" left="10%" top="83%">BACK</Button>/&gt;
-        <ImageView id="ImageView_2" image="images/iphone/create-project.png"/>
+        <View class="form2 vgroup bg-white borderRadius10">
+        	<Label class="h2 project-header" text="Create a Project" left="25"></Label>
+        	<Label class="h5" top="5" left="25">What would you like to name your project?</Label>
+        	<Label class="h5" top="5" left="45">Ex: Your Company Name</Label>
+        	<TextField class="textfield600 top-buffer" left="25"></TextField>
+			<View class="hgroup two-buttons" top="35">
+                <Button class="button-half1-full">Back</Button>
+                <Button class="button-half1-full" left="20">Next</Button>
+            </View>
+        
+        
         </View>
-        <ImageView class="topCircle" id="ImageView_1"/>
+        <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
     </Window>
 </Alloy>

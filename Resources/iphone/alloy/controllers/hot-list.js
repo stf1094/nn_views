@@ -32,15 +32,15 @@ function Controller() {
         title: "ScrollView Demo"
     });
     $.__views.win && $.addTopLevelView($.__views.win);
-    $.__views.__alloyId121 = Ti.UI.createImageView({
+    $.__views.__alloyId155 = Ti.UI.createImageView({
         left: "0.00%",
         top: "0.00%",
         image: "/images/iphone/ui-hotlist-cover.png",
         height: "23.25%",
         width: "100%",
-        id: "__alloyId121"
+        id: "__alloyId155"
     });
-    $.__views.win.add($.__views.__alloyId121);
+    $.__views.win.add($.__views.__alloyId155);
     $.__views.scrollView = Ti.UI.createScrollView({
         height: "15%",
         left: "0.00%",
@@ -278,65 +278,65 @@ function Controller() {
         return o;
     }());
     $.__views.view.add($.__views.ImageView_10);
-    var __alloyId122 = [];
+    var __alloyId156 = [];
     $.__views.view1 = Ti.UI.createView({
         backgroundColor: "#f79d41",
         id: "view1"
     });
-    __alloyId122.push($.__views.view1);
-    var __alloyId125 = [];
+    __alloyId156.push($.__views.view1);
+    var __alloyId159 = [];
     $.__views.ListItem_1 = {
         properties: {
             id: "ListItem_1",
             title: "Name 1"
         }
     };
-    __alloyId125.push($.__views.ListItem_1);
+    __alloyId159.push($.__views.ListItem_1);
     $.__views.ListItem_2 = {
         properties: {
             id: "ListItem_2",
             title: "Name 2"
         }
     };
-    __alloyId125.push($.__views.ListItem_2);
+    __alloyId159.push($.__views.ListItem_2);
     $.__views.ListItem_3 = {
         properties: {
             id: "ListItem_3",
             title: "Name 3"
         }
     };
-    __alloyId125.push($.__views.ListItem_3);
+    __alloyId159.push($.__views.ListItem_3);
     $.__views.ListItem_4 = {
         properties: {
             id: "ListItem_4",
             title: "Name 4"
         }
     };
-    __alloyId125.push($.__views.ListItem_4);
+    __alloyId159.push($.__views.ListItem_4);
     $.__views.ListItem_5 = {
         properties: {
             id: "ListItem_5",
             title: "Name 5"
         }
     };
-    __alloyId125.push($.__views.ListItem_5);
+    __alloyId159.push($.__views.ListItem_5);
     $.__views.ListItem_6 = {
         properties: {
             id: "ListItem_6",
             title: "Name 6"
         }
     };
-    __alloyId125.push($.__views.ListItem_6);
-    $.__views.__alloyId123 = Ti.UI.createListSection({
+    __alloyId159.push($.__views.ListItem_6);
+    $.__views.__alloyId157 = Ti.UI.createListSection({
         text: "TEXT",
         title: "Project 1",
-        id: "__alloyId123"
+        id: "__alloyId157"
     });
-    $.__views.__alloyId123.items = __alloyId125;
-    var __alloyId126 = [];
-    __alloyId126.push($.__views.__alloyId123);
+    $.__views.__alloyId157.items = __alloyId159;
+    var __alloyId160 = [];
+    __alloyId160.push($.__views.__alloyId157);
     $.__views.ListView_1 = Ti.UI.createListView({
-        sections: __alloyId126,
+        sections: __alloyId160,
         id: "ListView_1",
         title: "Project 1"
     });
@@ -345,64 +345,64 @@ function Controller() {
         backgroundColor: "#246",
         id: "view2"
     });
-    __alloyId122.push($.__views.view2);
-    $.__views.__alloyId127 = Ti.UI.createLabel({
+    __alloyId156.push($.__views.view2);
+    $.__views.__alloyId161 = Ti.UI.createLabel({
         text: "View 2",
-        id: "__alloyId127"
+        id: "__alloyId161"
     });
-    $.__views.view2.add($.__views.__alloyId127);
-    var __alloyId130 = [];
+    $.__views.view2.add($.__views.__alloyId161);
+    var __alloyId164 = [];
     $.__views.ListItem_1 = {
         properties: {
             id: "ListItem_1",
             title: "Name 1"
         }
     };
-    __alloyId130.push($.__views.ListItem_1);
+    __alloyId164.push($.__views.ListItem_1);
     $.__views.ListItem_2 = {
         properties: {
             id: "ListItem_2",
             title: "Name 2"
         }
     };
-    __alloyId130.push($.__views.ListItem_2);
+    __alloyId164.push($.__views.ListItem_2);
     $.__views.ListItem_3 = {
         properties: {
             id: "ListItem_3",
             title: "Name 3"
         }
     };
-    __alloyId130.push($.__views.ListItem_3);
+    __alloyId164.push($.__views.ListItem_3);
     $.__views.ListItem_4 = {
         properties: {
             id: "ListItem_4",
             title: "Name 4"
         }
     };
-    __alloyId130.push($.__views.ListItem_4);
+    __alloyId164.push($.__views.ListItem_4);
     $.__views.ListItem_5 = {
         properties: {
             id: "ListItem_5",
             title: "Name 5"
         }
     };
-    __alloyId130.push($.__views.ListItem_5);
+    __alloyId164.push($.__views.ListItem_5);
     $.__views.ListItem_6 = {
         properties: {
             id: "ListItem_6",
             title: "Name 6"
         }
     };
-    __alloyId130.push($.__views.ListItem_6);
-    $.__views.__alloyId128 = Ti.UI.createListSection({
+    __alloyId164.push($.__views.ListItem_6);
+    $.__views.__alloyId162 = Ti.UI.createListSection({
         title: "Project 2",
-        id: "__alloyId128"
+        id: "__alloyId162"
     });
-    $.__views.__alloyId128.items = __alloyId130;
-    var __alloyId131 = [];
-    __alloyId131.push($.__views.__alloyId128);
+    $.__views.__alloyId162.items = __alloyId164;
+    var __alloyId165 = [];
+    __alloyId165.push($.__views.__alloyId162);
     $.__views.ListView_2 = Ti.UI.createListView({
-        sections: __alloyId131,
+        sections: __alloyId165,
         id: "ListView_2",
         title: "Project 2"
     });
@@ -415,64 +415,64 @@ function Controller() {
         backgroundColor: "#48b",
         id: "view3"
     });
-    __alloyId122.push($.__views.view3);
-    $.__views.__alloyId132 = Ti.UI.createLabel({
+    __alloyId156.push($.__views.view3);
+    $.__views.__alloyId166 = Ti.UI.createLabel({
         text: "View 3",
-        id: "__alloyId132"
+        id: "__alloyId166"
     });
-    $.__views.view3.add($.__views.__alloyId132);
-    var __alloyId135 = [];
+    $.__views.view3.add($.__views.__alloyId166);
+    var __alloyId169 = [];
     $.__views.ListItem_1 = {
         properties: {
             id: "ListItem_1",
             title: "Name 1"
         }
     };
-    __alloyId135.push($.__views.ListItem_1);
+    __alloyId169.push($.__views.ListItem_1);
     $.__views.ListItem_2 = {
         properties: {
             id: "ListItem_2",
             title: "Name 2"
         }
     };
-    __alloyId135.push($.__views.ListItem_2);
+    __alloyId169.push($.__views.ListItem_2);
     $.__views.ListItem_3 = {
         properties: {
             id: "ListItem_3",
             title: "Name 3"
         }
     };
-    __alloyId135.push($.__views.ListItem_3);
+    __alloyId169.push($.__views.ListItem_3);
     $.__views.ListItem_4 = {
         properties: {
             id: "ListItem_4",
             title: "Name 4"
         }
     };
-    __alloyId135.push($.__views.ListItem_4);
+    __alloyId169.push($.__views.ListItem_4);
     $.__views.ListItem_5 = {
         properties: {
             id: "ListItem_5",
             title: "Name 5"
         }
     };
-    __alloyId135.push($.__views.ListItem_5);
+    __alloyId169.push($.__views.ListItem_5);
     $.__views.ListItem_6 = {
         properties: {
             id: "ListItem_6",
             title: "Name 6"
         }
     };
-    __alloyId135.push($.__views.ListItem_6);
-    $.__views.__alloyId133 = Ti.UI.createListSection({
+    __alloyId169.push($.__views.ListItem_6);
+    $.__views.__alloyId167 = Ti.UI.createListSection({
         title: "Project 3",
-        id: "__alloyId133"
+        id: "__alloyId167"
     });
-    $.__views.__alloyId133.items = __alloyId135;
-    var __alloyId136 = [];
-    __alloyId136.push($.__views.__alloyId133);
+    $.__views.__alloyId167.items = __alloyId169;
+    var __alloyId170 = [];
+    __alloyId170.push($.__views.__alloyId167);
     $.__views.ListView_3 = Ti.UI.createListView({
-        sections: __alloyId136,
+        sections: __alloyId170,
         id: "ListView_3",
         title: "Project 3"
     });
@@ -482,7 +482,7 @@ function Controller() {
         left: "0.00%",
         top: "40.00%",
         width: "100.00%",
-        views: __alloyId122,
+        views: __alloyId156,
         id: "scrollableView",
         showPagingControl: true
     });

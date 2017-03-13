@@ -30,86 +30,128 @@ function Controller() {
         id: "Window_1"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.View_1 = Ti.UI.createView({
-        left: "5.07%",
-        right: "5%",
-        top: "8.43%",
-        height: "89.00%",
-        width: "90.00%",
-        backgroundColor: "#ffffff",
-        center: "100%",
-        borderRadius: "10",
-        id: "View_1"
+    $.__views.__alloyId0 = Ti.UI.createView(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            borderRadius: "10",
+            left: "5%",
+            right: "5%",
+            top: "8%",
+            height: "65%",
+            width: "90%",
+            layout: "vertical",
+            backgroundColor: "white"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            left: "5%",
+            right: "5%",
+            top: "8%",
+            height: "40%",
+            width: "90%"
+        });
+        Alloy.deepExtend(true, o, {
+            height: "90%",
+            id: "__alloyId0"
+        });
+        return o;
+    }());
+    $.__views.Window_1.add($.__views.__alloyId0);
+    $.__views.__alloyId1 = Ti.UI.createLabel(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            font: {
+                fontSize: 30
+            },
+            top: "15%"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            top: "7%"
+        });
+        Alloy.deepExtend(true, o, {
+            left: 25,
+            text: "Add Your Contacts",
+            id: "__alloyId1"
+        });
+        return o;
+    }());
+    $.__views.__alloyId0.add($.__views.__alloyId1);
+    $.__views.__alloyId2 = Ti.UI.createLabel({
+        top: 10,
+        font: {
+            fontSize: 14
+        },
+        text: "Who are you going to contact to achieve this goal?",
+        left: 25,
+        width: "80%",
+        id: "__alloyId2"
     });
-    $.__views.Window_1.add($.__views.View_1);
-    $.__views.Label_2 = Ti.UI.createLabel({
-        text: "Who would you like to add to this project?",
-        left: "9.19%",
-        top: "18.53%",
-        height: "8.30%",
-        width: "75.85%",
-        color: "#444444",
-        id: "Label_2"
+    $.__views.__alloyId0.add($.__views.__alloyId2);
+    $.__views.__alloyId3 = Ti.UI.createView({
+        backgroundColor: "white",
+        height: "70%",
+        id: "__alloyId3"
     });
-    $.__views.View_1.add($.__views.Label_2);
-    $.__views.Button_1 = Ti.UI.createButton({
-        height: "8%",
-        width: "39%",
+    $.__views.__alloyId0.add($.__views.__alloyId3);
+    $.__views.__alloyId4 = Ti.UI.createView(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            layout: "horizontal",
+            left: "20"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            left: "50"
+        });
+        Alloy.deepExtend(true, o, {
+            top: 35,
+            id: "__alloyId4"
+        });
+        return o;
+    }());
+    $.__views.__alloyId0.add($.__views.__alloyId4);
+    $.__views.__alloyId5 = Ti.UI.createButton({
+        height: "90px",
+        width: "44%",
         backgroundColor: "#f7941d",
         borderRadius: "10",
         color: "#ffffff",
-        selectedBackgroundColor: "#e5790e",
-        left: "9.19%",
-        top: "86.58%",
-        font: {
-            fontSize: "20",
-            fontFamily: "",
-            fontStyle: "",
-            fontWeight: "bold"
-        },
-        borderWidth: "0",
-        title: "BACK",
-        id: "Button_1"
+        title: "Back",
+        id: "__alloyId5"
     });
-    $.__views.View_1.add($.__views.Button_1);
-    $.__views.Button_2 = Ti.UI.createButton({
-        height: "8%",
-        width: "39%",
+    $.__views.__alloyId4.add($.__views.__alloyId5);
+    $.__views.__alloyId6 = Ti.UI.createButton({
+        height: "90px",
+        width: "44%",
         backgroundColor: "#f7941d",
         borderRadius: "10",
         color: "#ffffff",
-        selectedBackgroundColor: "#e5790e",
-        title: "NEXT",
-        left: "51.85%",
-        top: "86.55%",
-        font: {
-            fontSize: "20",
-            fontFamily: "",
-            fontStyle: "normal",
-            fontWeight: "bold"
-        },
-        borderWidth: "0",
-        id: "Button_2"
+        title: "Next",
+        left: 20,
+        id: "__alloyId6"
     });
-    $.__views.View_1.add($.__views.Button_2);
-    $.__views.ImageView_2 = Ti.UI.createImageView({
-        left: "9.19%",
-        top: "11.28%",
-        height: "7.25%",
-        width: "65%",
-        id: "ImageView_2",
-        image: "/images/iphone/addcontacts.png"
-    });
-    $.__views.View_1.add($.__views.ImageView_2);
-    $.__views.ImageView_1 = Ti.UI.createImageView({
-        left: "40%",
-        top: "2.25%",
-        height: "12%",
-        width: "21%",
-        id: "ImageView_1",
-        image: "/images/iphone/project-shuriken.png"
-    });
-    $.__views.Window_1.add($.__views.ImageView_1);
+    $.__views.__alloyId4.add($.__views.__alloyId6);
+    $.__views.__alloyId7 = Ti.UI.createImageView(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            left: "41%",
+            top: "1.5%",
+            height: "150px",
+            width: "150px",
+            image: "/images/iphone/project-shuriken.png"
+        });
+        Alloy.isTablet && Alloy.deepExtend(true, o, {
+            left: "43%",
+            top: "2.25%",
+            height: "200px",
+            width: "200px",
+            image: "/images/iphone/project-shuriken.png"
+        });
+        Alloy.deepExtend(true, o, {
+            image: "/images/iphone/project-shuriken.png",
+            id: "__alloyId7"
+        });
+        return o;
+    }());
+    $.__views.Window_1.add($.__views.__alloyId7);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

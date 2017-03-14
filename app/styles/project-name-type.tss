@@ -5,8 +5,29 @@
 	"backgroundColor": "#193341"
 },
 ".project-header": {
-	"top": "15%"
+	"top": "15%",
+	"left": "25"
 },
 ".project-header[platform=ios formFactor=tablet]": {
-	"top": "22%"
+	"top": "22%",
+	"left": "7%"
+},
+".project-subtitle": {
+	"left": "25"
+},
+".project-subtitle[platform=ios formFactor=tablet]": {
+	"left": "7%"
+},
+".textfield-project": {
+	"width": "600px",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10"
+},
+".textfield-project[platform=ios formFactor=tablet]": {
+	"width": "84%",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10",
+	"left": "7%"
 },

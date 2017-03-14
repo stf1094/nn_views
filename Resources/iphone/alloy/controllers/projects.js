@@ -49,7 +49,7 @@ function Controller() {
         id: "View_1"
     });
     $.__views.Window_1.add($.__views.View_1);
-    $.__views.__alloyId278 = Ti.UI.createButton({
+    $.__views.__alloyId285 = Ti.UI.createButton({
         left: "5%",
         width: "90%",
         height: "10%",
@@ -59,9 +59,9 @@ function Controller() {
         selectedBackgroundColor: "#e5790e",
         title: "Create a Project",
         top: "1%",
-        id: "__alloyId278"
+        id: "__alloyId285"
     });
-    $.__views.View_1.add($.__views.__alloyId278);
+    $.__views.View_1.add($.__views.__alloyId285);
     $.__views.ImageView_2 = Ti.UI.createImageView({
         left: "7.5%",
         top: "15%",
@@ -80,7 +80,7 @@ function Controller() {
         image: "/images/iphone/project-holder-image.png"
     });
     $.__views.View_1.add($.__views.ImageView_3);
-    $.__views.__alloyId279 = Ti.UI.createLabel({
+    $.__views.__alloyId286 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
@@ -92,10 +92,10 @@ function Controller() {
         left: "7%",
         top: "41%",
         width: "40%",
-        id: "__alloyId279"
+        id: "__alloyId286"
     });
-    $.__views.View_1.add($.__views.__alloyId279);
-    $.__views.__alloyId280 = Ti.UI.createLabel({
+    $.__views.View_1.add($.__views.__alloyId286);
+    $.__views.__alloyId287 = Ti.UI.createLabel({
         font: {
             fontSize: "14",
             fontFamily: "",
@@ -107,9 +107,9 @@ function Controller() {
         right: "7%",
         top: "41%",
         width: "40%",
-        id: "__alloyId280"
+        id: "__alloyId287"
     });
-    $.__views.View_1.add($.__views.__alloyId280);
+    $.__views.View_1.add($.__views.__alloyId287);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

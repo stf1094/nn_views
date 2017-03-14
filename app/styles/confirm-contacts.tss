@@ -1,0 +1,13 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+}
+".confirm-contacts-title": {
+	"top": "15%",
+	"left": "25"
+},
+".confirm-contacts-title[platform=ios formFactor=android]": {
+	"top": "20%",
+	"left": "10%"
+}

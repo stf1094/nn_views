@@ -1,5 +1,5 @@
 
-3/13/2017, 11:11:28 AM
+3/14/2017, 4:11:58 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,12 +21,12 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/stefanforsberg/.appcelerator/install/6.1.0/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 6.0.1.GA --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test --target simulator --ios-version 10.2 --device-family universal --sim-type iphone --sim-version 10.2 --device-id 217532A6-2625-407E-B4AD-C17E76097025 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 51470 --config-file /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/build-1489417886427.json --no-banner --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test
+  /usr/local/bin/node /Users/stefanforsberg/.appcelerator/install/6.1.0/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 6.0.1.GA --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test --target simulator --ios-version 10.2 --device-family universal --sim-type ipad --sim-version 10.2 --device-id 70849682-AE21-4074-A828-0CDDF0EA6C46 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50122 --config-file /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/build-1489522316720.json --no-banner --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test
 
-[TRACE]  [ioslib] Validating iOS Simulator UDID 217532A6-2625-407E-B4AD-C17E76097025
-[TRACE]  [ioslib] Found iOS Simulator UDID 217532A6-2625-407E-B4AD-C17E76097025
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
-[TRACE]  [ioslib]   UDID    = 217532A6-2625-407E-B4AD-C17E76097025
+[TRACE]  [ioslib] Validating iOS Simulator UDID 70849682-AE21-4074-A828-0CDDF0EA6C46
+[TRACE]  [ioslib] Found iOS Simulator UDID 70849682-AE21-4074-A828-0CDDF0EA6C46
+[TRACE]  [ioslib] Selected iOS Simulator: iPad Pro (9.7 inch)
+[TRACE]  [ioslib]   UDID    = 70849682-AE21-4074-A828-0CDDF0EA6C46
 [TRACE]  [ioslib]   iOS     = 10.2
 [TRACE]  [ioslib] Autoselected Xcode: 8.2.1
 [DEBUG]  Detecting modules in /Users/stefanforsberg/Library/Application Support/Titanium/modules
@@ -66,9 +66,9 @@ Command
 [INFO]   Deploy type: development
 [INFO]   Building for target: simulator
 [INFO]   Building using iOS SDK: 10.2
-[INFO]   Building for iOS Simulator: iPhone 6
-[DEBUG]  UDID: 217532A6-2625-407E-B4AD-C17E76097025
-[DEBUG]  Simulator type: iphone
+[INFO]   Building for iOS Simulator: iPad Pro (9.7 inch)
+[DEBUG]  UDID: 70849682-AE21-4074-A828-0CDDF0EA6C46
+[DEBUG]  Simulator type: ipad
 [DEBUG]  Simulator version: 10.2
 [INFO]   Building for device family: universal
 [DEBUG]  Setting Xcode target to Debug
@@ -152,6 +152,15 @@ Command
 [INFO]   created:    "Resources/iphone/alloy/controllers/add-contacts.js"
 [DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/add-contacts.js.map"
 [INFO]   created:     "Resources/iphone/alloy/styles/add-contacts.js"
+[INFO]   [confirm-contacts.xml] view processing...
+[INFO]   style:      "confirm-contacts.tss"
+[INFO]   view:       "confirm-contacts.xml"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/confirm-contacts.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/confirm-contacts.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/confirm-contacts.js"
 [INFO]   [contacts-number.xml] view processing...
 [INFO]   style:      "contacts-number.tss"
 [INFO]   view:       "contacts-number.xml"
@@ -391,13 +400,13 @@ Command
 [TRACE]  
 [TRACE]  Benchmarking
 [TRACE]  ------------
-[TRACE]  [1.86694s] TOTAL
+[TRACE]  [1.91085s] TOTAL
 [INFO]   
-[INFO]   Alloy compiled in 1.86694s
+[INFO]   Alloy compiled in 1.91085s
 [INFO]   Alloy compiler completed successfully
 [TRACE]  offline build file /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/build-ffcef45655cbf50b2bcda5602f8721799d3c1678.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 54197.613 sec ago
+[TRACE]  optimizing build, last build was 7854.846 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  Adding 2 native module libraries
@@ -524,6 +533,12 @@ Command
 [TRACE]  No change, skipping /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/Assets.xcassets/dc6273cd2408fda650d14afa0b35da6af72ee217.imageset/Contents.json
 [TRACE]  No change, skipping /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/Assets.xcassets/fa76da2cad9289bdfbfb921ad4007634849777f1.imageset/Contents.json
 [DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/fonts/fonts/FontAwesome.otf
+[TRACE]  No change, skipping /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/fonts/fonts/fontawesome-webfont.eot
+[TRACE]  No change, skipping /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/fonts/fonts/fontawesome-webfont.svg
+[TRACE]  No change, skipping /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/fonts/fonts/fontawesome-webfont.ttf
+[TRACE]  No change, skipping /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/fonts/fonts/fontawesome-webfont.woff
+[TRACE]  No change, skipping /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/fonts/fonts/fontawesome-webfont.woff2
 [DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/platform/ios/alloy_generated => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/alloy_generated
 [TRACE]  No change, skipping /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/modules/facebook/README
 [TRACE]  No change, skipping /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/ti.cloud/LICENSE
@@ -604,6 +619,7 @@ Command
 [DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/constants.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/constants.js
 [DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/controllers/BaseController.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/controllers/BaseController.js
 [DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/controllers/add-contacts.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/controllers/add-contacts.js
+[DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/controllers/confirm-contacts.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/controllers/confirm-contacts.js
 [DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/controllers/contacts-number.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/controllers/contacts-number.js
 [DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/controllers/create-goal.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/controllers/create-goal.js
 [DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/controllers/create-tasks.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/controllers/create-tasks.js
@@ -629,6 +645,7 @@ Command
 [DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/controllers/task-list.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/controllers/task-list.js
 [DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/controllers/thread.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/controllers/thread.js
 [DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/styles/add-contacts.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/styles/add-contacts.js
+[DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/styles/confirm-contacts.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/styles/confirm-contacts.js
 [DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/styles/contacts-number.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/styles/contacts-number.js
 [DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/styles/create-goal.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/styles/create-goal.js
 [DEBUG]  Overwriting /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/iphone/alloy/styles/create-tasks.js => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/iphone/build/Products/Debug-iphonesimulator/Test.app/alloy/styles/create-tasks.js
@@ -676,21 +693,21 @@ Command
 [INFO]   Removing files
 [DEBUG]  Removing empty directories
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 5s 947ms
+[INFO]   Finished building the application in 3s 958ms
 [INFO]   Launching iOS Simulator
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
-[TRACE]  [ioslib]   UDID    = 217532A6-2625-407E-B4AD-C17E76097025
+[TRACE]  [ioslib] Selected iOS Simulator: iPad Pro (9.7 inch)
+[TRACE]  [ioslib]   UDID    = 70849682-AE21-4074-A828-0CDDF0EA6C46
 [TRACE]  [ioslib]   iOS     = 10.2
 [TRACE]  [ioslib] Autoselected Xcode: 8.2.1
 [TRACE]  [ioslib] Checking if simulator /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator is already running
-[TRACE]  [ioslib] Simulator is running (pid 74998)
-[TRACE]  [ioslib] iPhone 6 Simulator is running, but not the udid we want, stopping simulator
-[TRACE]  [ioslib] Tailing iPhone 6 Simulator system log: /Users/stefanforsberg/Library/Logs/CoreSimulator/217532A6-2625-407E-B4AD-C17E76097025/system.log
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 217532A6-2625-407E-B4AD-C17E76097025
+[TRACE]  [ioslib] Simulator is running (pid 24649)
+[TRACE]  [ioslib] iPad Pro (9.7 inch) Simulator is running, but not the udid we want, stopping simulator
+[TRACE]  [ioslib] Tailing iPad Pro (9.7 inch) Simulator system log: /Users/stefanforsberg/Library/Logs/CoreSimulator/70849682-AE21-4074-A828-0CDDF0EA6C46/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 70849682-AE21-4074-A828-0CDDF0EA6C46
 [TRACE]  [ioslib] Simulator is booted
-[TRACE]  [ioslib] iPhone 6 Simulator started
+[TRACE]  [ioslib] iPad Pro (9.7 inch) Simulator started
 [TRACE]  [ioslib] Running: osascript "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
-[TRACE]  [ioslib] iPhone 6 Simulator successfully focused
+[TRACE]  [ioslib] iPad Pro (9.7 inch) Simulator successfully focused
 [TRACE]  [ioslib] Installing the app
 [TRACE]  [ioslib] App launched
 [TRACE]  [ioslib] Trying to connect to log server port 56640...

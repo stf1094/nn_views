@@ -1,14 +1,14 @@
 <Alloy>
-    <Window id="Window_1" backgroundColor="#193441">
-    	<View class="form2 vgroup bg-white borderRadius10">
-    		<Label class="h2 contacts-title" left="25" text="How many contacts?" width="85%"/>
-    		<Label class="h5" top="5" left="25" text="How many people are you going to contact to reach this goal?" width="80%"/>
-    		<TextField class="textfield600" hintText="Enter a number" top="20" left="6%"/>
-    		<View class="hgroup two-buttons" top="35">
+    <Window backgroundColor="#193441" id="Window_1">
+        <View class="form2 vgroup bg-white borderRadius10">
+            <Label class="h2 contacts-title" left="25" text="How many contacts?" width="85%"/>
+            <Label class="h5" left="25" text="How many people are you going to contact to reach this goal?" top="5" width="80%"/>
+            <TextField class="textfield600" hintText="Enter a number" left="6%" top="20"/>
+            <View class="hgroup two-buttons" top="35">
                 <Button class="button-half1-full">Back</Button>
                 <Button class="button-half1-full" left="20">Next</Button>
-        	</View>
-    	</View>
-    	<ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
+            </View>
+        </View>
+        <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
     </Window>
 </Alloy>

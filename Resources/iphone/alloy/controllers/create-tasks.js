@@ -132,7 +132,7 @@ function Controller() {
         image: "/images/iphone/addtasks.png"
     });
     $.__views.View_1.add($.__views.ImageView_2);
-    $.__views.__alloyId26 = Ti.UI.createButton({
+    $.__views.__alloyId33 = Ti.UI.createButton({
         height: "90px",
         width: "39%",
         backgroundColor: "#f7941d",
@@ -142,10 +142,10 @@ function Controller() {
         title: "BACK",
         left: "10%",
         top: "83%",
-        id: "__alloyId26"
+        id: "__alloyId33"
     });
-    $.__views.View_1.add($.__views.__alloyId26);
-    $.__views.__alloyId27 = Ti.UI.createButton({
+    $.__views.View_1.add($.__views.__alloyId33);
+    $.__views.__alloyId34 = Ti.UI.createButton({
         height: "90px",
         width: "39%",
         backgroundColor: "#f7941d",
@@ -155,9 +155,9 @@ function Controller() {
         title: "NEXT",
         right: "10%",
         top: "83%",
-        id: "__alloyId27"
+        id: "__alloyId34"
     });
-    $.__views.View_1.add($.__views.__alloyId27);
+    $.__views.View_1.add($.__views.__alloyId34);
     $.__views.ImageView_1 = Ti.UI.createImageView(function() {
         var o = {};
         Alloy.deepExtend(true, o, {

@@ -5,10 +5,12 @@
 	"backgroundColor": "#193341"
 },
 ".add-contacts-title": {
-	"top": "9%"
+	"top": "9%",
+	"left": "25"
 },
 ".add-contacts-title[platform=ios formFactor=tablet]": {
-	"top": "7%"
+	"top": "10%",
+	"left": "7%"
 },
 
 

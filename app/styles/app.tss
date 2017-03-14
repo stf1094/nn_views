@@ -2,63 +2,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 This is your global styles file. Selectors and rules you define
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -66,63 +10,7 @@ here will be applied throughout your app. However, these rules
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 have the lowest priority of any style settings.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -130,63 +18,7 @@ For more information, see the "Style Priorities" section of
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 http://docs.appcelerator.com/platform/latest/#!/guide/Alloy_Styles_and_Themes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -194,63 +26,7 @@ For example, the following would apply to all labels, windows,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 and text fields (depending on platform) in your app unless you
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -258,63 +34,7 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 'Label[platform=android,windows]': {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -322,63 +42,7 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -386,95 +50,11 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	backgroundColor: '#fff' // white background instead of default transparent or black
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -482,95 +62,11 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	height: Ti.UI.SIZE
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -640,6 +136,34 @@ overrode the settings with other TSS, XML, or JS settings:
 	"right": "5%",
 	"top": "8%",
 	"height": "35%",
+	"width": "90%"
+},
+".form3": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "55%",
+	"width": "90%"
+},
+".form3[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "40%",
+	"width": "90%"
+},
+".form4": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "90%",
+	"width": "90%"
+},
+".form4[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "70%",
 	"width": "90%"
 },
 ".dojo-cover": {
@@ -822,6 +346,10 @@ overrode the settings with other TSS, XML, or JS settings:
 },
 ".grey": {
 	"color": "#9d9d9d"
+},
+/*Font awesome*/
+".fa-plus-circle": {
+	"text": "\uf055"
 },
 /*Messaging Colors*/
 ".message-grey": {

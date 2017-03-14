@@ -1,11 +1,12 @@
 <Alloy>
     <Window id="Window_1" title="Add Contacts">
-        <View class="form1 vgroup bg-white borderRadius10" height="90%">
-            <Label class="h2 add-contacts-title" left="25" text="Add Your Contacts"/>
-            <Label class="h5 top-buffer" left="25" width="80%">Who are you going to contact to achieve this goal?</Label> 
-        	<!--Contact List-->
-        	<View class="bg-white" height="58%"/>
-        	<View class="hgroup two-buttons" top="35">
+        <View class="form4 vgroup bg-white borderRadius10">
+            <Label class="h2 add-contacts-title" text="Add Your Contacts"/>
+            <Label class="h5 top-buffer" left="7%" width="80%">Who are you going to contact to achieve this goal?</Label>
+            <Label class="h5 top-buffer" left="7%">You've selected x/100 contacts</Label>
+            <!--Contact List-->
+            <View class="bg-white" height="54%"/>
+            <View class="hgroup two-buttons" top="35">
                 <Button class="button-half1-full">Back</Button>
                 <Button class="button-half1-full" left="20">Next</Button>
             </View>

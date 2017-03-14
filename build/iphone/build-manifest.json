@@ -1,9 +1,9 @@
 {
 	"files": {
 		"Info.plist": {
-			"hash": "ba2179014b037828bb41b33211c2db28",
+			"hash": "79bb01be8dde27554d035d9c48723a0a",
 			"mtime": 0,
-			"size": 1880
+			"size": 2026
 		},
 		"6.0.1.GA/iphone/libTiCore.a": {
 			"hash": null,
@@ -3280,9 +3280,39 @@
 			"mtime": "2017-02-03T20:09:58.000Z",
 			"size": 175297
 		},
+		"fonts/fonts/FontAwesome.otf": {
+			"hash": "0d2717cd5d853e5c765ca032dfd41a4d",
+			"mtime": "2017-03-13T18:04:54.000Z",
+			"size": 134808
+		},
+		"fonts/fonts/fontawesome-webfont.eot": {
+			"hash": "674f50d287a8c48dc19ba404d20fe713",
+			"mtime": "2017-03-13T18:04:54.000Z",
+			"size": 165742
+		},
+		"fonts/fonts/fontawesome-webfont.svg": {
+			"hash": "912ec66d7572ff821749319396470bde",
+			"mtime": "2017-03-13T18:04:54.000Z",
+			"size": 444379
+		},
+		"fonts/fonts/fontawesome-webfont.ttf": {
+			"hash": "b06871f281fee6b241d60582ae9369b9",
+			"mtime": "2017-03-13T18:04:54.000Z",
+			"size": 165548
+		},
+		"fonts/fonts/fontawesome-webfont.woff": {
+			"hash": "fee66e712a8a08eef5805a46892932ad",
+			"mtime": "2017-03-13T18:04:54.000Z",
+			"size": 98024
+		},
+		"fonts/fonts/fontawesome-webfont.woff2": {
+			"hash": "af7ae505a9eed503f8b8e6982036873e",
+			"mtime": "2017-03-13T18:04:54.000Z",
+			"size": 77160
+		},
 		"alloy_generated": {
 			"hash": "b9b62e3e10ab98f03010e1fe8362c390",
-			"mtime": "2017-03-13T15:11:28.000Z",
+			"mtime": "2017-03-14T20:11:58.000Z",
 			"size": 279
 		},
 		"README": {

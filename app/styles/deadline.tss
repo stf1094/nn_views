@@ -2,3 +2,11 @@
 ".container" : {
   
 },
+".deadline-title": {
+	"top": "15%",
+	"left": "25"
+},
+".deadline-title[platform=ios formFactor=tablet]": {
+	"top": "22%",
+	"left": "8%"
+}

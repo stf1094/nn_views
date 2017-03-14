@@ -7,9 +7,9 @@
 		- About View, a blurb of text about the user
 		- A list of recent messages seen between the user and this contact
 		-->
-        <ScrollView class="vgroup top" backgroundColor="#f9f9f9" id="contactInfo">
+        <ScrollView backgroundColor="#f9f9f9" class="vgroup top" id="contactInfo">
             <!-- User Information -->
-            <ScrollView class="vgroup" backgroundColor="#f9f9f9" height="225">
+            <ScrollView backgroundColor="#f9f9f9" class="vgroup" height="225">
                 <View class="left-buffer top-buffer message-grey" height="90px"/>
                 <View class="right-buffer top-buffer message-orange" height="90px">
                     <Label class="h5" color="white">Message content</Label>
@@ -22,11 +22,11 @@
                 <View class="right-buffer top-buffer message-orange" height="90px"/>
             </ScrollView>
             <View class="hgroup top-buffer" height="60">
-            	<TextField class="textfield-profile"/>
-            	<Button class="send left-buffer h2" top="15">></Button>
+                <TextField class="textfield-profile"/>
+                <Button class="send left-buffer h2" top="15">&gt;</Button>
             </View>
-            <View class="separator" width="100%" top="20"/>
-            <View class="vgroup top size" backgroundColor="white">
+            <View class="separator" top="20" width="100%"/>
+            <View backgroundColor="white" class="vgroup top size">
                 <ImageView id="profileImage" image="/images/iphone/project-shuriken.png" top="20"/>
                 <Label class="h3 red top-buffer no-touch" id="name">The Ninja</Label>
                 <Label class="h5 gray no-touch" id="job">Your ninja</Label>
@@ -34,12 +34,12 @@
                 <Button class="h4 span-width top-buffer" id="addFavoriteBtn" textid="bookmarkBtn">+ Add To Favorites</Button>
             </View>
             <!-- User Actions -->
-            <View class="hgroup top-buffer size" backgroundColor="white">
+            <View backgroundColor="white" class="hgroup top-buffer size">
                 <Label class="icon icon-btn icon-phone" id="callBtn"/>
                 <Label class="icon icon-btn icon-email" id="emailBtn"/>
                 <Label class="icon icon-btn icon-message" id="msgBtn"/>
             </View>
-            <View class="hgroup top-buffer size" backgroundColor="white">
+            <View backgroundColor="white" class="hgroup top-buffer size">
                 <Label class="icon icon-btn icon-facebook" id="fbBtn"/>
                 <Label class="icon icon-btn icon-linkedin" id="liBtn"/>
                 <Label class="icon icon-btn icon-googleplus" id="googBtn"/>
@@ -64,8 +64,9 @@
                     <Label class="h6 gray left-buffer right-buffer" id="start_date">July 27, 2016</Label>
                 </View>
                 <View class="separator top-buffer" width="95%"/>
-                 <View class="size left-buffer top-buffer">
+                <View class="size left-buffer top-buffer">
                     <Label class="h5 left top">Phone Number</Label>
+                  
                 </View>
                 <View class="separator top-buffer" width="95%"/>
                 <View class="size left-buffer top-buffer">

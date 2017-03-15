@@ -1,0 +1,1 @@
+/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/alloy/controllers/project-name-type.js

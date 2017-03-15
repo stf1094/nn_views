@@ -1,5 +1,6 @@
 <Alloy>
-	 <NavigationWindow platform="ios" >
+	<Require platform="android,windows" src="add-contacts"/>
+	 <NavigationWindow platform="ios">
         <Require src="add-contacts"/>
     </NavigationWindow>
 </Alloy>

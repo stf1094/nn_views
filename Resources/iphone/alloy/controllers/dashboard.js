@@ -29,9 +29,9 @@ function Controller() {
     });
     $.__views.dashboard && $.addTopLevelView($.__views.dashboard);
     $.__views.__alloyId35 = Ti.UI.createView({
+        top: 0,
         height: "15%",
         left: "0%",
-        top: "0%",
         id: "__alloyId35"
     });
     $.__views.dashboard.add($.__views.__alloyId35);
@@ -39,7 +39,6 @@ function Controller() {
         image: "/images/iphone/dojo-cover.png",
         width: "100%",
         height: "100%",
-        top: "0%",
         id: "__alloyId36"
     });
     $.__views.__alloyId35.add($.__views.__alloyId36);
@@ -80,10 +79,27 @@ function Controller() {
         return o;
     }());
     $.__views.__alloyId35.add($.__views.__alloyId38);
-    var __alloyId40 = [];
-    $.__views.__alloyId41 = Ti.UI.createDashboardItem(function() {
+    $.__views.__alloyId39 = Ti.UI.createView({
+        layout: "vertical",
+        height: "75%",
+        top: "15%",
+        id: "__alloyId39"
+    });
+    $.__views.dashboard.add($.__views.__alloyId39);
+    $.__views.__alloyId40 = Ti.UI.createView({
+        layout: "horizontal",
+        center: true,
+        height: "300px",
+        width: "100%",
+        id: "__alloyId40"
+    });
+    $.__views.__alloyId39.add($.__views.__alloyId40);
+    $.__views.__alloyId41 = Ti.UI.createImageView(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
+            left: ".25%",
+            width: "49.5%",
+            height: "100%",
             image: "/images/iphone/db-contacts.png",
             selectedImage: "/images/iphone/db-contacts-grey.png"
         });
@@ -92,10 +108,12 @@ function Controller() {
         });
         return o;
     }());
-    __alloyId40.push($.__views.__alloyId41);
-    $.__views.__alloyId42 = Ti.UI.createDashboardItem(function() {
+    $.__views.__alloyId40.add($.__views.__alloyId41);
+    $.__views.__alloyId42 = Ti.UI.createImageView(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
+            width: "49.5%",
+            height: "100%",
             image: "/images/iphone/db-projects.png",
             selectedImage: "/images/iphone/db-projects-grey.png"
         });
@@ -104,81 +122,92 @@ function Controller() {
         });
         return o;
     }());
-    __alloyId40.push($.__views.__alloyId42);
-    $.__views.__alloyId43 = Ti.UI.createDashboardItem(function() {
+    $.__views.__alloyId40.add($.__views.__alloyId42);
+    $.__views.__alloyId43 = Ti.UI.createView({
+        layout: "horizontal",
+        height: "300px",
+        id: "__alloyId43"
+    });
+    $.__views.__alloyId39.add($.__views.__alloyId43);
+    $.__views.__alloyId44 = Ti.UI.createImageView(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
+            left: ".25%",
+            width: "49.5%",
+            height: "100%",
             image: "/images/iphone/db-hotlist.png",
             selectedImage: "/images/iphone/db-hotlist-grey.png"
-        });
-        Alloy.deepExtend(true, o, {
-            id: "__alloyId43"
-        });
-        return o;
-    }());
-    __alloyId40.push($.__views.__alloyId43);
-    $.__views.__alloyId44 = Ti.UI.createDashboardItem(function() {
-        var o = {};
-        Alloy.deepExtend(true, o, {
-            image: "/images/iphone/db-reporting.png",
-            selectedImage: "/images/iphone/db-reporting-grey.png"
         });
         Alloy.deepExtend(true, o, {
             id: "__alloyId44"
         });
         return o;
     }());
-    __alloyId40.push($.__views.__alloyId44);
-    $.__views.__alloyId45 = Ti.UI.createDashboardItem(function() {
+    $.__views.__alloyId43.add($.__views.__alloyId44);
+    $.__views.__alloyId45 = Ti.UI.createImageView(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
-            image: "/images/iphone/db-recent.png",
-            selectedImage: "/images/iphone/db-recent-grey.png"
+            width: "49.5%",
+            height: "100%",
+            image: "/images/iphone/db-reporting.png",
+            selectedImage: "/images/iphone/db-reporting-grey.png"
         });
         Alloy.deepExtend(true, o, {
             id: "__alloyId45"
         });
         return o;
     }());
-    __alloyId40.push($.__views.__alloyId45);
-    $.__views.__alloyId46 = Ti.UI.createDashboardItem(function() {
+    $.__views.__alloyId43.add($.__views.__alloyId45);
+    $.__views.__alloyId46 = Ti.UI.createView({
+        layout: "horizontal",
+        height: "300px",
+        id: "__alloyId46"
+    });
+    $.__views.__alloyId39.add($.__views.__alloyId46);
+    $.__views.__alloyId47 = Ti.UI.createImageView(function() {
         var o = {};
         Alloy.deepExtend(true, o, {
-            image: "/images/iphone/db-settings.png",
-            selectedImage: "/images/iphone/db-settings-grey.png"
+            left: ".25%",
+            width: "49.5%",
+            height: "100%",
+            image: "/images/iphone/db-recent.png",
+            selectedImage: "/images/iphone/db-recent-grey.png"
         });
         Alloy.deepExtend(true, o, {
-            id: "__alloyId46"
+            id: "__alloyId47"
         });
         return o;
     }());
-    __alloyId40.push($.__views.__alloyId46);
-    $.__views.__alloyId39 = Ti.UI.createDashboardView({
-        data: __alloyId40,
-        center: true,
-        columnCount: 2,
-        height: "75%",
-        left: "0.00%",
-        top: "15%",
-        width: "100%",
-        id: "__alloyId39"
-    });
-    $.__views.dashboard.add($.__views.__alloyId39);
-    $.__views.__alloyId47 = Ti.UI.createView({
-        height: "15%",
+    $.__views.__alloyId46.add($.__views.__alloyId47);
+    $.__views.__alloyId48 = Ti.UI.createImageView(function() {
+        var o = {};
+        Alloy.deepExtend(true, o, {
+            width: "49.5%",
+            height: "100%",
+            image: "/images/iphone/db-calendar.png",
+            selectedImage: "/images/iphone/db-calendar-grey.png"
+        });
+        Alloy.deepExtend(true, o, {
+            id: "__alloyId48"
+        });
+        return o;
+    }());
+    $.__views.__alloyId46.add($.__views.__alloyId48);
+    $.__views.__alloyId49 = Ti.UI.createView({
+        height: "10%",
         left: "0%",
         top: "90%",
-        id: "__alloyId47"
+        id: "__alloyId49"
     });
-    $.__views.dashboard.add($.__views.__alloyId47);
-    $.__views.__alloyId48 = Ti.UI.createImageView({
+    $.__views.dashboard.add($.__views.__alloyId49);
+    $.__views.__alloyId50 = Ti.UI.createImageView({
         image: "/images/iphone/dojo-bottom.png",
         width: "100%",
         height: "100%",
         top: "0%",
-        id: "__alloyId48"
+        id: "__alloyId50"
     });
-    $.__views.__alloyId47.add($.__views.__alloyId48);
+    $.__views.__alloyId49.add($.__views.__alloyId50);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

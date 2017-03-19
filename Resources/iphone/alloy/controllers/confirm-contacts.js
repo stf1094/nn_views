@@ -26,8 +26,8 @@ function Controller() {
     var exports = {};
     $.__views.Window_1 = Ti.UI.createWindow({
         title: "Window",
-        id: "Window_1",
-        backgroundColor: "#193441"
+        backgroundColor: "#193441",
+        id: "Window_1"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
     $.__views.__alloyId9 = Ti.UI.createView(function() {
@@ -61,8 +61,8 @@ function Controller() {
         },
         top: "20%",
         left: "10%",
-        width: "80%",
         text: "If you start today, you'll have to contact x people per day. Is this correct?",
+        width: "80%",
         id: "__alloyId10"
     });
     $.__views.__alloyId9.add($.__views.__alloyId10);

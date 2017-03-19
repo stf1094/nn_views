@@ -1,5 +1,5 @@
 <Alloy>
-    <Window backgroundColor="white" exitOnClose="true" fullscreen="false" id="win" title="ScrollView Demo">
+    <Window backgroundColor="white" exitOnClose="true" fullscreen="false" id="win" title="Hot List">
         <ImageView class="cover" image="/images/iphone/ui-hotlist-cover.png"/>
         <ScrollView height="15%" horizontalBounce="true" id="scrollView" showHorizontalScrollIndicator="true" showVerticalScrollIndicator="true" width="100%">
             <View backgroundColor="#ffffff" class="side-scroll" height="100%" id="view">

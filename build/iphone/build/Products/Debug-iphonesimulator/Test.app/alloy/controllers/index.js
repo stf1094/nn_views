@@ -24,19 +24,28 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
-    $.__views.__alloyId178 = Alloy.createController("add-contacts", {
-        id: "__alloyId178"
+    $.__views.__alloyId180 = Alloy.createController("deadline", {
+        id: "__alloyId180"
     });
-    $.__views.index = Ti.UI.iOS.createNavigationWindow({
-        window: $.__views.__alloyId178.getViewEx({
+    $.__views.nav = Ti.UI.iOS.createNavigationWindow({
+        backgroundColor: "white",
+        window: $.__views.__alloyId180.getViewEx({
             recurse: true
         }),
-        id: "index"
+        id: "nav"
     });
-    $.__views.index && $.addTopLevelView($.__views.index);
+    $.__views.nav && $.addTopLevelView($.__views.nav);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    $.index.open();
+    Alloy.Globals.Navigator = {
+        navGroup: $.nav,
+        open: function(controller, payload) {
+            var win = Alloy.createController(controller, payload || {}).getView();
+            $.nav.openWindow(win);
+        }
+    };
+    alert("boo");
+    $.nav.open();
     _.extend($, exports);
 }
 

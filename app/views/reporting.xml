@@ -1,5 +1,5 @@
 <Alloy>
-    <Window id="Window_1" class="vgroup">
-        <ImageView class="reporting-cover top"></ImageView>
+    <Window class="vgroup" id="Window_1">
+        <ImageView class="reporting-cover top"/>
     </Window>
 </Alloy>

@@ -1,6 +1,14 @@
 <Alloy>
-	<Require platform="android,windows" src="add-contacts"/>
-	 <NavigationWindow platform="ios">
-        <Require src="add-contacts"/>
+    <!-- Default App Window -->
+    <Require id="index" platform="android,windows" src="dashboard"/>
+    <!-- iOS Window -->
+    <NavigationWindow class="container" id="nav" platform="ios">
+        <Require src="dashboard"/>
     </NavigationWindow>
+    <!-- MobileWeb -->
+    <Window platform="mobileweb">
+        <NavigationGroup class="container" id="nav">
+            <Require src="create-goal"/>
+        </NavigationGroup>
+    </Window>
 </Alloy>

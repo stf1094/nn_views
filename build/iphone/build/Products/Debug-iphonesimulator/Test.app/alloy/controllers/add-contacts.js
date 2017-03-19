@@ -92,6 +92,7 @@ function Controller() {
             fontSize: 14
         },
         text: "You've selected x/100 contacts",
+        left: "7%",
         id: "__alloyId3"
     });
     $.__views.__alloyId0.add($.__views.__alloyId3);

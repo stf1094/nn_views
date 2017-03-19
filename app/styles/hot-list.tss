@@ -28,6 +28,12 @@
 	"top": "25%",
 	"width": "175px"
 },
+"#ImageView_1[platform=android]": {
+	"height": "200px",
+	"left": "1.5%",
+	"top": "25%",
+	"width": "200px"
+},
 "#ImageView_2": {
 	"height": "125px",
 	"left": "11%",
@@ -39,6 +45,12 @@
 	"left": "11%",
 	"top": "25%",
 	"width": "175px"
+},
+"#ImageView_2[platform=android]": {
+	"height": "200px",
+	"left": "11%",
+	"top": "25%",
+	"width": "200px"
 },
 "#ImageView_10": {
 	"height": "125px",
@@ -52,6 +64,12 @@
 	"top": "25%",
 	"width": "175px"
 },
+"#ImageView_10[platform=android]": {
+	"height": "200px",
+	"left": "87%",
+	"top": "25%",
+	"width": "200px"
+},
 "#ImageView_9": {
 	"height": "125px",
 	"left": "77.5%",
@@ -63,6 +81,12 @@
 	"left": "77.5%",
 	"top": "25%",
 	"width": "175px"
+},
+"#ImageView_9[platform=android]": {
+	"height": "200px",
+	"left": "77.5%",
+	"top": "25%",
+	"width": "200px"
 },
 "#ImageView_8": {
 	"height": "125px",
@@ -76,6 +100,12 @@
 	"top": "25%",
 	"width": "175px"
 },
+"#ImageView_8[platform=android]": {
+	"height": "200px",
+	"left": "68%",
+	"top": "25%",
+	"width": "200px"
+},
 "#ImageView_7": {
 	"height": "125px",
 	"width": "125px",
@@ -87,6 +117,12 @@
 	"left": "58.5%",
 	"top": "25%",
 	"width": "175px"
+},
+"#ImageView_7[platform=android]": {
+	"height": "200px",
+	"left": "58.5%",
+	"top": "25%",
+	"width": "200px"
 },
 "#ImageView_6": {
 	"height": "125px",
@@ -100,6 +136,12 @@
 	"top": "25%",
 	"width": "175px"
 },
+"#ImageView_6[platform=android]": {
+	"height": "200px",
+	"left": "49%",
+	"top": "25%",
+	"width": "200px"
+},
 "#ImageView_5": {
 	"height": "125px",
 	"width": "125px",
@@ -111,6 +153,12 @@
 	"left": "39.5%",
 	"top": "25%",
 	"width": "175px"
+},
+"#ImageView_5[platform=android]": {
+	"height": "200px",
+	"left": "39.5%",
+	"top": "25%",
+	"width": "200px"
 },
 "#ImageView_4": {
 	"height": "125px",
@@ -124,6 +172,12 @@
 	"top": "25%",
 	"width": "175px"
 },
+"#ImageView_4[platform=android]": {
+	"height": "200px",
+	"left": "30%",
+	"top": "25%",
+	"width": "200px"
+},
 "#ImageView_3": {
 	"height": "125px",
 	"width": "125px",
@@ -135,6 +189,12 @@
 	"left": "20.5%",
 	"top": "25%",
 	"width": "175px"
+},
+"#ImageView_3[platform=android]": {
+	"height": "200px",
+	"left": "20.5%",
+	"top": "25%",
+	"width": "200px"
 },
 "#scrollableView": {
 	"height": "50%",

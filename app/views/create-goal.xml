@@ -1,11 +1,11 @@
 <Alloy>
     <Window backgroundColor="#193441" id="Window_1">
         <View class="form3 bg-white vgroup borderRadius10">
-                <Label class="h1 create-goal-title">Set a Goal</Label>
-                <Label class="h5 create-goal-subtitle" top="5">What would you like to achieve?</Label>
-                <Label class="h5 top-buffer" left="50">Ex: Get 15 Customers or</Label>
-                <Label class="h5" left="73">Recruit 10 New Associates</Label>
-            <TextField class="textfield-create-goal top-buffer"/>
+            <Label class="h1 create-goal-title">Set a Goal</Label>
+            <Label class="h5 create-goal-subtitle" top="5">What would you like to achieve?</Label>
+            <Label class="h5 top-buffer" left="50">Ex: Get 15 Customers or</Label>
+            <Label class="h5" left="73">Recruit 10 New Associates</Label>
+            <TextField class="textfield-create-goal top-buffer h5"/>
             <View class="hgroup two-buttons" top="35">
                 <Button class="button-half1-full">Back</Button>
                 <Button class="button-half1-full" left="15">Next</Button>

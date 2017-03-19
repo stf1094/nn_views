@@ -26,8 +26,8 @@ function Controller() {
     var exports = {};
     $.__views.Window_1 = Ti.UI.createWindow({
         title: "Window",
-        id: "Window_1",
-        backgroundColor: "#193441"
+        backgroundColor: "#193441",
+        id: "Window_1"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
     $.__views.__alloyId9 = Ti.UI.createView({
@@ -48,13 +48,14 @@ function Controller() {
         },
         top: "15%",
         left: "25",
-        width: "80%",
+        color: "black",
         text: "If you start today, you'll have to contact x people per day. Is this correct?",
+        width: "80%",
         id: "__alloyId10"
     });
     $.__views.__alloyId9.add($.__views.__alloyId10);
     $.__views.__alloyId11 = Ti.UI.createButton({
-        height: "90px",
+        height: "150px",
         left: "10%",
         selectedColor: "#193341",
         width: "80%",
@@ -70,7 +71,7 @@ function Controller() {
     $.__views.__alloyId9.add($.__views.__alloyId11);
     $.__views.__alloyId12 = Ti.UI.createButton({
         top: 10,
-        height: "90px",
+        height: "150px",
         left: "10%",
         selectedColor: "#193341",
         width: "80%",
@@ -85,7 +86,7 @@ function Controller() {
     $.__views.__alloyId9.add($.__views.__alloyId12);
     $.__views.__alloyId13 = Ti.UI.createButton({
         top: 10,
-        height: "90px",
+        height: "150px",
         left: "10%",
         selectedColor: "#193341",
         width: "80%",
@@ -99,10 +100,10 @@ function Controller() {
     });
     $.__views.__alloyId9.add($.__views.__alloyId13);
     $.__views.__alloyId14 = Ti.UI.createImageView({
-        left: "41%",
-        top: "1.5%",
-        height: "150px",
-        width: "150px",
+        left: "43%",
+        top: "3.5%",
+        height: "200px",
+        width: "200px",
         image: "/images/iphone/project-shuriken.png",
         id: "__alloyId14"
     });

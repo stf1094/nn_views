@@ -1,5 +1,5 @@
 
-3/14/2017, 4:11:58 PM
+3/17/2017, 3:03:56 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,12 +21,12 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/stefanforsberg/.appcelerator/install/6.1.0/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 6.0.1.GA --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test --target simulator --ios-version 10.2 --device-family universal --sim-type ipad --sim-version 10.2 --device-id 70849682-AE21-4074-A828-0CDDF0EA6C46 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50122 --config-file /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/build-1489522316720.json --no-banner --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test
+  /usr/local/bin/node /Users/stefanforsberg/.appcelerator/install/6.1.0/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 6.0.1.GA --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test --target simulator --ios-version 10.2 --device-family universal --sim-type iphone --sim-version 10.2 --device-id 217532A6-2625-407E-B4AD-C17E76097025 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 56513 --config-file /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/build-1489777435103.json --no-banner --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test
 
-[TRACE]  [ioslib] Validating iOS Simulator UDID 70849682-AE21-4074-A828-0CDDF0EA6C46
-[TRACE]  [ioslib] Found iOS Simulator UDID 70849682-AE21-4074-A828-0CDDF0EA6C46
-[TRACE]  [ioslib] Selected iOS Simulator: iPad Pro (9.7 inch)
-[TRACE]  [ioslib]   UDID    = 70849682-AE21-4074-A828-0CDDF0EA6C46
+[TRACE]  [ioslib] Validating iOS Simulator UDID 217532A6-2625-407E-B4AD-C17E76097025
+[TRACE]  [ioslib] Found iOS Simulator UDID 217532A6-2625-407E-B4AD-C17E76097025
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
+[TRACE]  [ioslib]   UDID    = 217532A6-2625-407E-B4AD-C17E76097025
 [TRACE]  [ioslib]   iOS     = 10.2
 [TRACE]  [ioslib] Autoselected Xcode: 8.2.1
 [DEBUG]  Detecting modules in /Users/stefanforsberg/Library/Application Support/Titanium/modules
@@ -60,15 +60,14 @@ Command
 [INFO]   Found Titanium plugin id=ti.alloy version=1.0 
 [TRACE]  Snapshotting build directory
 [DEBUG]  Checking if log server port 56640 is available
-[DEBUG]  Log server port 56640 is in use, testing if it's the app we're building
-[DEBUG]  The log server port is being used by the app being built, continuing
+[DEBUG]  Log server port 56640 is available
 [DEBUG]  Titanium SDK iOS directory: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/iphone
 [INFO]   Deploy type: development
 [INFO]   Building for target: simulator
 [INFO]   Building using iOS SDK: 10.2
-[INFO]   Building for iOS Simulator: iPad Pro (9.7 inch)
-[DEBUG]  UDID: 70849682-AE21-4074-A828-0CDDF0EA6C46
-[DEBUG]  Simulator type: ipad
+[INFO]   Building for iOS Simulator: iPhone 6
+[DEBUG]  UDID: 217532A6-2625-407E-B4AD-C17E76097025
+[DEBUG]  Simulator type: iphone
 [DEBUG]  Simulator version: 10.2
 [INFO]   Building for device family: universal
 [DEBUG]  Setting Xcode target to Debug
@@ -173,6 +172,7 @@ Command
 [INFO]   [create-goal.xml] view processing...
 [INFO]   style:      "create-goal.tss"
 [INFO]   view:       "create-goal.xml"
+[INFO]   controller: "create-goal.js"
 [TRACE]  - Processing "builtins" module...
 [TRACE]  - Processing "optimizer" module...
 [TRACE]  - Processing "compress" module...
@@ -400,13 +400,13 @@ Command
 [TRACE]  
 [TRACE]  Benchmarking
 [TRACE]  ------------
-[TRACE]  [1.91085s] TOTAL
+[TRACE]  [1.99913s] TOTAL
 [INFO]   
-[INFO]   Alloy compiled in 1.91085s
+[INFO]   Alloy compiled in 1.99913s
 [INFO]   Alloy compiler completed successfully
 [TRACE]  offline build file /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/build-ffcef45655cbf50b2bcda5602f8721799d3c1678.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 7854.846 sec ago
+[TRACE]  optimizing build, last build was 989.455 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  Adding 2 native module libraries
@@ -693,21 +693,20 @@ Command
 [INFO]   Removing files
 [DEBUG]  Removing empty directories
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 3s 958ms
+[INFO]   Finished building the application in 6s 153ms
 [INFO]   Launching iOS Simulator
-[TRACE]  [ioslib] Selected iOS Simulator: iPad Pro (9.7 inch)
-[TRACE]  [ioslib]   UDID    = 70849682-AE21-4074-A828-0CDDF0EA6C46
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
+[TRACE]  [ioslib]   UDID    = 217532A6-2625-407E-B4AD-C17E76097025
 [TRACE]  [ioslib]   iOS     = 10.2
 [TRACE]  [ioslib] Autoselected Xcode: 8.2.1
 [TRACE]  [ioslib] Checking if simulator /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator is already running
-[TRACE]  [ioslib] Simulator is running (pid 24649)
-[TRACE]  [ioslib] iPad Pro (9.7 inch) Simulator is running, but not the udid we want, stopping simulator
-[TRACE]  [ioslib] Tailing iPad Pro (9.7 inch) Simulator system log: /Users/stefanforsberg/Library/Logs/CoreSimulator/70849682-AE21-4074-A828-0CDDF0EA6C46/system.log
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 70849682-AE21-4074-A828-0CDDF0EA6C46
+[TRACE]  [ioslib] Simulator is not running
+[TRACE]  [ioslib] Tailing iPhone 6 Simulator system log: /Users/stefanforsberg/Library/Logs/CoreSimulator/217532A6-2625-407E-B4AD-C17E76097025/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 217532A6-2625-407E-B4AD-C17E76097025
 [TRACE]  [ioslib] Simulator is booted
-[TRACE]  [ioslib] iPad Pro (9.7 inch) Simulator started
+[TRACE]  [ioslib] iPhone 6 Simulator started
 [TRACE]  [ioslib] Running: osascript "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
-[TRACE]  [ioslib] iPad Pro (9.7 inch) Simulator successfully focused
+[TRACE]  [ioslib] iPhone 6 Simulator successfully focused
 [TRACE]  [ioslib] Installing the app
 [TRACE]  [ioslib] App launched
 [TRACE]  [ioslib] Trying to connect to log server port 56640...

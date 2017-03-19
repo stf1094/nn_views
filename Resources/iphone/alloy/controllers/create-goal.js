@@ -117,6 +117,9 @@ function Controller() {
         var o = {};
         Alloy.deepExtend(true, o, {
             top: 10,
+            font: {
+                fontSize: 14
+            },
             width: "600px",
             height: "100px",
             backgroundColor: "#ececec",
@@ -197,6 +200,7 @@ function Controller() {
     $.__views.Window_1.add($.__views.__alloyId32);
     exports.destroy = function() {};
     _.extend($, $.__views);
+    $.args;
     _.extend($, exports);
 }
 

@@ -48,14 +48,14 @@
                 <Label class="h5" right="5%" text="See All"/>
                 <Label class="h3" left="5%" text="+"/>
             </View>
-            <ListView height="520px"></ListView>
+            <ListView height="520px"/>
             <!--Goals-->
             <View backgroundColor="#ececec" class="top-buffer" height="50" width="100%">
                 <Label class="h4" text="GOALS"/>
                 <Label class="h5" right="5%" text="See All"/>
                 <Label class="h3" left="5%" text="+"/>
             </View>
-            <ListView height="520px"></ListView>
+            <ListView height="520px"/>
         </ScrollView>
     </Window>
 </Alloy>

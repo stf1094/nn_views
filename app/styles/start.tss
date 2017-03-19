@@ -7,3 +7,30 @@
   "top": "25%",
   "left": "7%"
 },
+".calendar-icon-square":{
+	"height": "90px",
+	"width": "90px",
+	"left": "15"
+},
+".calendar-icon-square[platform=android]":{
+	"height": "150px",
+	"width": "150px",
+	"left": "15"
+},
+".choose-start-date": {
+	"height": "100px"
+},
+".choose-start-date[platform=android]": {
+	"height": "175px"
+},
+".textfield-date": {
+	"height": "90px",
+	"width": "300px",
+	"backgroundColor": "#ececec"
+},
+".textfield-date[platform=android]": {
+	"height": "150px",
+	"width": "450px",
+	"backgroundColor": "#ececec"
+},
+

@@ -12,5 +12,9 @@
 	"top": "10%",
 	"left": "7%"
 },
+".add-contacts-title[platform=android]": {
+	"top": "6%",
+	"left": "7%"
+},
 
 

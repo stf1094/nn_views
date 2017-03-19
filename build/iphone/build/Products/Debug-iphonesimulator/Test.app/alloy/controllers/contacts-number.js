@@ -69,7 +69,7 @@ function Controller() {
         Alloy.deepExtend(true, o, {
             left: 25,
             text: "How many contacts?",
-            width: "85%",
+            width: "94%",
             id: "__alloyId16"
         });
         return o;
@@ -104,7 +104,7 @@ function Controller() {
         Alloy.deepExtend(true, o, {
             hintText: "Enter a number",
             left: "6%",
-            top: 20,
+            top: 15,
             id: "__alloyId18"
         });
         return o;
@@ -120,7 +120,7 @@ function Controller() {
             left: "50"
         });
         Alloy.deepExtend(true, o, {
-            top: 35,
+            top: 25,
             id: "__alloyId19"
         });
         return o;

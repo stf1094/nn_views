@@ -46,10 +46,11 @@ function Controller() {
         font: {
             fontSize: 30
         },
-        top: "15%",
+        top: "10%",
+        color: "black",
         left: 25,
         text: "How many contacts?",
-        width: "85%",
+        width: "94%",
         id: "__alloyId16"
     });
     $.__views.__alloyId15.add($.__views.__alloyId16);
@@ -57,6 +58,7 @@ function Controller() {
         font: {
             fontSize: 14
         },
+        color: "black",
         left: 25,
         text: "How many people are you going to contact to reach this goal?",
         top: 5,
@@ -65,25 +67,26 @@ function Controller() {
     });
     $.__views.__alloyId15.add($.__views.__alloyId17);
     $.__views.__alloyId18 = Ti.UI.createTextField({
-        width: "600px",
-        height: "100px",
+        width: "80%",
+        height: "175px",
         backgroundColor: "#ececec",
         left: "6%",
         borderRadius: "10",
+        color: "black",
         hintText: "Enter a number",
-        top: 20,
+        top: 15,
         id: "__alloyId18"
     });
     $.__views.__alloyId15.add($.__views.__alloyId18);
     $.__views.__alloyId19 = Ti.UI.createView({
         layout: "horizontal",
         left: "20",
-        top: 35,
+        top: 25,
         id: "__alloyId19"
     });
     $.__views.__alloyId15.add($.__views.__alloyId19);
     $.__views.__alloyId20 = Ti.UI.createButton({
-        height: "90px",
+        height: "150px",
         width: "44%",
         backgroundColor: "#f7941d",
         borderRadius: "10",
@@ -93,7 +96,7 @@ function Controller() {
     });
     $.__views.__alloyId19.add($.__views.__alloyId20);
     $.__views.__alloyId21 = Ti.UI.createButton({
-        height: "90px",
+        height: "150px",
         width: "44%",
         backgroundColor: "#f7941d",
         borderRadius: "10",
@@ -104,10 +107,10 @@ function Controller() {
     });
     $.__views.__alloyId19.add($.__views.__alloyId21);
     $.__views.__alloyId22 = Ti.UI.createImageView({
-        left: "41%",
-        top: "1.5%",
-        height: "150px",
-        width: "150px",
+        left: "43%",
+        top: "3.5%",
+        height: "200px",
+        width: "200px",
         image: "/images/iphone/project-shuriken.png",
         id: "__alloyId22"
     });

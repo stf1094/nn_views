@@ -24,13 +24,28 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
-    $.__views.index = Alloy.createController("add-contacts", {
+    $.__views.index = Alloy.createController("dashboard", {
         id: "index"
     });
     $.__views.index && $.addTopLevelView($.__views.index);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    $.index.open();
+    Alloy.Globals.Navigator = {
+        navGroup: $.nav,
+        open: function(controller, payload) {
+            var win = Alloy.createController(controller, payload || {}).getView();
+            payload.displayHomeAsUp && win.addEventListener("open", function(evt) {
+                var activity = win.activity;
+                activity.actionBar.displayHomeAsUp = payload.displayHomeAsUp;
+                activity.actionBar.onHomeIconItemSelected = function() {
+                    evt.source.close();
+                };
+            });
+            win.open();
+        }
+    };
+    alert("boo");
+    $.index.getView().open();
     _.extend($, exports);
 }
 

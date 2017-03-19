@@ -110,6 +110,13 @@ overrode the settings with other TSS, XML, or JS settings:
 	"width": "200px",
 	"image": "/images/iphone/project-shuriken.png"
 },
+".topCircle[platform=android]": {
+	"left": "43%",
+	"top": "3.5%",
+	"height": "200px",
+	"width": "200px",
+	"image": "/images/iphone/project-shuriken.png"
+},
 ".form1": {
 	"left": "5%",
 	"right": "5%",
@@ -263,6 +270,17 @@ overrode the settings with other TSS, XML, or JS settings:
 	"borderWidth": "2",
 	"color": "#193341"
 },
+".button2[platform=android]": {
+	"height": "150px",
+	"left": "10%",
+	"selectedColor": "#193341",
+	"width": "80%",
+	"backgroundColor": "#ffffff",
+	"borderColor": "#193341",
+	"borderRadius": "10",
+	"borderWidth": "2",
+	"color": "#193341"
+},
 ".button3": {
 	"height": "90px",
 	"width": "80%",
@@ -293,6 +311,13 @@ overrode the settings with other TSS, XML, or JS settings:
 	"borderRadius": "10",
 	"color": "#ffffff"
 },
+".button-half1-full[platform=android]": {
+	"height": "150px",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
 ".button-half2-full": {
 	"height": "90px",
 	"width": "44%",
@@ -314,11 +339,19 @@ overrode the settings with other TSS, XML, or JS settings:
 ".h1[platform=blackberry]": {
 	"font": {fontSize:30}
 },
+".h1[platform=android]": {
+	"font": {fontSize:36},
+	"color": "black"
+},
 ".h2": {
 	"font": {fontSize:30}
 },
 ".h2[platform=blackberry]": {
 	"font": {fontSize:24}
+},
+".h2[platform=android]": {
+	"font": {fontSize:30},
+	"color": "black"
 },
 ".h3": {
 	"font": {fontSize:24}
@@ -326,11 +359,19 @@ overrode the settings with other TSS, XML, or JS settings:
 ".h3[platform=blackberry]": {
 	"font": {fontSize:18}
 },
+".h3[platform=android]": {
+	"font": {fontSize:24},
+	"color": "black"
+},
 ".h4": {
 	"font": {fontSize:18}
 },
 ".h4[platform=blackberry]": {
 	"font": {fontSize:14}
+},
+".h4[platform=android]": {
+	"font": {fontSize:18},
+	"color": "black"
 },
 ".h5": {
 	"font": {fontSize:14}
@@ -338,11 +379,19 @@ overrode the settings with other TSS, XML, or JS settings:
 ".h5[platform=blackberry]": {
 	"font": {fontSize:12}
 },
+".h5[platform=android]": {
+	"font": {fontSize:14},
+	"color": "black"
+},
 ".h6": {
 	"font": {fontSize:12}
 },
 ".h6[platform=blackberry]": {
 	"font": {fontSize:10}
+},
+".h6[platform=android]": {
+	"font": {fontSize:12},
+	"color": "black"
 },
 ".grey": {
 	"color": "#9d9d9d"
@@ -396,6 +445,13 @@ overrode the settings with other TSS, XML, or JS settings:
 	"backgroundColor": "#ececec",
 	"borderRadius": "10"
 },
+".textfield600[platform=android]": {
+	"width": "80%",
+	"height": "175px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10",
+	"color": "black"
+},
 /*LABELS*/
 ".label-center": {
 	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'},
@@ -431,6 +487,15 @@ overrode the settings with other TSS, XML, or JS settings:
 	"width": "850px"
 },
 /*Dashbaord*/
+".db1": {
+	"left": ".25%",
+	"width": "49.5%",
+	"height": "100%"
+},
+".db2": {
+	"width": "49.5%",
+	"height": "100%"
+},
 ".db-contacts": {
 	"image": "/images/iphone/db-contacts.png",
 	"selectedImage": "/images/iphone/db-contacts-grey.png"
@@ -491,9 +556,22 @@ overrode the settings with other TSS, XML, or JS settings:
 },
 ".db-settings[platform=ios formFactor=tablet]": {
 },
+".db-calendar": {
+	"image": "/images/iphone/db-calendar.png",
+	"selectedImage": "/images/iphone/db-calendar-grey.png"
+},
+".db-calendar[platform=android]": {
+	"image": "android/db-android-calendar.png",
+	"selectedImage": "android/db-android-calendar-grey.png"
+},
+".db-calendar[platform=ios formFactor=tablet]": {
+},
 ".side-scroll": {
 	"width": "750"
 },
 ".side-scroll[platform=ios formFactor=tablet]": {
 	"width": "1050"
-}
+},
+".side-scroll[platform=android]": {
+	"width": "800"
+},

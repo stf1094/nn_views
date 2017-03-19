@@ -30,13 +30,13 @@ function Controller() {
         backgroundColor: "#f3f3f3"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.__alloyId178 = Ti.UI.createImageView({
+    $.__views.__alloyId180 = Ti.UI.createImageView({
         image: "/images/thenetworkninjas-logo.png",
         top: 30,
-        id: "__alloyId178"
+        id: "__alloyId180"
     });
-    $.__views.Window_1.add($.__views.__alloyId178);
-    $.__views.__alloyId179 = Ti.UI.createLabel({
+    $.__views.Window_1.add($.__views.__alloyId180);
+    $.__views.__alloyId181 = Ti.UI.createLabel({
         font: {
             fontSize: "30",
             fontFamily: "",
@@ -47,39 +47,41 @@ function Controller() {
         text: "Log In",
         top: "24%",
         width: "100%",
-        id: "__alloyId179"
+        id: "__alloyId181"
     });
-    $.__views.Window_1.add($.__views.__alloyId179);
-    $.__views.__alloyId180 = Ti.UI.createView({
+    $.__views.Window_1.add($.__views.__alloyId181);
+    $.__views.__alloyId182 = Ti.UI.createView({
         height: "700px",
         width: "750px",
         top: "30%",
         backgroundColor: "white",
         borderColor: "#e1e1e1",
-        id: "__alloyId180"
-    });
-    $.__views.Window_1.add($.__views.__alloyId180);
-    $.__views.__alloyId181 = Ti.UI.createTextField({
-        width: "600px",
-        height: "100px",
-        backgroundColor: "#ececec",
-        left: "10%",
-        borderRadius: "10",
-        top: "14%",
-        id: "__alloyId181"
-    });
-    $.__views.__alloyId180.add($.__views.__alloyId181);
-    $.__views.__alloyId182 = Ti.UI.createTextField({
-        width: "600px",
-        height: "100px",
-        backgroundColor: "#ececec",
-        left: "10%",
-        borderRadius: "10",
-        top: "31%",
         id: "__alloyId182"
     });
-    $.__views.__alloyId180.add($.__views.__alloyId182);
-    $.__views.__alloyId183 = Ti.UI.createButton({
+    $.__views.Window_1.add($.__views.__alloyId182);
+    $.__views.__alloyId183 = Ti.UI.createTextField({
+        width: "80%",
+        height: "175px",
+        backgroundColor: "#ececec",
+        left: "10%",
+        borderRadius: "10",
+        color: "black",
+        top: "14%",
+        id: "__alloyId183"
+    });
+    $.__views.__alloyId182.add($.__views.__alloyId183);
+    $.__views.__alloyId184 = Ti.UI.createTextField({
+        width: "80%",
+        height: "175px",
+        backgroundColor: "#ececec",
+        left: "10%",
+        borderRadius: "10",
+        color: "black",
+        top: "31%",
+        id: "__alloyId184"
+    });
+    $.__views.__alloyId182.add($.__views.__alloyId184);
+    $.__views.__alloyId185 = Ti.UI.createButton({
         left: "9.78%",
         width: "80%",
         height: "106px",
@@ -89,10 +91,10 @@ function Controller() {
         selectedBackgroundColor: "#e5790e",
         title: "LOG IN",
         top: "50%",
-        id: "__alloyId183"
+        id: "__alloyId185"
     });
-    $.__views.__alloyId180.add($.__views.__alloyId183);
-    $.__views.__alloyId184 = Ti.UI.createButton({
+    $.__views.__alloyId182.add($.__views.__alloyId185);
+    $.__views.__alloyId186 = Ti.UI.createButton({
         left: "9.78%",
         width: "80%",
         height: "106px",
@@ -102,10 +104,10 @@ function Controller() {
         selectedBackgroundColor: "#e5790e",
         title: "SIGN UP",
         top: "68%",
-        id: "__alloyId184"
+        id: "__alloyId186"
     });
-    $.__views.__alloyId180.add($.__views.__alloyId184);
-    $.__views.__alloyId185 = Ti.UI.createLabel({
+    $.__views.__alloyId182.add($.__views.__alloyId186);
+    $.__views.__alloyId187 = Ti.UI.createLabel({
         font: {
             fontSize: "20",
             fontFamily: "",
@@ -115,9 +117,9 @@ function Controller() {
         textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
         text: "Forgot Password?",
         top: "90%",
-        id: "__alloyId185"
+        id: "__alloyId187"
     });
-    $.__views.__alloyId180.add($.__views.__alloyId185);
+    $.__views.__alloyId182.add($.__views.__alloyId187);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

@@ -88,9 +88,8 @@ function Controller() {
     $.__views.dashboard.add($.__views.__alloyId39);
     $.__views.__alloyId40 = Ti.UI.createView({
         layout: "horizontal",
-        center: true,
         height: "300px",
-        width: "100%",
+        center: true,
         id: "__alloyId40"
     });
     $.__views.__alloyId39.add($.__views.__alloyId40);
@@ -195,7 +194,6 @@ function Controller() {
     $.__views.__alloyId46.add($.__views.__alloyId48);
     $.__views.__alloyId49 = Ti.UI.createView({
         height: "10%",
-        left: "0%",
         top: "90%",
         id: "__alloyId49"
     });

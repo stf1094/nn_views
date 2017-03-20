@@ -496,13 +496,27 @@ overrode the settings with other TSS, XML, or JS settings:
 	"width": "49.5%",
 	"height": "100%"
 },
+".db-height": {
+	"height": "300px"
+},
+".db-height[platform=android]": {
+	"height": "576px"
+},
+".dashboard": {
+	"height": "75%",
+	"top": "15%"
+},
+".dashboard[platform=android]": {
+	"height": "75%",
+	"top": "15%"
+},
 ".db-contacts": {
 	"image": "/images/iphone/db-contacts.png",
 	"selectedImage": "/images/iphone/db-contacts-grey.png"
 },
 ".db-contacts[platform=android]": {
-	"image": "android/db-android-contacts.png",
-	"selectedImage": "android/db-android-contacts-grey.png"
+	"image": "/images/android/db-android-contacts.png",
+	"selectedImage": "/images/android/db-android-contacts-grey.png"
 },
 ".db-contacts[platform=ios formFactor=tablet]": {
 },
@@ -511,8 +525,8 @@ overrode the settings with other TSS, XML, or JS settings:
 	"selectedImage": "/images/iphone/db-projects-grey.png"
 },
 ".db-projects[platform=android]": {
-	"image": "android/db-android-projects.png",
-	"selectedImage": "android/db-android-projects-grey.png"
+	"image": "/images/android/db-android-projects.png",
+	"selectedImage": "/images/android/db-android-projects-grey.png"
 },
 ".db-projects[platform=ios formFactor=tablet]": {
 },
@@ -521,8 +535,8 @@ overrode the settings with other TSS, XML, or JS settings:
 	"selectedImage": "/images/iphone/db-hotlist-grey.png"
 },
 ".db-hotlist[platform=android]": {
-	"image": "android/db-android-hotlist.png",
-	"selectedImage": "android/db-android-hotlist-grey.png"
+	"image": "/images/android/db-android-hotlist.png",
+	"selectedImage": "/images/android/db-android-hotlist-grey.png"
 },
 ".db-hotlist[platform=ios formFactor=tablet]": {
 },
@@ -531,8 +545,8 @@ overrode the settings with other TSS, XML, or JS settings:
 	"selectedImage": "/images/iphone/db-reporting-grey.png"
 },
 ".db-reporting[platform=android]": {
-	"image": "android/db-android-reporting.png",
-	"selectedImage": "android/db-android-reporting-grey.png"
+	"image": "/images/android/db-android-reporting.png",
+	"selectedImage": "/images/android/db-android-reporting-grey.png"
 },
 ".db-reporting[platform=ios formFactor=tablet]": {
 },
@@ -541,8 +555,8 @@ overrode the settings with other TSS, XML, or JS settings:
 	"selectedImage": "/images/iphone/db-recent-grey.png"
 },
 ".db-recent[platform=android]": {
-	"image": "android/db-android-recent.png",
-	"selectedImage": "android/db-android-recent-grey.png"
+	"image": "/images/android/db-android-recent.png",
+	"selectedImage": "/images/android/db-android-recent-grey.png"
 },
 ".db-recent[platform=ios formFactor=tablet]": {
 },
@@ -561,8 +575,8 @@ overrode the settings with other TSS, XML, or JS settings:
 	"selectedImage": "/images/iphone/db-calendar-grey.png"
 },
 ".db-calendar[platform=android]": {
-	"image": "android/db-android-calendar.png",
-	"selectedImage": "android/db-android-calendar-grey.png"
+	"image": "/images/android/db-android-calendar.png",
+	"selectedImage": "/images/android/db-android-calendar-grey.png"
 },
 ".db-calendar[platform=ios formFactor=tablet]": {
 },

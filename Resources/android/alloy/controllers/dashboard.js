@@ -68,66 +68,81 @@ function Controller() {
     $.__views.__alloyId39 = Ti.UI.createView({
         layout: "vertical",
         height: "75%",
-        left: "0.00%",
         top: "15%",
-        width: "100%",
         id: "__alloyId39"
     });
     $.__views.dashboard.add($.__views.__alloyId39);
     $.__views.__alloyId40 = Ti.UI.createView({
         layout: "horizontal",
+        height: "576px",
         id: "__alloyId40"
     });
     $.__views.__alloyId39.add($.__views.__alloyId40);
     $.__views.__alloyId41 = Ti.UI.createImageView({
-        image: "android/db-android-contacts.png",
-        selectedImage: "android/db-android-contacts-grey.png",
+        left: ".25%",
+        width: "49.5%",
+        height: "100%",
+        image: "/images/android/db-android-contacts.png",
+        selectedImage: "/images/android/db-android-contacts-grey.png",
         id: "__alloyId41"
     });
     $.__views.__alloyId40.add($.__views.__alloyId41);
     $.__views.__alloyId42 = Ti.UI.createImageView({
-        image: "android/db-android-projects.png",
-        selectedImage: "android/db-android-projects-grey.png",
+        width: "49.5%",
+        height: "100%",
+        image: "/images/android/db-android-projects.png",
+        selectedImage: "/images/android/db-android-projects-grey.png",
         id: "__alloyId42"
     });
     $.__views.__alloyId40.add($.__views.__alloyId42);
     $.__views.__alloyId43 = Ti.UI.createView({
         layout: "horizontal",
+        height: "576px",
         id: "__alloyId43"
     });
     $.__views.__alloyId39.add($.__views.__alloyId43);
     $.__views.__alloyId44 = Ti.UI.createImageView({
-        image: "android/db-android-hotlist.png",
-        selectedImage: "android/db-android-hotlist-grey.png",
+        left: ".25%",
+        width: "49.5%",
+        height: "100%",
+        image: "/images/android/db-android-hotlist.png",
+        selectedImage: "/images/android/db-android-hotlist-grey.png",
         id: "__alloyId44"
     });
     $.__views.__alloyId43.add($.__views.__alloyId44);
     $.__views.__alloyId45 = Ti.UI.createImageView({
-        image: "android/db-android-reporting.png",
-        selectedImage: "android/db-android-reporting-grey.png",
+        width: "49.5%",
+        height: "100%",
+        image: "/images/android/db-android-reporting.png",
+        selectedImage: "/images/android/db-android-reporting-grey.png",
         id: "__alloyId45"
     });
     $.__views.__alloyId43.add($.__views.__alloyId45);
     $.__views.__alloyId46 = Ti.UI.createView({
         layout: "horizontal",
+        height: "576px",
         id: "__alloyId46"
     });
     $.__views.__alloyId39.add($.__views.__alloyId46);
     $.__views.__alloyId47 = Ti.UI.createImageView({
-        image: "android/db-android-recent.png",
-        selectedImage: "android/db-android-recent-grey.png",
+        left: ".25%",
+        width: "49.5%",
+        height: "100%",
+        image: "/images/android/db-android-recent.png",
+        selectedImage: "/images/android/db-android-recent-grey.png",
         id: "__alloyId47"
     });
     $.__views.__alloyId46.add($.__views.__alloyId47);
     $.__views.__alloyId48 = Ti.UI.createImageView({
-        image: "android/db-android-calendar.png",
-        selectedImage: "android/db-android-calendar-grey.png",
+        width: "49.5%",
+        height: "100%",
+        image: "/images/android/db-android-calendar.png",
+        selectedImage: "/images/android/db-android-calendar-grey.png",
         id: "__alloyId48"
     });
     $.__views.__alloyId46.add($.__views.__alloyId48);
     $.__views.__alloyId49 = Ti.UI.createView({
         height: "10%",
-        left: "0%",
         top: "90%",
         id: "__alloyId49"
     });

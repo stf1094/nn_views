@@ -1,5 +1,5 @@
 
-3/17/2017, 2:51:13 PM
+3/20/2017, 2:37:20 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = android
 
 Command
-  /usr/local/bin/node /Users/stefanforsberg/.appcelerator/install/6.1.0/package/node_modules/titanium/lib/titanium.js build run --platform android --log-level trace --sdk 6.0.1.GA --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test --target emulator --android-sdk /Users/stefanforsberg/Library/android-sdk-macosx --device-id Samsung Galaxy S7 - 6.0.0 - API 23 - 1440x2560 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 56513 --config-file /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/build-1489776670937.json --no-banner --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test
+  /usr/local/bin/node /Users/stefanforsberg/.appcelerator/install/6.1.0/package/node_modules/titanium/lib/titanium.js build run --platform android --log-level trace --sdk 6.0.1.GA --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test --target emulator --android-sdk /Users/stefanforsberg/Library/android-sdk-macosx --device-id Samsung Galaxy S7 - 6.0.0 - API 23 - 1440x2560 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 59882 --config-file /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/build-1490045837550.json --no-banner --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test
 
 [DEBUG]  Detecting modules in /Users/stefanforsberg/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: facebook 6.0.1 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1
@@ -385,9 +385,9 @@ Command
 [TRACE]  
 [TRACE]  Benchmarking
 [TRACE]  ------------
-[TRACE]  [1.76698s] TOTAL
+[TRACE]  [1.72585s] TOTAL
 [INFO]   
-[INFO]   Alloy compiled in 1.76698s
+[INFO]   Alloy compiled in 1.72585s
 [INFO]   Alloy compiler completed successfully
 [INFO]   Launching emulator: Samsung Galaxy S7 - 6.0.0 - API 23 - 1440x2560
 [TRACE]  Starting emulator: Samsung Galaxy S7 - 6.0.0 - API 23 - 1440x2560
@@ -404,10 +404,10 @@ Command
 [TRACE]  Checking the boot state for the next 240000 ms
 [TRACE]  Waiting for emulator to register with ADB
 [TRACE]  Emulator process started
-[TRACE]  offline build file /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/build-ffcef45655cbf50b2bcda5602f8721799d3c1678.json
+[TRACE]  offline build file /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/build-7f7d624a30d83546a46224b17006e11147534eca.json
 [TRACE]  No devices found, continuing to wait
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 229.141 sec ago
+[TRACE]  optimizing build, last build was 9751.109 sec ago
 [DEBUG]  Copying /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources
 [DEBUG]  Ignoring /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/.DS_Store
 [DEBUG]  Ignoring /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android
@@ -419,26 +419,6 @@ Command
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/appicon.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/appicon.png
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/choose-date-entry.png
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/choose-date-entry.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/choose-date-entry.png
-[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-contacts-grey.png
-[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/db-android-contacts-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-contacts-grey.png
-[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-contacts.png
-[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/db-android-contacts.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-contacts.png
-[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-hotlist-grey.png
-[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/db-android-hotlist-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-hotlist-grey.png
-[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-hotlist.png
-[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/db-android-hotlist.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-hotlist.png
-[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-projects-grey.png
-[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/db-android-projects-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-projects-grey.png
-[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-projects.png
-[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/db-android-projects.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-projects.png
-[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-recent-grey.png
-[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/db-android-recent-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-recent-grey.png
-[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-recent.png
-[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/db-android-recent.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-recent.png
-[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-reporting-grey.png
-[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/db-android-reporting-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-reporting-grey.png
-[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-reporting.png
-[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/db-android-reporting.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-reporting.png
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-settings-grey.png
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/db-android-settings-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-settings-grey.png
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/db-android-settings.png
@@ -458,6 +438,31 @@ Command
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/fonts/fonts/fontawesome-webfont.woff2
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/fonts/fonts/fontawesome-webfont.woff2 => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/fonts/fonts/fontawesome-webfont.woff2
 [DEBUG]  Ignoring /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/.DS_Store
+[DEBUG]  Ignoring /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/android/.DS_Store
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-calendar-grey.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/android/db-android-calendar-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-calendar-grey.png
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-calendar.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/android/db-android-calendar.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-calendar.png
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-contacts-grey.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/android/db-android-contacts-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-contacts-grey.png
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-contacts.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/android/db-android-contacts.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-contacts.png
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-hotlist-grey.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/android/db-android-hotlist-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-hotlist-grey.png
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-hotlist.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/android/db-android-hotlist.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-hotlist.png
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-projects-grey.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/android/db-android-projects-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-projects-grey.png
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-projects.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/android/db-android-projects.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-projects.png
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-recent-grey.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/android/db-android-recent-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-recent-grey.png
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-recent.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/android/db-android-recent.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-recent.png
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-reporting-grey.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/android/db-android-reporting-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-reporting-grey.png
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-reporting.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/android/db-android-reporting.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/android/db-android-reporting.png
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/chats.png
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/chats.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/chats.png
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/choose-date-entry.png
@@ -485,6 +490,10 @@ Command
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/iphone/congratulations.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/congratulations.png
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/create-project.png
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/iphone/create-project.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/create-project.png
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/db-calendar-grey.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/iphone/db-calendar-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/db-calendar-grey.png
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/db-calendar.png
+[DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/iphone/db-calendar.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/db-calendar.png
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/db-contacts-grey.png
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/iphone/db-contacts-grey.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/db-contacts-grey.png
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/db-contacts.png
@@ -608,9 +617,11 @@ Command
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/iphone 2/ui-settings.png
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/iphone 2/ui-settings.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/iphone 2/ui-settings.png
 [DEBUG]  Copying /Users/stefanforsberg/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/ti.cloud/LICENSE
 [DEBUG]  Symlinking /Users/stefanforsberg/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11/LICENSE => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/ti.cloud/LICENSE
 [DEBUG]  Ignoring /Users/stefanforsberg/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11/documentation
 [DEBUG]  Ignoring /Users/stefanforsberg/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11/example
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/ti.cloud/manifest
 [DEBUG]  Symlinking /Users/stefanforsberg/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11/manifest => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/ti.cloud/manifest
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/ti.cloud/package.json
 [DEBUG]  Symlinking /Users/stefanforsberg/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11/package.json => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/ti.cloud/package.json
@@ -755,6 +766,7 @@ Command
 [DEBUG]  Symlinking /Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/platform/android/res/values-zh-rCN/values-zh-rCN.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values-zh-rCN/values-zh-rCN.xml
 [DEBUG]  Symlinking /Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/platform/android/res/values-zh-rHK/values-zh-rHK.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values-zh-rHK/values-zh-rHK.xml
 [DEBUG]  Symlinking /Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/platform/android/res/values-zh-rTW/values-zh-rTW.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values-zh-rTW/values-zh-rTW.xml
+[WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/alloy_generated
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/platform/android/alloy_generated => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/alloy_generated
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/appicon.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/drawable/appicon.png
 [INFO]   Processing JavaScript files
@@ -861,43 +873,46 @@ Command
 [DEBUG]  Unknown namespace ui.ios, skipping
 [INFO]   Writing /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/app.json
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-analytics.res.zip
-[DEBUG]  Copying /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-nt5l1j/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Copying /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-npv9eo/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-android.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-1cm7px0/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-v6drt0/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-filesystem.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-1daph27/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-1l0g6cc/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-app.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-kfzgdc/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-1ir4h1g/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-media.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-uf7izq/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-i1semm/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-locale.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-lyspiz/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-1f0pomj/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-network.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-1rfueel/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-ncia16/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-xml.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-c9zh7u/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-xfi4nu/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-utils.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-yed08c/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-1ii3xru/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-geolocation.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-smhl52/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-17ed45u/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-accelerometer.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-1v6sqxv/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-9776ql/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-contacts.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-1mkzuzt/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-p165df/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-map.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-13az7lt/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-83j47x/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-calendar.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-2aoe3v/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-yoqw8j/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-gesture.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-1o8265u/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-1nv24sk/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-platform.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-1ms878o/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-4kgjea/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-database.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-u17rmd/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-14ixw7g/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [DEBUG]  Removing old file: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/.classpath
 [DEBUG]  Removing old file: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/.gitignore
 [DEBUG]  Removing old file: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/.project
 [DEBUG]  Removing old file: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/AndroidManifest.xml
+[DEBUG]  Removing old file: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/alloy_generated
+[DEBUG]  Removing old file: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/ti.cloud/LICENSE
+[DEBUG]  Removing old file: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/ti.cloud/manifest
 [DEBUG]  Removing old file: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/default.properties
 [DEBUG]  Removing old file: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/java-sources.txt
 [DEBUG]  Copying template /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/templates/build/AppInfo.java => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/gen/com/alvariumsystems/test/TestAppInfo.java
@@ -912,39 +927,24 @@ Command
 [DEBUG]  Compiling localization files
 [DEBUG]  Merging en strings => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Generating /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/theme.xml
+[INFO]   Packaging application: /Users/stefanforsberg/Library/android-sdk-macosx/build-tools/23.0.1/aapt "package" "-f" "-m" "-J" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/gen" "-M" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/AndroidManifest.xml" "-A" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets" "-S" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res" "-I" "/Users/stefanforsberg/Library/android-sdk-macosx/platforms/android-23/android.jar" "-F" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat:android.support.v7.cardview:com.facebook" "-S" "/var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-1qf7obk/res" "-S" "/var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-1sp3ivu/res" "-S" "/var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117220-14744-wynp1s/res"
 [TRACE]  Found 1 devices, checking if any of them are the emulator...
 [TRACE]  Emulator is running!
 [TRACE]  Checking if boot animation has finished...
 [TRACE]  Emulator is not booted yet; checking again in 2000 ms
-[INFO]   Packaging application: /Users/stefanforsberg/Library/android-sdk-macosx/build-tools/23.0.1/aapt "package" "-f" "-m" "-J" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/gen" "-M" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/AndroidManifest.xml" "-A" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets" "-S" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res" "-I" "/Users/stefanforsberg/Library/android-sdk-macosx/platforms/android-23/android.jar" "-F" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat:android.support.v7.cardview:com.facebook" "-S" "/var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-1d39q7m/res" "-S" "/var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-1v1eset/res" "-S" "/var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117217-73449-1umnao2/res"
-[TRACE]  Emulator is not booted yet; checking again in 2000 ms
-[TRACE]  Emulator is not booted yet; checking again in 2000 ms
 [INFO]   Building Java source files: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/javac "-J-Xmx1024M" "-encoding" "utf8" "-bootclasspath" "/Users/stefanforsberg/Library/android-sdk-macosx/platforms/android-23/android.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/kroll-v8.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-analytics.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/aps-analytics.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-android.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/jaxen-1.1.1.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/ti-commons-codec-1.3.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/kroll-common.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/titanium.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/android-support-multidex.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-filesystem.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-app.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-ui.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/nineoldandroids-appc-2.4.0.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-media.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-appcompat.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/android-support-v4.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/android-support-v7-appcompat.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-cardview.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/cardview-v7-23.0.1.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-locale.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-network.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-xml.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-utils.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-geolocation.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-accelerometer.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-contacts.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-map.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-calendar.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-gesture.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-platform.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-database.jar:/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/facebook.jar:/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/lib/AudienceNetwork-fb-4.7.0.jar:/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/lib/bolts-android-1.2.1.jar:/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/lib/facebook-android-4.12.0.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/kroll-apt.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/lib/titanium-verify.jar:R.class:AssetCryptImpl.class:TestActivity.class:TestAppInfo.class:TestApplication.class" "-d" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/java-sources.txt"
-[TRACE]  Emulator is not booted yet; checking again in 2000 ms
 [INFO]   Running dexer: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/java "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=/Users/stefanforsberg/Library/android-sdk-macosx/platform-tools" "-jar" "/Users/stefanforsberg/Library/android-sdk-macosx/build-tools/23.0.1/lib/dx.jar" "--dex" "--multi-dex" "--output=/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/dexfiles" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/classes" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/lib/titanium-verify.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/facebook.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/lib/AudienceNetwork-fb-4.7.0.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/lib/bolts-android-1.2.1.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/lib/facebook-android-4.12.0.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/kroll-v8.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-analytics.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/aps-analytics.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-android.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/jaxen-1.1.1.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/ti-commons-codec-1.3.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/kroll-common.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/titanium.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/android-support-multidex.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-filesystem.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-app.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-ui.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/nineoldandroids-appc-2.4.0.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-media.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-appcompat.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/android-support-v4.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/android-support-v7-appcompat.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-cardview.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/cardview-v7-23.0.1.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-locale.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-network.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-xml.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-utils.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-geolocation.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-accelerometer.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-contacts.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-map.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-calendar.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-gesture.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-platform.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-database.jar"
 [TRACE]  Emulator is not booted yet; checking again in 2000 ms
 [TRACE]  Emulator is not booted yet; checking again in 2000 ms
 [TRACE]  Emulator is not booted yet; checking again in 2000 ms
 [TRACE]  Emulator is not booted yet; checking again in 2000 ms
-[TRACE]  Emulator is booted, emitting booted event
-[INFO]   Emulator is booted
-[INFO]   SD card not required, skipping mount check
-[INFO]   Emulator ready!
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
 [INFO]   Creating unsigned apk
 [DEBUG]  Processing /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/app.ap_
 [DEBUG]  Deflating AndroidManifest.xml
 [DEBUG]  Adding assets/Resources/appicon.png
 [DEBUG]  Adding assets/Resources/choose-date-entry.png
-[DEBUG]  Adding assets/Resources/db-android-contacts-grey.png
-[DEBUG]  Adding assets/Resources/db-android-contacts.png
-[DEBUG]  Adding assets/Resources/db-android-hotlist-grey.png
-[DEBUG]  Adding assets/Resources/db-android-hotlist.png
-[DEBUG]  Adding assets/Resources/db-android-projects-grey.png
-[DEBUG]  Adding assets/Resources/db-android-projects.png
-[DEBUG]  Adding assets/Resources/db-android-recent-grey.png
-[DEBUG]  Adding assets/Resources/db-android-recent.png
-[DEBUG]  Adding assets/Resources/db-android-reporting-grey.png
-[DEBUG]  Adding assets/Resources/db-android-reporting.png
 [DEBUG]  Adding assets/Resources/db-android-settings-grey.png
 [DEBUG]  Adding assets/Resources/db-android-settings.png
 [DEBUG]  Deflating assets/Resources/fonts/fonts/FontAwesome.otf
@@ -953,6 +953,18 @@ Command
 [DEBUG]  Deflating assets/Resources/fonts/fonts/fontawesome-webfont.ttf
 [DEBUG]  Deflating assets/Resources/fonts/fonts/fontawesome-webfont.woff
 [DEBUG]  Deflating assets/Resources/fonts/fonts/fontawesome-webfont.woff2
+[DEBUG]  Adding assets/Resources/images/android/db-android-calendar-grey.png
+[DEBUG]  Adding assets/Resources/images/android/db-android-calendar.png
+[DEBUG]  Adding assets/Resources/images/android/db-android-contacts-grey.png
+[DEBUG]  Adding assets/Resources/images/android/db-android-contacts.png
+[DEBUG]  Adding assets/Resources/images/android/db-android-hotlist-grey.png
+[DEBUG]  Adding assets/Resources/images/android/db-android-hotlist.png
+[DEBUG]  Adding assets/Resources/images/android/db-android-projects-grey.png
+[DEBUG]  Adding assets/Resources/images/android/db-android-projects.png
+[DEBUG]  Adding assets/Resources/images/android/db-android-recent-grey.png
+[DEBUG]  Adding assets/Resources/images/android/db-android-recent.png
+[DEBUG]  Adding assets/Resources/images/android/db-android-reporting-grey.png
+[DEBUG]  Adding assets/Resources/images/android/db-android-reporting.png
 [DEBUG]  Adding assets/Resources/images/chats.png
 [DEBUG]  Adding assets/Resources/images/choose-date-entry.png
 [DEBUG]  Adding assets/Resources/images/contacts-ninjas.png
@@ -966,6 +978,8 @@ Command
 [DEBUG]  Adding assets/Resources/images/iphone/calendar-icon.png
 [DEBUG]  Adding assets/Resources/images/iphone/congratulations.png
 [DEBUG]  Adding assets/Resources/images/iphone/create-project.png
+[DEBUG]  Adding assets/Resources/images/iphone/db-calendar-grey.png
+[DEBUG]  Adding assets/Resources/images/iphone/db-calendar.png
 [DEBUG]  Adding assets/Resources/images/iphone/db-contacts-grey.png
 [DEBUG]  Adding assets/Resources/images/iphone/db-contacts.png
 [DEBUG]  Adding assets/Resources/images/iphone/db-hotlist-grey.png
@@ -1021,8 +1035,6 @@ Command
 [DEBUG]  Adding assets/Resources/iphone 2/ui-recent.png
 [DEBUG]  Adding assets/Resources/iphone 2/ui-reporting.png
 [DEBUG]  Adding assets/Resources/iphone 2/ui-settings.png
-[DEBUG]  Deflating assets/Resources/ti.cloud/LICENSE
-[DEBUG]  Deflating assets/Resources/ti.cloud/manifest
 [DEBUG]  Deflating assets/Resources/ti.cloud/package.json
 [DEBUG]  Deflating assets/app.json
 [DEBUG]  Deflating assets/index.json
@@ -1536,6 +1548,10 @@ Command
 [DEBUG]  Adding lib/armeabi-v7a/libfacebook.so
 [DEBUG]  Adding lib/x86/libfacebook.so
 [INFO]   Writing unsigned apk: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/app-unsigned.apk
+[TRACE]  Emulator is booted, emitting booted event
+[INFO]   Emulator is booted
+[INFO]   SD card not required, skipping mount check
+[INFO]   Emulator ready!
 [INFO]   Using MD5withRSA signature algorithm
 [INFO]   Signing apk: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/jarsigner "-sigalg" "MD5withRSA" "-digestalg" "SHA1" "-keystore" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/dev_keystore" "-storepass" "*******" "-signedjar" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/Test.apk" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/app-unsigned.apk" "tidev"
 [INFO]   Aligning zip file: /Users/stefanforsberg/Library/android-sdk-macosx/build-tools/23.0.1/zipalign "-v" "4" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/Test.apk" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/Test.apkz"
@@ -1548,5 +1564,5 @@ Command
 [INFO]   App successfully installed
 [INFO]   Starting app: com.alvariumsystems.test/.TestActivity
 [DEBUG]  Trying to start the app...
-[INFO]   Application pid: 1700
-[INFO]   Project built successfully in 38s 586ms
+[INFO]   Application pid: 1712
+[INFO]   Project built successfully in 35s 454ms

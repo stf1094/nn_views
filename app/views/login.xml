@@ -1,13 +1,16 @@
 <Alloy>
-    <Window id="Window_1" backgroundColor="#f3f3f3">
-        	<ImageView image="/images/thenetworkninjas-logo.png" top="30"/>
-       		<Label class="textfield-med-full" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" text="Log In" top="24%" width="100%"/>
-        <View class="view700" top="30%" backgroundColor="white" borderColor="#e1e1e1">
-        	<TextField class="textfield600" top="14%"/>
-        	<TextField class="textfield600" top="31%"/>
-        	<Button class="button1" height="106px" top="50%" width="80%">LOG IN</Button>
-        	<Button backgroundColor="#8dc63f" class="button1" height="106px" top="68%" width="80%">SIGN UP</Button>
-        	<Label class="label-center" text="Forgot Password?" top="90%"/>
-        </View>
-    </Window>
+	<Window backgroundColor="#f3f3f3">
+		<View class="vgroup">
+			<ImageView class="login-logo"/>
+			<Label class="login-title h2" text="Log In"/>
+			<View class="view700 bg-white vgroup top-buffer">
+				 <TextField class="textfield600" top="40" hintText="Username or Email"/>
+                 <TextField class="textfield600 top-buffer" hintText="Password"/>
+                 <Button class="button1 top-buffer">Log In</Button>
+                 <Label class="h5" top="30" text="Don't have an account?"/>
+                 <Button class="button1 top-buffer" backgroundColor="#8dc63f">Sign Up</Button>
+			</View>
+			<Label class="h5" top="25" text="Forgot Password?"/>
+		</View>
+	</Window>
 </Alloy>

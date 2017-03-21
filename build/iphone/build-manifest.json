@@ -3312,7 +3312,7 @@
 		},
 		"alloy_generated": {
 			"hash": "b9b62e3e10ab98f03010e1fe8362c390",
-			"mtime": "2017-03-20T19:25:20.000Z",
+			"mtime": "2017-03-21T17:11:17.000Z",
 			"size": 279
 		},
 		"README": {
@@ -3399,6 +3399,11 @@
 			"hash": "4e14d4619f23e895e7d4f57b9f2f7cee",
 			"mtime": "2017-03-20T19:25:19.000Z",
 			"size": 5409
+		},
+		"images/android/the-networkninjas-logo-lg.png": {
+			"hash": "c7b22a5fed93343368fbbae32282b551",
+			"mtime": "2017-03-21T16:46:45.000Z",
+			"size": 22373
 		},
 		"images/choose-date-entry.png": {
 			"hash": "9c4bbe6f981350b37cefa7344c7635f8",

@@ -24,7 +24,7 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
-    $.__views.__alloyId180 = Alloy.createController("dashboard", {
+    $.__views.__alloyId180 = Alloy.createController("login", {
         id: "__alloyId180"
     });
     $.__views.nav = Ti.UI.iOS.createNavigationWindow({

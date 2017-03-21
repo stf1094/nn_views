@@ -250,6 +250,15 @@ overrode the settings with other TSS, XML, or JS settings:
 	"color": "white",
 	"selectedBackgroundColor": "#e5790e"
 },
+".button1[platform=android]": {
+	"left": "9.78%",
+	"width": "80%",
+	"height": "150px",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"selectedBackgroundColor": "#e5790e"
+},
 ".button1-full": {
 	"left": "9.78%",
 	"width": "90%",
@@ -485,6 +494,10 @@ overrode the settings with other TSS, XML, or JS settings:
 ".view700[platform=ios formFactor=tablet]": {
 	"height": "700px",
 	"width": "850px"
+},
+".view700[platform=android]": {
+	"height": "1250px",
+	"width": "1400px"
 },
 /*Dashbaord*/
 ".db1": {

@@ -89,7 +89,6 @@ function Controller() {
     $.__views.__alloyId40 = Ti.UI.createView({
         layout: "horizontal",
         height: "300px",
-        center: true,
         id: "__alloyId40"
     });
     $.__views.__alloyId39.add($.__views.__alloyId40);

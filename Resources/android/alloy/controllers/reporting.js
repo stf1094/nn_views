@@ -30,12 +30,12 @@ function Controller() {
         id: "Window_1"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.__alloyId323 = Ti.UI.createImageView({
+    $.__views.__alloyId325 = Ti.UI.createImageView({
         top: 0,
         image: "/images/iphone/reporting-cover_1.png",
-        id: "__alloyId323"
+        id: "__alloyId325"
     });
-    $.__views.Window_1.add($.__views.__alloyId323);
+    $.__views.Window_1.add($.__views.__alloyId325);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

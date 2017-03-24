@@ -1,5 +1,5 @@
 
-3/21/2017, 10:19:18 AM
+3/24/2017, 10:03:12 AM
 
 Operating System
   Name                        = Mac OS X
@@ -21,12 +21,13 @@ Titanium SDK
   Target Platform             = android
 
 Command
-  /usr/local/bin/node /Users/stefanforsberg/.appcelerator/install/6.1.0/package/node_modules/titanium/lib/titanium.js build run --platform android --log-level trace --sdk 6.0.1.GA --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test --target emulator --android-sdk /Users/stefanforsberg/Library/android-sdk-macosx --device-id Samsung Galaxy S7 - 6.0.0 - API 23 - 1440x2560 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 59882 --config-file /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/build-1490116755435.json --no-banner --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test
+  /usr/local/bin/node /Users/stefanforsberg/.appcelerator/install/6.1.0/package/node_modules/titanium/lib/titanium.js build run --platform android --log-level trace --sdk 6.0.1.GA --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test --target emulator --android-sdk /Users/stefanforsberg/Library/android-sdk-macosx --device-id Samsung Galaxy S7 - 6.0.0 - API 23 - 1440x2560 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 59882 --config-file /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/build-1490374987229.json --no-banner --project-dir /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test
 
 [DEBUG]  Detecting modules in /Users/stefanforsberg/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: facebook 6.0.1 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1
 [DEBUG]  Detected android module: hyperloop 1.2.8 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/android/hyperloop/1.2.8
 [DEBUG]  Detected android module: hyperloop 2.0.0 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/android/hyperloop/2.0.0
+[DEBUG]  Detected android module: hyperloop 2.0.1 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/android/hyperloop/2.0.1
 [DEBUG]  Detected android module: ti.cloudpush 4.0.3 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/android/ti.cloudpush/4.0.3
 [DEBUG]  Detected android module: ti.map 3.0.1 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/android/ti.map/3.0.1
 [DEBUG]  Detected android module: ti.touchid 2.0.1 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/android/ti.touchid/2.0.1
@@ -35,6 +36,7 @@ Command
 [DEBUG]  Detected iphone module: facebook 5.2.9 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/iphone/facebook/5.2.9
 [DEBUG]  Detected iphone module: hyperloop 1.2.8 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/iphone/hyperloop/1.2.8
 [DEBUG]  Detected iphone module: hyperloop 2.0.0 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/iphone/hyperloop/2.0.0
+[DEBUG]  Detected iphone module: hyperloop 2.0.1 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/iphone/hyperloop/2.0.1
 [DEBUG]  Detected iphone module: ti.coremotion 2.0.0 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.0
 [DEBUG]  Detected iphone module: ti.map 2.8.0 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/iphone/ti.map/2.8.0
 [DEBUG]  Detected iphone module: ti.safaridialog 1.1.1 @ /Users/stefanforsberg/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.1.1
@@ -48,6 +50,7 @@ Command
 [DEBUG]  Detecting plugins in /Users/stefanforsberg/Library/Application Support/Titanium/plugins
 [DEBUG]  Detected plugin: hyperloop 1.2.8 @ /Users/stefanforsberg/Library/Application Support/Titanium/plugins/hyperloop/1.2.8
 [DEBUG]  Detected plugin: hyperloop 2.0.0 @ /Users/stefanforsberg/Library/Application Support/Titanium/plugins/hyperloop/2.0.0
+[DEBUG]  Detected plugin: hyperloop 2.0.1 @ /Users/stefanforsberg/Library/Application Support/Titanium/plugins/hyperloop/2.0.1
 [DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
 [INFO]   Found Titanium plugin id=ti.alloy version=1.0 
 [TRACE]  Snapshotting build directory
@@ -62,9 +65,7 @@ Command
 [DEBUG]  Classname: Test
 [INFO]   Debugging disabled
 [INFO]   Profiler disabled
-[INFO]   Forcing rebuild: JavaScript encryption flag changed
-[INFO]     Was: true
-[INFO]     Now: false
+[INFO]   Forcing rebuild: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/build-manifest.json does not exist
 [INFO]   Found Alloy app in /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/app
 [INFO]   Executing Alloy compile: /usr/local/bin/node /Users/stefanforsberg/.appcelerator/install/6.1.0/package/node_modules/alloy/bin/alloy compile /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/app --config platform=android,version=0,simtype=none,devicefamily=none,deploytype=development,target=emulator --no-colors
 [DEBUG]         .__  .__                
@@ -387,9 +388,9 @@ Command
 [TRACE]  
 [TRACE]  Benchmarking
 [TRACE]  ------------
-[TRACE]  [1.70874s] TOTAL
+[TRACE]  [5.02954s] TOTAL
 [INFO]   
-[INFO]   Alloy compiled in 1.70874s
+[INFO]   Alloy compiled in 5.02954s
 [INFO]   Alloy compiler completed successfully
 [INFO]   Launching emulator: Samsung Galaxy S7 - 6.0.0 - API 23 - 1440x2560
 [TRACE]  Starting emulator: Samsung Galaxy S7 - 6.0.0 - API 23 - 1440x2560
@@ -397,19 +398,16 @@ Command
 [TRACE]  Detecting if Samsung Galaxy S7 - 6.0.0 - API 23 - 1440x2560 exists...
 [TRACE]  Found 3 emulators
 [TRACE]  Emulator exists, detecting all running emulators and connected devices...
-[TRACE]  Detected 0 running emulators and connected devices
-[TRACE]  Emulator not running, detecting running emulators
-[TRACE]  Found 3 emulators
-[TRACE]  Starting the emulator...
-[INFO]   Running: /Applications/Genymotion.app/Contents/MacOS/player.app/Contents/MacOS/player --vm-name "Samsung Galaxy S7 - 6.0.0 - API 23 - 1440x2560"
-[TRACE]  Emulator is starting, monitoring boot state...
+[TRACE]  Detected 1 running emulators and connected devices
+[TRACE]  Checking 1 devices to see if it's the emulator we want
+[TRACE]  The emulator is running
+[INFO]   Emulator already running
 [TRACE]  Checking the boot state for the next 240000 ms
 [TRACE]  Waiting for emulator to register with ADB
 [TRACE]  Emulator process started
 [TRACE]  offline build file /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/build-7f7d624a30d83546a46224b17006e11147534eca.json
-[TRACE]  online 0
-[TRACE]  last build was 80667.536 sec ago, need a re-verify and re-build
-[TRACE]  offline file {"key":"FpK3987NOc0YdsYod61yGg==","pepper":"B4Tsq9N0lry1RL1PYqOmcQ==","hmacKey":"DXI3w6YvRAxdWvoUFPQoVQ==","o":100144935,"u":"f50bdd58-5bb8-4804-9737-8e41adab0860","p":"pro","i":"58d0257c1b699709494debd3","success":true,"url":"https://security.appcelerator.com/app-verify","username":"s.forsberg@alvariumsystems.com","timestamp":1490036093024,"offline":true,"skipped":true}, age=80667513
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 739.736 sec ago
 [DEBUG]  Copying /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources
 [DEBUG]  Ignoring /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/.DS_Store
 [DEBUG]  Ignoring /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android
@@ -417,7 +415,6 @@ Command
 [DEBUG]  Ignoring /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/mobileweb
 [DEBUG]  Copying /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android
 [DEBUG]  Ignoring /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/.DS_Store
-[TRACE]  No devices found, continuing to wait
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/appicon.png
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/appicon.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/appicon.png
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/choose-date-entry.png
@@ -549,6 +546,9 @@ Command
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/iphone/project-template.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/project-template.png
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/recent-cover.png
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/iphone/recent-cover.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/recent-cover.png
+[TRACE]  Found 1 devices, checking if any of them are the emulator...
+[TRACE]  Emulator is running!
+[TRACE]  Checking if boot animation has finished...
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/reporting-cover_1.png
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/iphone/reporting-cover_1.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/reporting-cover_1.png
 [WARN]   Overwriting file /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/Resources/images/iphone/setgoal.png
@@ -565,6 +565,10 @@ Command
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/res-long-port-hdpi/default.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/drawable-long-port-hdpi/background.png
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/res-long-port-ldpi/default.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/drawable-long-port-ldpi/background.png
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/res-notlong-land-hdpi/default.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/drawable-notlong-land-hdpi/background.png
+[TRACE]  Emulator is booted, emitting booted event
+[INFO]   Emulator is booted
+[INFO]   SD card not required, skipping mount check
+[INFO]   Emulator ready!
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/res-notlong-land-ldpi/default.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/drawable-notlong-land-ldpi/background.png
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/res-notlong-land-mdpi/default.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/drawable-notlong-land-mdpi/background.png
 [DEBUG]  Symlinking /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/Resources/android/images/res-notlong-port-hdpi/default.png => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/drawable-notlong-port-hdpi/background.png
@@ -875,39 +879,39 @@ Command
 [DEBUG]  Unknown namespace ui.ios, skipping
 [INFO]   Writing /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets/app.json
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-analytics.res.zip
-[DEBUG]  Copying /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-d6oh21/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Copying /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-dgcdkb/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-android.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-1t3itzb/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-ahc9fu/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-filesystem.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-1k725j3/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-u2yi6u/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-app.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-x0hdbc/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-1qt557a/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-media.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-1x8ws5o/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-65xk46/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-locale.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-kdubs7/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-1msqadu/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-network.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-qkv801/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-1k407aq/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-xml.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-1h48xjn/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-1xpcqx2/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-utils.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-1y1xf4n/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-xrl7ri/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-geolocation.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-3mqk3o/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-gjc8vx/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-accelerometer.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-1smjfls/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-14ukqmr/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-contacts.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-5l87kz/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-1sm9k1d/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-map.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-1npl3p/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-l3jl1u/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-calendar.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-1vewrvb/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-1apsn80/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-gesture.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-1v31b9w/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-98qvzn/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-platform.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-kidk0e/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-6qdvkw/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-database.res.zip
-[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-ju5jqq/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-3zp3yz/res/values/strings.xml => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [DEBUG]  Removing old file: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/.classpath
 [DEBUG]  Removing old file: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/.gitignore
 [DEBUG]  Removing old file: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/.project
@@ -926,18 +930,9 @@ Command
 [DEBUG]  Compiling localization files
 [DEBUG]  Merging en strings => /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/strings.xml
 [INFO]   Generating /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res/values/theme.xml
-[INFO]   Packaging application: /Users/stefanforsberg/Library/android-sdk-macosx/build-tools/23.0.1/aapt "package" "-f" "-m" "-J" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/gen" "-M" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/AndroidManifest.xml" "-A" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets" "-S" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res" "-I" "/Users/stefanforsberg/Library/android-sdk-macosx/platforms/android-23/android.jar" "-F" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat:android.support.v7.cardview:com.facebook" "-S" "/var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-hw2kvv/res" "-S" "/var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-a0inq6/res" "-S" "/var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117221-31995-1phpxmo/res"
+[INFO]   Packaging application: /Users/stefanforsberg/Library/android-sdk-macosx/build-tools/23.0.1/aapt "package" "-f" "-m" "-J" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/gen" "-M" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/AndroidManifest.xml" "-A" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/assets" "-S" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/res" "-I" "/Users/stefanforsberg/Library/android-sdk-macosx/platforms/android-23/android.jar" "-F" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat:android.support.v7.cardview:com.facebook" "-S" "/var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-7vc8k/res" "-S" "/var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-mac7s3/res" "-S" "/var/folders/nz/l632ctnx5zj0gxk5kht9gl280000gn/T/117224-68432-ey7ryb/res"
 [INFO]   Building Java source files: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/javac "-J-Xmx1024M" "-encoding" "utf8" "-bootclasspath" "/Users/stefanforsberg/Library/android-sdk-macosx/platforms/android-23/android.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/kroll-v8.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-analytics.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/aps-analytics.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-android.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/jaxen-1.1.1.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/ti-commons-codec-1.3.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/kroll-common.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/titanium.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/android-support-multidex.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-filesystem.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-app.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-ui.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/nineoldandroids-appc-2.4.0.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-media.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-appcompat.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/android-support-v4.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/android-support-v7-appcompat.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-cardview.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/cardview-v7-23.0.1.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-locale.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-network.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-xml.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-utils.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-geolocation.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-accelerometer.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-contacts.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-map.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-calendar.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-gesture.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-platform.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-database.jar:/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/facebook.jar:/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/lib/AudienceNetwork-fb-4.7.0.jar:/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/lib/bolts-android-1.2.1.jar:/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/lib/facebook-android-4.12.0.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/kroll-apt.jar:/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/lib/titanium-verify.jar:R.class:AssetCryptImpl.class:TestActivity.class:TestAppInfo.class:TestApplication.class" "-d" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/java-sources.txt"
-[TRACE]  Found 1 devices, checking if any of them are the emulator...
-[TRACE]  Emulator is running!
-[TRACE]  Checking if boot animation has finished...
-[TRACE]  Emulator is not booted yet; checking again in 2000 ms
 [INFO]   Running dexer: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/java "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=/Users/stefanforsberg/Library/android-sdk-macosx/platform-tools" "-jar" "/Users/stefanforsberg/Library/android-sdk-macosx/build-tools/23.0.1/lib/dx.jar" "--dex" "--multi-dex" "--output=/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/dexfiles" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/classes" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/lib/titanium-verify.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/facebook.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/lib/AudienceNetwork-fb-4.7.0.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/lib/bolts-android-1.2.1.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/modules/android/facebook/6.0.1/lib/facebook-android-4.12.0.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/kroll-v8.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-analytics.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/aps-analytics.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-android.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/jaxen-1.1.1.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/ti-commons-codec-1.3.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/kroll-common.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/titanium.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/android-support-multidex.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-filesystem.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-app.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-ui.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/nineoldandroids-appc-2.4.0.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-media.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-appcompat.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/android-support-v4.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/android-support-v7-appcompat.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-cardview.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/cardview-v7-23.0.1.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-locale.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-network.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-xml.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-utils.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-geolocation.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-accelerometer.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-contacts.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-map.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-calendar.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-gesture.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-platform.jar" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/modules/titanium-database.jar"
-[TRACE]  Emulator is not booted yet; checking again in 2000 ms
-[TRACE]  Emulator is not booted yet; checking again in 2000 ms
-[TRACE]  Emulator is not booted yet; checking again in 2000 ms
-[TRACE]  Emulator is not booted yet; checking again in 2000 ms
-[TRACE]  Emulator is not booted yet; checking again in 2000 ms
 [INFO]   Creating unsigned apk
 [DEBUG]  Processing /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/app.ap_
 [DEBUG]  Deflating AndroidManifest.xml
@@ -1549,11 +1544,6 @@ Command
 [DEBUG]  Adding lib/armeabi-v7a/libfacebook.so
 [DEBUG]  Adding lib/x86/libfacebook.so
 [INFO]   Writing unsigned apk: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/app-unsigned.apk
-[TRACE]  Emulator is not booted yet; checking again in 2000 ms
-[TRACE]  Emulator is booted, emitting booted event
-[INFO]   Emulator is booted
-[INFO]   SD card not required, skipping mount check
-[INFO]   Emulator ready!
 [INFO]   Using MD5withRSA signature algorithm
 [INFO]   Signing apk: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/jarsigner "-sigalg" "MD5withRSA" "-digestalg" "SHA1" "-keystore" "/Users/stefanforsberg/Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/dev_keystore" "-storepass" "*******" "-signedjar" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/Test.apk" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/app-unsigned.apk" "tidev"
 [INFO]   Aligning zip file: /Users/stefanforsberg/Library/android-sdk-macosx/build-tools/23.0.1/zipalign "-v" "4" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/Test.apk" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/Test.apkz"
@@ -1566,5 +1556,85 @@ Command
 [INFO]   App successfully installed
 [INFO]   Starting app: com.alvariumsystems.test/.TestActivity
 [DEBUG]  Trying to start the app...
-[INFO]   Application pid: 1676
-[INFO]   Project built successfully in 32s 971ms
+[INFO]   Application pid: 1850
+[INFO]   Project built successfully in 39s 365ms
+/Test/build/android/bin/app-unsigned.apk" "tidev"
+[INFO]   Aligning zip file: /Users/stefanforsberg/Library/android-sdk-macosx/build-tools/23.0.1/zipalign "-v" "4" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/Test.apk" "/Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/Test.apkz"
+[INFO]   Writing build manifest: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/build-manifest.json
+[INFO]   Making sure the adb server is running
+[INFO]   Installing apk: /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/Test.apk
+[TRACE]  Checking if package manager service is started
+[TRACE]  Package manager has started
+[TRACE]  Executing: /Users/stefanforsberg/Library/android-sdk-macosx/platform-tools/adb -s 192.168.56.101:5555 install -r -d /Users/stefanforsberg/Documents/Appcelerator_Studio_Workspace/Test/build/android/bin/Test.apk
+[INFO]   App successfully installed
+[INFO]   Starting app: com.alvariumsystems.test/.TestActivity
+[DEBUG]  Trying to start the app...
+[INFO]   Application pid: 1727
+-- Start application log -----------------------------------------------------
+[INFO]   I/        (  103): debuggerd: Mar 24 2016 11:19:18
+[INFO]   E/vinput-seamless(  295): found seamless mouse device
+[INFO]   E/        (  293): Failed to connect to host (UnixStream)!!!
+[INFO]   E/        (  293): Failed to connect to host (UnixStream)!!!
+[INFO]   E/        (  378): batterystats service unavailable!
+[INFO]   E/        (  378): batterystats service unavailable!
+[INFO]   E/        (  378): batterystats service unavailable!
+[INFO]   E/        (  378): batterystats service unavailable!
+[INFO]   E/android.os.Debug(  379): failed to load memtrack module: -2
+[INFO]   I/Radio-JNI(  379): register_android_hardware_Radio DONE
+[INFO]   D/        (  699): HostConnection::get() New Host Connection established 0xf70d21c0, tid 699
+[INFO]   D/        (  714): HostConnection::get() New Host Connection established 0xf638a0f0, tid 720
+[INFO]   D/        (  699): HostConnection::get() New Host Connection established 0xf6d4a100, tid 725
+[INFO]   D/        (  699): HostConnection::get() New Host Connection established 0xf6d4a0c0, tid 700
+[INFO]   I/APM::ConfigParsingUtils(  378): loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+[INFO]   D/        (  684): HostConnection::get() New Host Connection established 0xdec9f570, tid 756
+[INFO]   D/        (  699): HostConnection::get() New Host Connection established 0xf70d2f40, tid 724
+[INFO]   D/        (  699): HostConnection::get() New Host Connection established 0xf70d2f20, tid 702
+[INFO]   D/        (  684): HostConnection::get() New Host Connection established 0xdf4fa2f0, tid 775
+[INFO]   E/WifiNative-HAL(  684): Could not start hal
+[INFO]   D/WifiNative-HAL(  684): Setting external_sim to 1
+[INFO]   D/WifiNative-HAL(  684): Failing getSupportedFeatureset because HAL isn't started
+[INFO]   I/vol.Events(  816): writeEvent collection_started
+[INFO]   I/vol.Events(  816): writeEvent external_ringer_mode_changed normal
+[INFO]   I/vol.Events(  816): writeEvent internal_ringer_mode_changed normal
+[INFO]   I/vol.Events(  816): writeEvent level_changed STREAM_ALARM 6
+[INFO]   I/vol.Events(  816): writeEvent level_changed STREAM_BLUETOOTH_SCO 7
+[INFO]   I/vol.Events(  816): writeEvent level_changed STREAM_MUSIC 11
+[INFO]   I/vol.Events(  816): writeEvent level_changed STREAM_RING 5
+[INFO]   I/vol.Events(  816): writeEvent level_changed STREAM_SYSTEM 5
+[INFO]   I/vol.Events(  816): writeEvent level_changed STREAM_VOICE_CALL 4
+[INFO]   I/LatinIME:LogUtils( 1032): Dictionary info: dictionary = contacts.en_US ; version = 1490374982 ; date = ?
+[INFO]   D/Launcher.Model( 1075): Old launcher provider: content://com.android.launcher2.settings/favorites?notify=true
+[INFO]   D/Launcher.Model( 1075): Old launcher provider does not exist.
+[INFO]   D/        (  684): HostConnection::get() New Host Connection established 0xdcac23a0, tid 684
+[INFO]   E/DcSwitchStateMachine-0( 1062): DctController is not ready
+[INFO]   D/        ( 1075): HostConnection::get() New Host Connection established 0xeecf73c0, tid 1075
+[INFO]   D/        (  816): HostConnection::get() New Host Connection established 0xe0a4ff10, tid 816
+[INFO]   D/        ( 1075): HostConnection::get() New Host Connection established 0xeebd2740, tid 1242
+[INFO]   I/LatinIME:LogUtils( 1032): Dictionary info: dictionary = userunigram.en_US ; version = 1490374983 ; date = ?
+[INFO]   I/LatinIME:LogUtils( 1032): Dictionary info: dictionary = UserHistoryDictionary.en_US ; version = 1490374983 ; date = ?
+[INFO]   I/LatinIME:LogUtils( 1032): Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+[INFO]   D/        (  816): HostConnection::get() New Host Connection established 0xeebd2790, tid 1248
+[INFO]   D/        (  699): HostConnection::get() New Host Connection established 0xf6c3e1e0, tid 1326
+[INFO]   E/DcSwitchStateMachine-0( 1062): EVENT_DATA_DISALLOWED failed, com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+[INFO]   E/DcSwitchStateMachine-0( 1062): EVENT_DATA_DISALLOWED failed, com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+[INFO]   D/        (  684): HostConnection::get() New Host Connection established 0xdec9f510, tid 718
+[INFO]   D/ConnectivityManager.CallbackHandler(  816): CM callback handler got msg 524290
+[INFO]   D/ConnectivityManager.CallbackHandler(  816): CM callback handler got msg 524289
+[INFO]   D/NetworkMonitor/NetworkAgentInfo [WIFI () - 100](  684): Checking http://connectivitycheck.gstatic.com/generate_204 on "WiredSSID", connectivitycheck.gstatic.com=172.217.5.67,2607:f8b0:4007:80c::2003
+[INFO]   D/NetworkMonitor/NetworkAgentInfo [WIFI () - 100](  684): isCaptivePortal: ret=204 headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Date=[Fri, 24 Mar 2017 17:03:16 GMT], X-Android-Received-Millis=[1490374993731], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1490374993681]}
+[INFO]   D/ConnectivityManager.CallbackHandler(  816): CM callback handler got msg 524294
+[INFO]   E/android.os.Debug( 1632): failed to load memtrack module: -2
+[INFO]   I/Radio-JNI( 1632): register_android_hardware_Radio DONE
+[INFO]   I/PackageManager.DexOptimizer(  684): Running dexopt (dex2oat) on: /data/app/vmdl94664654.tmp/base.apk pkg=com.alvariumsystems.test isa=x86 vmSafeMode=false debuggable=false oatDir = /data/app/vmdl94664654.tmp/oat
+[INFO]   E/android.os.Debug( 1689): failed to load memtrack module: -2
+[INFO]   I/Radio-JNI( 1689): register_android_hardware_Radio DONE
+[INFO]   TiApplication: (main) [0,0] checkpoint, app created.
+[INFO]   TiApplication: (main) [27,27] Titanium 6.0.1 (2016/12/19 16:51 undefined)
+[INFO]   MultiDex: VM with version 2.1.0 has multidex support
+[INFO]   MultiDex: install
+[INFO]   MultiDex: VM has multidex support, MultiDex support library is disabled.
+[WARN]   V8Object: (main) [148,175] Runtime disposed, cannot set property 'userAgent'
+[INFO]   TiApplication: (main) [14,189] Titanium Javascript runtime: v8
+[WARN]   W/com.facebook.internal.Validate: FacebookActivity is not declared in the AndroidManifest.xml, please add com.facebook.FacebookActivity to your AndroidManifest.xml file. See https://developers.facebook.com/docs/android/getting-started for more info.
+[INFO]   TiRootActivity: (main) [0,0] checkpoint, on root activity create, savedInstanceState: null
+[INFO]   Project built successfully in 42s 974ms

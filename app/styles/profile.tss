@@ -52,7 +52,7 @@
 	"borderColor": "#193441",
 	"borderWidth": "2"
 },
-".send": {
+".send[platform=android]": {
 	"height": "175px",
 	"width": "18%",
 	"backgroundColor": "white",

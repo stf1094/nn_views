@@ -1,8 +1,10 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2017 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
+ * 
+ * WARNING: This is generated code. Modify at your own risk and without support.
  */
 
 #import "ImageLoader.h"
@@ -768,7 +770,7 @@ DEFINE_EXCEPTIONS
 		{
 			NSMutableDictionary *errorDetail = [NSMutableDictionary dictionary];
 			[errorDetail setValue:@"Response returned nil" forKey:NSLocalizedDescriptionKey];
-			NSError *error = [NSError errorWithDomain:@"com.appcelerator.titanium.imageloader" code:1 userInfo:errorDetail];
+			NSError *error = [NSError errorWithDomain:@"com.test._test.imageloader" code:1 userInfo:errorDetail];
 			[[req delegate] imageLoadFailed:req error:error];
 			[request setUserInfo:nil];
 			[request release];
@@ -829,7 +831,7 @@ DEFINE_EXCEPTIONS
                  
 			NSMutableDictionary* errorDetail = [NSMutableDictionary dictionary];
 			[errorDetail setValue:@"Returned invalid image data" forKey:NSLocalizedDescriptionKey];
-			NSError* error = [NSError errorWithDomain:@"com.appcelerator.titanium.imageloader" code:1 userInfo:errorDetail];
+			NSError* error = [NSError errorWithDomain:@"com.test._test.imageloader" code:1 userInfo:errorDetail];
 			[[req delegate] imageLoadFailed:req error:error];
 			[request setUserInfo:nil];
 			[request release];

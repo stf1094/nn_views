@@ -169,7 +169,7 @@ function Controller() {
         height: "175px",
         width: "18%",
         backgroundColor: "white",
-        color: "black",
+        color: "#193441",
         borderRadius: "10",
         borderColor: "#193441",
         borderWidth: "2",

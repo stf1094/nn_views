@@ -42,8 +42,9 @@ function Controller() {
             width: "55%"
         });
         Alloy.isTablet && Alloy.deepExtend(true, o, {
-            image: "/images/thenetworkninjas-logo.png",
-            top: "30"
+            image: "/images/android/the-networkninjas-logo-lg.png",
+            top: "30",
+            width: "40%"
         });
         Alloy.deepExtend(true, o, {
             id: "__alloyId183"
@@ -61,7 +62,7 @@ function Controller() {
             top: "20"
         });
         Alloy.isTablet && Alloy.deepExtend(true, o, {
-            color: "#444444"
+            color: "black"
         });
         Alloy.deepExtend(true, o, {
             text: "Log In",

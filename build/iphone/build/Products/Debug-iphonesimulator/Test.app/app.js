@@ -385,7 +385,7 @@ Module.patch = function (globalCtx, url, port) {
 
   var defaultURL = (process.platform === 'android' && process.hardware === 'sdk')
     ? '10.0.2.2'
-    : (Ti.Platform.model === 'Simulator' ? '127.0.0.1' : '192.168.56.1');
+    : (Ti.Platform.model === 'Simulator' ? '127.0.0.1' : '172.20.10.2');
   Module._globalCtx = globalCtx;
   global._globalCtx = globalCtx;
   Module._url = url || defaultURL;

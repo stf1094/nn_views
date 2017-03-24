@@ -24,7 +24,7 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
-    $.__views.index = Alloy.createController("login", {
+    $.__views.index = Alloy.createController("profile", {
         id: "index"
     });
     $.__views.index && $.addTopLevelView($.__views.index);

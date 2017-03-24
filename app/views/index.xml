@@ -1,9 +1,9 @@
 <Alloy>
     <!-- Default App Window -->
-    <Require id="index" platform="android,windows" src="login"/>
+    <Require id="index" platform="android,windows" src="profile"/>
     <!-- iOS Window -->
     <NavigationWindow class="container" id="nav" platform="ios">
-        <Require src="login"/>
+        <Require src="profile"/>
     </NavigationWindow>
     <!-- MobileWeb -->
     <Window platform="mobileweb">

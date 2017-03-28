@@ -30,7 +30,7 @@ function Controller() {
         id: "Window_1"
     });
     $.__views.Window_1 && $.addTopLevelView($.__views.Window_1);
-    $.__views.__alloyId256 = Ti.UI.createView({
+    $.__views.__alloyId243 = Ti.UI.createView({
         borderRadius: "10",
         left: "5%",
         right: "5%",
@@ -39,10 +39,10 @@ function Controller() {
         width: "90%",
         layout: "vertical",
         backgroundColor: "white",
-        id: "__alloyId256"
+        id: "__alloyId243"
     });
-    $.__views.Window_1.add($.__views.__alloyId256);
-    $.__views.__alloyId257 = Ti.UI.createLabel({
+    $.__views.Window_1.add($.__views.__alloyId243);
+    $.__views.__alloyId244 = Ti.UI.createLabel({
         font: {
             fontSize: 36
         },
@@ -50,10 +50,10 @@ function Controller() {
         text: "Congratulations",
         left: 25,
         top: "15%",
-        id: "__alloyId257"
+        id: "__alloyId244"
     });
-    $.__views.__alloyId256.add($.__views.__alloyId257);
-    $.__views.__alloyId258 = Ti.UI.createLabel({
+    $.__views.__alloyId243.add($.__views.__alloyId244);
+    $.__views.__alloyId245 = Ti.UI.createLabel({
         top: 10,
         font: {
             fontSize: 14
@@ -62,10 +62,10 @@ function Controller() {
         text: "You've just created a project and are one step closer to achieving your goal of:",
         left: 25,
         width: "80%",
-        id: "__alloyId258"
+        id: "__alloyId245"
     });
-    $.__views.__alloyId256.add($.__views.__alloyId258);
-    $.__views.__alloyId259 = Ti.UI.createLabel({
+    $.__views.__alloyId243.add($.__views.__alloyId245);
+    $.__views.__alloyId246 = Ti.UI.createLabel({
         font: {
             fontSize: 18
         },
@@ -73,10 +73,10 @@ function Controller() {
         text: "Place goal here",
         top: 20,
         width: "80%",
-        id: "__alloyId259"
+        id: "__alloyId246"
     });
-    $.__views.__alloyId256.add($.__views.__alloyId259);
-    $.__views.__alloyId260 = Ti.UI.createButton({
+    $.__views.__alloyId243.add($.__views.__alloyId246);
+    $.__views.__alloyId247 = Ti.UI.createButton({
         left: "9.78%",
         width: "80%",
         height: "150px",
@@ -86,10 +86,10 @@ function Controller() {
         selectedBackgroundColor: "#e5790e",
         title: "Go to my Project",
         top: 35,
-        id: "__alloyId260"
+        id: "__alloyId247"
     });
-    $.__views.__alloyId256.add($.__views.__alloyId260);
-    $.__views.__alloyId261 = Ti.UI.createButton({
+    $.__views.__alloyId243.add($.__views.__alloyId247);
+    $.__views.__alloyId248 = Ti.UI.createButton({
         top: 10,
         height: "150px",
         left: "10%",
@@ -101,18 +101,18 @@ function Controller() {
         borderWidth: "2",
         color: "#193341",
         title: "Back to Dashboard",
-        id: "__alloyId261"
+        id: "__alloyId248"
     });
-    $.__views.__alloyId256.add($.__views.__alloyId261);
-    $.__views.__alloyId262 = Ti.UI.createImageView({
+    $.__views.__alloyId243.add($.__views.__alloyId248);
+    $.__views.__alloyId249 = Ti.UI.createImageView({
         left: "43%",
         top: "3.5%",
         height: "200px",
         width: "200px",
         image: "/images/iphone/project-shuriken.png",
-        id: "__alloyId262"
+        id: "__alloyId249"
     });
-    $.__views.Window_1.add($.__views.__alloyId262);
+    $.__views.Window_1.add($.__views.__alloyId249);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

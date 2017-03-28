@@ -183,8 +183,8 @@ function Controller() {
         font: {
             fontSize: 30
         },
-        height: "175px",
-        width: "18%",
+        height: "90px",
+        width: "20%",
         backgroundColor: "white",
         color: "#193441",
         borderRadius: "10",
